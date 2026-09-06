@@ -1,8 +1,5 @@
 {
-  "gonul-dagi": {
-    "nextEpisode": "2026-09-12T23:59:00+01:00"
-  },
-  "koralna-vila": {
-    "nextEpisode": "2026-09-12T23:59:00+01:00"
-  }
+  "planina-ljubavi-gonul-dagi": "gonul-dagi",
+  "koralna-vila-koralna-palata-mercan-kosk": "mercan-kosk",
+  "moj-novi-id": "njihov-slug"
 }
