@@ -2,7 +2,8 @@ name: Update next episodes
 
 on:
   schedule:
-    - cron: "0 3 * * *"
+    - cron: "0 9 * * *"
+      timezone: "Europe/Belgrade"
 
   workflow_dispatch:
 
