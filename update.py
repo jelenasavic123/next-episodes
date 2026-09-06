@@ -1,13 +1,21 @@
 import json
 import re
-from datetime import datetime, timezone, timedelta
+import unicodedata
+from datetime import datetime, timedelta, timezone
+from pathlib import Path
 
 import requests
 from bs4 import BeautifulSoup
 
 
+# ============================================================
+# PODESAVANJA
+# ============================================================
+
 CALENDAR_URL = "https://turskeserije.tv/kalendar/"
-JSON_FILE = "next-episodes.json"
+
+MAP_FILE = "series-map.json"
+OUTPUT_FILE = "next-episodes.json"
 
 HEADERS = {
     "User-Agent": (
@@ -17,65 +25,37 @@ HEADERS = {
     )
 }
 
+# TurskeSerije kalendar koristi GMT +1
+SOURCE_TIMEZONE = timezone(timedelta(hours=1))
+
+
 # ============================================================
-# POMOCNE FUNKCIJE
+# UCITAVANJE JSON FAJLA
 # ============================================================
 
-def normalize(text):
-    """
-    Normalizuje naziv serije radi lakseg prepoznavanja.
-    """
+def load_json(filename):
+    path = Path(filename)
 
-    text = text.lower().strip()
-
-    replacements = {
-        "č": "c",
-        "ć": "c",
-        "š": "s",
-        "ž": "z",
-        "đ": "d",
-        "ö": "o",
-        "ü": "u",
-        "ı": "i",
-        "ğ": "g",
-        "İ": "i",
-    }
-
-    for old, new in replacements.items():
-        text = text.replace(old, new)
-
-    text = re.sub(r"\([^)]*\)", "", text)
-
-    text = re.sub(r"[^a-z0-9]+", "-", text)
-
-    text = re.sub(r"-+", "-", text)
-
-    return text.strip("-")
-
-
-def load_existing():
-    """
-    Ucitava postojeci next-episodes.json.
-    """
+    if not path.exists():
+        return {}
 
     try:
-        with open(JSON_FILE, "r", encoding="utf-8") as f:
+        with path.open("r", encoding="utf-8") as f:
             return json.load(f)
 
-    except FileNotFoundError:
-        return {}
-
-    except json.JSONDecodeError:
-        print("Greska: next-episodes.json nije validan JSON.")
+    except Exception as e:
+        print(f"Greska pri ucitavanju {filename}: {e}")
         return {}
 
 
-def save_json(data):
-    """
-    Cuva JSON lepo formatiran.
-    """
+# ============================================================
+# CUVANJE JSON FAJLA
+# ============================================================
 
-    with open(JSON_FILE, "w", encoding="utf-8") as f:
+def save_json(filename, data):
+    path = Path(filename)
+
+    with path.open("w", encoding="utf-8") as f:
         json.dump(
             data,
             f,
@@ -87,32 +67,51 @@ def save_json(data):
 
 
 # ============================================================
-# UCITAVANJE KALENDARA
+# NORMALIZACIJA
 # ============================================================
 
-def download_calendar():
+def normalize(text):
+    if not text:
+        return ""
 
-    print("Ucitavam kalendar:")
-    print(CALENDAR_URL)
+    text = unicodedata.normalize("NFKD", text)
 
-    response = requests.get(
-        CALENDAR_URL,
-        headers=HEADERS,
-        timeout=30
+    text = "".join(
+        char
+        for char in text
+        if not unicodedata.combining(char)
     )
 
-    response.raise_for_status()
+    text = text.lower()
 
-    print(
-        "Kalendar ucitan:",
-        response.status_code
-    )
+    text = re.sub(r"[^a-z0-9]+", "-", text)
 
-    return response.text
+    text = text.strip("-")
+
+    return text
 
 
 # ============================================================
-# PARSIRANJE DATUMA
+# IZDVAJANJE SLUGA IZ URL-a
+# ============================================================
+
+def extract_slug(url):
+    if not url:
+        return None
+
+    match = re.search(
+        r"turskeserije\.tv/([^/?#]+)/?",
+        url
+    )
+
+    if not match:
+        return None
+
+    return match.group(1).strip().lower()
+
+
+# ============================================================
+# DATUM
 # ============================================================
 
 MONTHS = {
@@ -120,42 +119,75 @@ MONTHS = {
     "feb": 2,
     "mar": 3,
     "apr": 4,
-    "may": 5,
+    "maj": 5,
     "jun": 6,
     "jul": 7,
-    "aug": 8,
+    "avg": 8,
     "sep": 9,
-    "oct": 10,
+    "okt": 10,
     "nov": 11,
     "dec": 12,
+
+    # ako sajt eventualno koristi engleske nazive
+    "january": 1,
+    "february": 2,
+    "march": 3,
+    "april": 4,
+    "may": 5,
+    "june": 6,
+    "july": 7,
+    "august": 8,
+    "september": 9,
+    "october": 10,
+    "november": 11,
+    "december": 12
 }
 
 
-def parse_calendar_date(day_text, month_text, time_text):
+def parse_date(day_text, time_text):
     """
-    Pretvara:
-        Sep 12
-        23:59
+    Primer:
 
-    u:
-        2026-09-12T23:59:00+01:00
+    day_text  = 'subota 12. sep'
+    time_text = '23:59 (GMT +1)'
+
+    Rezultat:
+
+    2026-09-12T23:59:00+01:00
     """
+
+    if not day_text:
+        return None
+
+    if not time_text:
+        return None
+
+    day_text = day_text.strip().lower()
+    time_text = time_text.strip().lower()
+
+    # --------------------------------------------------------
+    # DAN
+    # --------------------------------------------------------
 
     match = re.search(
-        r"([A-Za-z]+)\s+(\d{1,2})",
+        r"(\d{1,2})\.\s*([a-z]+)",
         day_text
     )
 
     if not match:
         return None
 
-    month_name = match.group(1).lower()[:3]
-    day = int(match.group(2))
+    day = int(match.group(1))
+    month_name = match.group(2)
 
     month = MONTHS.get(month_name)
 
     if not month:
         return None
+
+    # --------------------------------------------------------
+    # VREME
+    # --------------------------------------------------------
 
     time_match = re.search(
         r"(\d{1,2}):(\d{2})",
@@ -168,161 +200,254 @@ def parse_calendar_date(day_text, month_text, time_text):
     hour = int(time_match.group(1))
     minute = int(time_match.group(2))
 
-    now = datetime.now(timezone.utc)
+    # --------------------------------------------------------
+    # GODINA
+    # --------------------------------------------------------
+
+    now = datetime.now(SOURCE_TIMEZONE)
 
     year = now.year
 
-    # Kalendar moze prelaziti u sledecu godinu.
-    candidate = datetime(
-        year,
-        month,
-        day,
-        hour,
-        minute,
-        tzinfo=timezone(timedelta(hours=1))
-    )
-
-    if candidate < now - timedelta(days=30):
-        candidate = datetime(
-            year + 1,
+    # Ako je kalendar na prelazu godine
+    # i datum je vec prosao dovoljno daleko,
+    # pokusavamo sledecu godinu.
+    try:
+        result = datetime(
+            year,
             month,
             day,
             hour,
             minute,
-            tzinfo=timezone(timedelta(hours=1))
+            tzinfo=SOURCE_TIMEZONE
         )
 
-    return candidate.isoformat()
+        # Ako je datum vise od ~6 meseci u proslosti,
+        # pretpostavljamo sledecu godinu.
+        if result < now - timedelta(days=180):
+            result = datetime(
+                year + 1,
+                month,
+                day,
+                hour,
+                minute,
+                tzinfo=SOURCE_TIMEZONE
+            )
+
+        return result
+
+    except ValueError:
+        return None
 
 
 # ============================================================
-# CITANJE KALENDARA
+# EPIZODA
+# ============================================================
+
+def extract_episode(text):
+    if not text:
+        return None
+
+    match = re.search(
+        r"Epizoda\s+(\d+)",
+        text,
+        re.IGNORECASE
+    )
+
+    if not match:
+        return None
+
+    return int(match.group(1))
+
+
+# ============================================================
+# UCITAVANJE KALENDARA
+# ============================================================
+
+def fetch_calendar():
+    print("Preuzimam kalendar...")
+
+    response = requests.get(
+        CALENDAR_URL,
+        headers=HEADERS,
+        timeout=30
+    )
+
+    response.raise_for_status()
+
+    print(
+        f"Kalendar preuzet: "
+        f"{len(response.text):,} karaktera"
+    )
+
+    return response.text
+
+
+# ============================================================
+# PARSIRANJE KALENDARA
 # ============================================================
 
 def parse_calendar(html):
-
     soup = BeautifulSoup(
         html,
         "html.parser"
     )
 
-    entries = []
+    results = []
 
-    current_day = None
+    # --------------------------------------------------------
+    # Prvo trazimo kalendarske dane
+    # --------------------------------------------------------
 
-    # Kalendar koristi H2 za dane,
-    # a linkove za pojedinacne serije.
-    for element in soup.find_all(["h2", "a"]):
+    slides = soup.select(
+        ".swiper-slide"
+    )
 
-        if element.name == "h2":
+    print(
+        f"Pronadjeno kalendarskih blokova: "
+        f"{len(slides)}"
+    )
 
-            text = element.get_text(
-                " ",
-                strip=True
-            )
+    for slide in slides:
 
-            # Primer:
-            # Monday, Sep 7
-            # Sunday, Sep 6
-            if re.search(
-                r"(Monday|Tuesday|Wednesday|Thursday|Friday|Saturday|Sunday)",
-                text,
-                re.IGNORECASE
-            ):
-                current_day = text
+        # ----------------------------------------------------
+        # DATUM
+        # ----------------------------------------------------
 
+        heading = slide.find("h2")
+
+        if not heading:
             continue
 
-        if element.name != "a":
-            continue
-
-        text = element.get_text(
+        day_text = heading.get_text(
             " ",
             strip=True
         )
 
-        if not text:
-            continue
+        # ----------------------------------------------------
+        # SERIJE
+        # ----------------------------------------------------
 
-        # Mora da sadrzi epizodu i vreme.
-        episode_match = re.search(
-            r"Epizoda\s+(\d+)",
-            text,
-            re.IGNORECASE
+        links = slide.select(
+            'a[href*="turskeserije.tv/"]'
         )
 
-        time_match = re.search(
-            r"(\d{1,2}:\d{2})\s*\(GMT\s*\+1\)",
-            text,
-            re.IGNORECASE
-        )
+        for link in links:
 
-        if not episode_match or not time_match:
-            continue
+            href = link.get("href")
 
-        # Izbacujemo "Epizoda X, Sezone Y..."
-        series_part = re.split(
-            r"\s+Epizoda\s+\d+",
-            text,
-            flags=re.IGNORECASE
-        )[0].strip()
+            slug = extract_slug(href)
 
-        episode_number = int(
-            episode_match.group(1)
-        )
+            if not slug:
+                continue
 
-        next_episode = parse_calendar_date(
-            current_day or "",
-            "",
-            time_match.group(1)
-        )
+            # ------------------------------------------------
+            # NASLOV
+            # ------------------------------------------------
 
-        if not next_episode:
-            continue
+            title_element = link.find("h3")
 
-        entries.append({
-            "title": series_part,
-            "normalized": normalize(series_part),
-            "episode": episode_number,
-            "nextEpisode": next_episode
-        })
+            title = ""
 
-    return entries
+            if title_element:
+                title = title_element.get_text(
+                    " ",
+                    strip=True
+                )
 
+            # ------------------------------------------------
+            # SPANOVI
+            # ------------------------------------------------
 
-# ============================================================
-# PRONALAZENJE NAJBOLJEG DATUMA
-# ============================================================
+            spans = link.find_all("span")
 
-def choose_next(entries):
+            episode_text = ""
 
-    now = datetime.now(timezone.utc)
+            time_text = ""
 
-    future = []
+            if len(spans) >= 1:
+                episode_text = spans[0].get_text(
+                    " ",
+                    strip=True
+                )
 
-    for item in entries:
+            if len(spans) >= 2:
+                time_text = spans[1].get_text(
+                    " ",
+                    strip=True
+                )
 
-        try:
-            date = datetime.fromisoformat(
-                item["nextEpisode"]
+            # ------------------------------------------------
+            # EPIZODA
+            # ------------------------------------------------
+
+            episode = extract_episode(
+                episode_text
             )
 
-        except Exception:
-            continue
+            # ------------------------------------------------
+            # DATUM
+            # ------------------------------------------------
 
-        if date.astimezone(timezone.utc) >= now:
-            future.append(item)
+            date = parse_date(
+                day_text,
+                time_text
+            )
 
-    if not future:
-        return None
+            if not date:
+                continue
 
-    future.sort(
-        key=lambda x: datetime.fromisoformat(
-            x["nextEpisode"]
-        )
+            # ------------------------------------------------
+            # REZULTAT
+            # ------------------------------------------------
+
+            item = {
+                "slug": slug,
+                "title": title,
+                "episode": episode,
+                "date": date
+            }
+
+            results.append(item)
+
+    print(
+        f"Ukupno pronadjeno termina: "
+        f"{len(results)}"
     )
 
-    return future[0]
+    return results
+
+
+# ============================================================
+# TRAZENJE SLEDECE EPIZODE
+# ============================================================
+
+def find_next_episode(items, slug):
+    now = datetime.now(
+        SOURCE_TIMEZONE
+    )
+
+    matches = []
+
+    for item in items:
+
+        if item["slug"] != slug:
+            continue
+
+        date = item["date"]
+
+        if date <= now:
+            continue
+
+        matches.append(item)
+
+    if not matches:
+        return None
+
+    matches.sort(
+        key=lambda x: x["date"]
+    )
+
+    return matches[0]
 
 
 # ============================================================
@@ -332,220 +457,128 @@ def choose_next(entries):
 def main():
 
     print()
-    print("==========================================")
-    print(" NEXT EPISODE UPDATER")
-    print("==========================================")
+    print("=" * 60)
+    print(" UPDATE NEXT EPISODES")
+    print("=" * 60)
     print()
 
     # --------------------------------------------------------
-    # 1. Ucitavanje postojeceg JSON-a
+    # MAPA TVOJ ID -> NJIHOV SLUG
     # --------------------------------------------------------
 
-    data = load_existing()
-
-    print(
-        "Postojecih serija:",
-        len(data)
+    series_map = load_json(
+        MAP_FILE
     )
 
-    print()
+    if not series_map:
 
-    # --------------------------------------------------------
-    # 2. Ucitavanje kalendara
-    # --------------------------------------------------------
-
-    html = download_calendar()
-
-    # --------------------------------------------------------
-    # 3. Parsiranje
-    # --------------------------------------------------------
-
-    entries = parse_calendar(html)
-
-    print(
-        "Pronadjeno stavki u kalendaru:",
-        len(entries)
-    )
-
-    print()
-
-    if not entries:
         print(
-            "GRESKA: Kalendar nije parsiran."
+            f"Greska: {MAP_FILE} je prazan "
+            f"ili ne postoji."
         )
 
         return
 
-    # --------------------------------------------------------
-    # 4. Grupisanje po seriji
-    # --------------------------------------------------------
+    print(
+        f"Pronadjeno serija u mapi: "
+        f"{len(series_map)}"
+    )
 
-    calendar_series = {}
-
-    for item in entries:
-
-        key = item["normalized"]
-
-        calendar_series.setdefault(
-            key,
-            []
-        ).append(item)
+    print()
 
     # --------------------------------------------------------
-    # 5. Azuriranje postojecih serija
+    # KALENDAR
     # --------------------------------------------------------
 
-    updated = 0
+    html = fetch_calendar()
 
-    for series_id, info in data.items():
+    calendar_items = parse_calendar(
+        html
+    )
 
-        # ----------------------------------------------------
-        # Pokusaj direktnog poklapanja
-        # ----------------------------------------------------
+    print()
 
-        candidates = calendar_series.get(
-            normalize(series_id),
-            []
+    # --------------------------------------------------------
+    # REZULTAT
+    # --------------------------------------------------------
+
+    output = {}
+
+    # --------------------------------------------------------
+    # SVAKA TVOJA SERIJA
+    # --------------------------------------------------------
+
+    for internal_id, source_slug in series_map.items():
+
+        source_slug = source_slug.strip().lower()
+
+        print(
+            f"[{internal_id}] -> "
+            f"{source_slug}"
         )
 
-        # ----------------------------------------------------
-        # Ako nema direktnog poklapanja,
-        # pokusavamo preko postojeceg title-a
-        # ----------------------------------------------------
+        next_episode = find_next_episode(
+            calendar_items,
+            source_slug
+        )
 
-        if not candidates and isinstance(info, dict):
+        if not next_episode:
 
-            title = info.get(
-                "title",
-                ""
+            print(
+                "  Nema sledece epizode."
             )
 
-            if title:
+            output[internal_id] = {
+                "sourceSlug": source_slug,
+                "nextEpisode": None
+            }
 
-                normalized_title = normalize(
-                    title
-                )
+            continue
 
-                candidates = calendar_series.get(
-                    normalized_title,
-                    []
-                )
+        date = next_episode["date"]
 
-        # ----------------------------------------------------
-        # Posebni nazivi koji se razlikuju na sajtu
-        # ----------------------------------------------------
+        iso_date = date.isoformat()
 
-        aliases = {
-            "koralna-vila": [
-                "mercan-kosk",
-                "mercan-kosk-koralna-palata"
-            ],
-
-            "gonul-dagi": [
-                "gonul-dagi"
-            ]
+        output[internal_id] = {
+            "sourceSlug": source_slug,
+            "nextEpisode": iso_date,
+            "episode": next_episode["episode"],
+            "title": next_episode["title"]
         }
 
-        if not candidates:
-
-            for alias in aliases.get(
-                series_id,
-                []
-            ):
-
-                candidates = calendar_series.get(
-                    normalize(alias),
-                    []
-                )
-
-                if candidates:
-                    break
-
-        # ----------------------------------------------------
-        # Ako serija nije pronadjena
-        # ----------------------------------------------------
-
-        if not candidates:
-
-            print(
-                "NEMA POKLAPANJA:",
-                series_id
-            )
-
-            continue
-
-        # ----------------------------------------------------
-        # Nadji najblizu buducu epizodu
-        # ----------------------------------------------------
-
-        next_item = choose_next(
-            candidates
+        print(
+            f"  Epizoda: "
+            f"{next_episode['episode']}"
         )
 
-        if not next_item:
-            print(
-                "Nema buduce epizode:",
-                series_id
-            )
-
-            continue
-
-        old_value = info.get(
-            "nextEpisode"
+        print(
+            f"  Datum: "
+            f"{iso_date}"
         )
 
-        new_value = next_item[
-            "nextEpisode"
-        ]
-
-        # ----------------------------------------------------
-        # Azuriranje
-        # ----------------------------------------------------
-
-        info["nextEpisode"] = new_value
-
-        if old_value != new_value:
-
-            updated += 1
-
-            print(
-                f"AZURIRANO: {series_id}"
-            )
-
-            print(
-                f"  Epizoda: {next_item['episode']}"
-            )
-
-            print(
-                f"  Datum:   {new_value}"
-            )
-
-        else:
-
-            print(
-                f"BEZ PROMENE: {series_id}"
-            )
-
     # --------------------------------------------------------
-    # 6. Cuvanje
+    # CUVANJE
     # --------------------------------------------------------
 
-    save_json(data)
+    save_json(
+        OUTPUT_FILE,
+        output
+    )
 
     print()
-    print("==========================================")
+    print(
+        f"Sacuvano u: {OUTPUT_FILE}"
+    )
+
+    print()
+    print("=" * 60)
     print(" GOTOVO")
-    print("==========================================")
-    print(
-        "Azurirano:",
-        updated
-    )
-    print(
-        "Ukupno serija:",
-        len(data)
-    )
-    print()
+    print("=" * 60)
 
+
+# ============================================================
+# START
+# ============================================================
 
 if __name__ == "__main__":
     main()
