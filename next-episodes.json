@@ -13,7 +13,7 @@
   },
   "daha-on-yedi-samo-17": {
     "sourceUrl": "https://turskeserije.tv/daha-on-yedi/",
-    "nextEpisode": "2026-09-06T23:59:00+01:00"
+    "nextEpisode": "2026-09-13T23:59:00+01:00"
   },
   "iznad-i-ispod-istanbula-alti-ustu-istanbul": {
     "sourceUrl": "https://turskeserije.tv/alti-ustu-istanbul/",
@@ -26,5 +26,9 @@
   "moguca-ljubav-muhtemel-ask": {
     "sourceUrl": "https://turskeserije.tv/muhtemel-ask/",
     "nextEpisode": "2026-09-10T23:59:00+01:00"
+  },
+  "brak-je-predivan-evlilik-guzeldir": {
+    "sourceUrl": "https://turskeserije.tv/evlilik-guzeldir/",
+    "nextEpisode": "2026-09-14T12:59:00+01:00"
   }
 }
