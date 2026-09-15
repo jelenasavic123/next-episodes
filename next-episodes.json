@@ -1,50 +1,149 @@
 {
-  "planina-ljubavi-gonul-dagi": {
-    "sourceUrl": "https://turskeserije.tv/gonul-dagi/",
-    "nextEpisode": "2026-09-19T23:59:00+01:00"
+  "updatedAt": "2026-09-15T12:27:41.672854+02:00",
+  "week": {
+    "start": "2026-09-14",
+    "end": "2026-09-20",
+    "days": 7
   },
-  "koralna-vila-koralna-palata-mercan-kosk": {
-    "sourceUrl": "https://turskeserije.tv/mercan-kosk/",
-    "nextEpisode": "2026-09-19T23:59:00+01:00"
-  },
-  "sudbinom-povezani-arafta": {
-    "sourceUrl": "https://turskeserije.tv/arafta/",
-    "nextEpisode": "2026-09-14T23:59:00+01:00"
-  },
-  "daha-on-yedi-samo-17": {
-    "sourceUrl": "https://turskeserije.tv/daha-on-yedi/",
-    "nextEpisode": "2026-09-20T23:59:00+01:00"
-  },
-  "iznad-i-ispod-istanbula-alti-ustu-istanbul": {
-    "sourceUrl": "https://turskeserije.tv/alti-ustu-istanbul/",
-    "nextEpisode": "2026-09-14T23:59:00+01:00"
-  },
-  "slana-kafa-tuzlu-kahve": {
-    "sourceUrl": "https://turskeserije.tv/tuzlu-kahve/",
-    "nextEpisode": "2026-09-15T23:59:00+01:00"
-  },
-  "moguca-ljubav-muhtemel-ask": {
-    "sourceUrl": "https://turskeserije.tv/muhtemel-ask/",
-    "nextEpisode": "2026-09-17T23:59:00+01:00"
-  },
-  "brak-je-predivan-evlilik-guzeldir": {
-    "sourceUrl": "https://turskeserije.tv/evlilik-guzeldir/",
-    "nextEpisode": "2026-09-21T12:59:00+01:00"
-  },
-  "dostojanstvo-haysiyet": {
-    "sourceUrl": "https://turskeserije.tv/haysiyet/",
-    "nextEpisode": "2026-09-15T23:59:00+01:00"
-  },
-  "porodica-je-iskusenje-abi": {
-    "sourceUrl": "https://turskeserije.tv/abi/",
-    "nextEpisode": "2026-09-15T23:59:00+01:00"
-  },
-  "ruze-i-grehovi-guller-ve-gunahlar-tajne-proslosti": {
-    "sourceUrl": "https://turskeserije.tv/guller-ve-gunahlar/",
-    "nextEpisode": "2026-09-19T23:59:00+01:00"
-  },
-  "daleki-grad-uzak-sehir": {
-    "sourceUrl": "https://turskeserije.tv/uzak-sehir/",
-    "nextEpisode": "2026-09-14T23:59:00+01:00"
+  "days": {
+    "2026-09-14": {
+      "date": "2026-09-14",
+      "day": "Ponedeljak",
+      "episodes": []
+    },
+    "2026-09-15": {
+      "date": "2026-09-15",
+      "day": "Utorak",
+      "episodes": [
+        {
+          "id": "daleki-grad-uzak-sehir",
+          "title": "daleki-grad-uzak-sehir",
+          "sourceUrl": "https://turskeserije.tv/uzak-sehir/",
+          "nextEpisode": "2026-09-14T23:59:00+01:00",
+          "date": "2026-09-15",
+          "day": "Utorak",
+          "time": "00:59",
+          "image": "https://turskeserije.tv/wp-content/uploads/2024/11/uzak-sehir-sa-prevodom.jpg"
+        },
+        {
+          "id": "iznad-i-ispod-istanbula-alti-ustu-istanbul",
+          "title": "iznad-i-ispod-istanbula-alti-ustu-istanbul",
+          "sourceUrl": "https://turskeserije.tv/alti-ustu-istanbul/",
+          "nextEpisode": "2026-09-14T23:59:00+01:00",
+          "date": "2026-09-15",
+          "day": "Utorak",
+          "time": "00:59",
+          "image": "https://turskeserije.tv/wp-content/uploads/2026/06/alti-ustu-istanbul-sa-prevodom.jpg"
+        },
+        {
+          "id": "sudbinom-povezani-arafta",
+          "title": "sudbinom-povezani-arafta",
+          "sourceUrl": "https://turskeserije.tv/arafta/",
+          "nextEpisode": "2026-09-14T23:59:00+01:00",
+          "date": "2026-09-15",
+          "day": "Utorak",
+          "time": "00:59",
+          "image": "https://turskeserije.tv/wp-content/uploads/2025/11/arafta-sa-prevodom.jpg"
+        }
+      ]
+    },
+    "2026-09-16": {
+      "date": "2026-09-16",
+      "day": "Sreda",
+      "episodes": [
+        {
+          "id": "dostojanstvo-haysiyet",
+          "title": "dostojanstvo-haysiyet",
+          "sourceUrl": "https://turskeserije.tv/haysiyet/",
+          "nextEpisode": "2026-09-15T23:59:00+01:00",
+          "date": "2026-09-16",
+          "day": "Sreda",
+          "time": "00:59",
+          "image": "https://turskeserije.tv/wp-content/uploads/2026/09/haysiyet-sa-prevodom.jpg"
+        },
+        {
+          "id": "porodica-je-iskusenje-abi",
+          "title": "porodica-je-iskusenje-abi",
+          "sourceUrl": "https://turskeserije.tv/abi/",
+          "nextEpisode": "2026-09-15T23:59:00+01:00",
+          "date": "2026-09-16",
+          "day": "Sreda",
+          "time": "00:59",
+          "image": "https://turskeserije.tv/wp-content/uploads/2026/01/abi-sa-prevodom.jpg"
+        },
+        {
+          "id": "slana-kafa-tuzlu-kahve",
+          "title": "slana-kafa-tuzlu-kahve",
+          "sourceUrl": "https://turskeserije.tv/tuzlu-kahve/",
+          "nextEpisode": "2026-09-15T23:59:00+01:00",
+          "date": "2026-09-16",
+          "day": "Sreda",
+          "time": "00:59",
+          "image": "https://turskeserije.tv/wp-content/uploads/2026/09/slana-kafa-sa-prevodom.jpg"
+        }
+      ]
+    },
+    "2026-09-17": {
+      "date": "2026-09-17",
+      "day": "Četvrtak",
+      "episodes": []
+    },
+    "2026-09-18": {
+      "date": "2026-09-18",
+      "day": "Petak",
+      "episodes": [
+        {
+          "id": "moguca-ljubav-muhtemel-ask",
+          "title": "moguca-ljubav-muhtemel-ask",
+          "sourceUrl": "https://turskeserije.tv/muhtemel-ask/",
+          "nextEpisode": "2026-09-17T23:59:00+01:00",
+          "date": "2026-09-18",
+          "day": "Petak",
+          "time": "00:59",
+          "image": "https://turskeserije.tv/wp-content/uploads/2026/06/muhtemel-ask-sa-prevodom.jpg"
+        }
+      ]
+    },
+    "2026-09-19": {
+      "date": "2026-09-19",
+      "day": "Subota",
+      "episodes": []
+    },
+    "2026-09-20": {
+      "date": "2026-09-20",
+      "day": "Nedelja",
+      "episodes": [
+        {
+          "id": "koralna-vila-koralna-palata-mercan-kosk",
+          "title": "koralna-vila-koralna-palata-mercan-kosk",
+          "sourceUrl": "https://turskeserije.tv/mercan-kosk/",
+          "nextEpisode": "2026-09-19T23:59:00+01:00",
+          "date": "2026-09-20",
+          "day": "Nedelja",
+          "time": "00:59",
+          "image": "https://turskeserije.tv/wp-content/uploads/2026/09/mercan-kosk-sa-prevodom.jpg"
+        },
+        {
+          "id": "planina-ljubavi-gonul-dagi",
+          "title": "planina-ljubavi-gonul-dagi",
+          "sourceUrl": "https://turskeserije.tv/gonul-dagi/",
+          "nextEpisode": "2026-09-19T23:59:00+01:00",
+          "date": "2026-09-20",
+          "day": "Nedelja",
+          "time": "00:59",
+          "image": "https://turskeserije.tv/wp-content/uploads/2025/06/gonul-dagi-sa-prevodom.jpg"
+        },
+        {
+          "id": "ruze-i-grehovi-guller-ve-gunahlar-tajne-proslosti",
+          "title": "ruze-i-grehovi-guller-ve-gunahlar-tajne-proslosti",
+          "sourceUrl": "https://turskeserije.tv/guller-ve-gunahlar/",
+          "nextEpisode": "2026-09-19T23:59:00+01:00",
+          "date": "2026-09-20",
+          "day": "Nedelja",
+          "time": "00:59",
+          "image": "https://turskeserije.tv/wp-content/uploads/2025/10/guller-ve-gunahlar-sa-prevodom.jpg"
+        }
+      ]
+    }
   }
 }
