@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-15T10:30:06.354031+00:00",
+  "updatedAt": "2026-09-15T10:54:53.536704+00:00",
   "week": {
     "start": "2026-09-14",
     "end": "2026-09-20",
@@ -81,7 +81,18 @@
     "2026-09-16": {
       "date": "2026-09-16",
       "day": "Sreda",
-      "episodes": []
+      "episodes": [
+        {
+          "id": "vrata-ljubavi-sevdan-bir-ates",
+          "title": "vrata-ljubavi-sevdan-bir-ates",
+          "sourceUrl": "https://turskeserije.tv/sevdan-bir-ates/",
+          "nextEpisode": "2026-09-16T23:59:00+01:00",
+          "date": "2026-09-16",
+          "day": "Sreda",
+          "time": "23:59",
+          "image": "https://turskeserije.tv/wp-content/uploads/2026/09/sevdan-bir-ates-sa-prevodom.jpg"
+        }
+      ]
     },
     "2026-09-17": {
       "date": "2026-09-17",
@@ -96,6 +107,16 @@
           "day": "Četvrtak",
           "time": "23:59",
           "image": "https://turskeserije.tv/wp-content/uploads/2026/06/muhtemel-ask-sa-prevodom.jpg"
+        },
+        {
+          "id": "ti-si-ona-koju-volim-sevdigim-sensin",
+          "title": "ti-si-ona-koju-volim-sevdigim-sensin",
+          "sourceUrl": "https://turskeserije.tv/sevdigim-sensin/",
+          "nextEpisode": "2026-09-17T23:59:00+01:00",
+          "date": "2026-09-17",
+          "day": "Četvrtak",
+          "time": "23:59",
+          "image": "https://turskeserije.tv/wp-content/uploads/2026/02/sevdigim-sensin-sa-prevodom.jpg"
         }
       ]
     },
