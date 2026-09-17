@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-17T12:32:09.031718+00:00",
+  "updatedAt": "2026-09-17T21:03:06.218848+00:00",
   "week": {
     "start": "2026-09-14",
     "end": "2026-09-20",
@@ -19,33 +19,22 @@
     "2026-09-16": {
       "date": "2026-09-16",
       "day": "Sreda",
-      "episodes": [
-        {
-          "id": "ljubav-i-presto-ask-ve-taht",
-          "title": "ljubav-i-presto-ask-ve-taht",
-          "sourceUrl": "https://turskeserije.tv/ask-ve-taht/",
-          "nextEpisode": "2026-09-16T23:59:00+01:00",
-          "date": "2026-09-16",
-          "day": "Sreda",
-          "time": "23:59",
-          "image": "https://turskeserije.tv/wp-content/uploads/2026/09/ask-ve-taht-sa-prevodom.jpg"
-        },
-        {
-          "id": "vrata-ljubavi-sevdan-bir-ates",
-          "title": "vrata-ljubavi-sevdan-bir-ates",
-          "sourceUrl": "https://turskeserije.tv/sevdan-bir-ates/",
-          "nextEpisode": "2026-09-16T23:59:00+01:00",
-          "date": "2026-09-16",
-          "day": "Sreda",
-          "time": "23:59",
-          "image": "https://turskeserije.tv/wp-content/uploads/2026/09/sevdan-bir-ates-sa-prevodom.jpg"
-        }
-      ]
+      "episodes": []
     },
     "2026-09-17": {
       "date": "2026-09-17",
       "day": "Četvrtak",
       "episodes": [
+        {
+          "id": "gde-sunce-izlazi-devojke-sunca-gunesin-dogdugu-yer",
+          "title": "gde-sunce-izlazi-devojke-sunca-gunesin-dogdugu-yer",
+          "sourceUrl": "https://turskeserije.tv/gunesin-dogdugu-yer/",
+          "nextEpisode": "2026-09-17T23:59:00+01:00",
+          "date": "2026-09-17",
+          "day": "Četvrtak",
+          "time": "23:59",
+          "image": "https://turskeserije.tv/wp-content/uploads/2026/09/gunesin-dogdugu-yer-sa-prevodom.jpg"
+        },
         {
           "id": "moguca-ljubav-muhtemel-ask",
           "title": "moguca-ljubav-muhtemel-ask",
