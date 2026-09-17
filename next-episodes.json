@@ -1,9 +1,9 @@
 {
-  "updatedAt": "2026-09-17T21:03:06.218848+00:00",
+  "updatedAt": "2026-09-17T21:33:52.336440+00:00",
   "week": {
     "start": "2026-09-14",
-    "end": "2026-09-20",
-    "days": 7
+    "end": "2026-09-27",
+    "days": 14
   },
   "days": {
     "2026-09-14": {
@@ -124,6 +124,124 @@
           "image": "https://turskeserije.tv/wp-content/uploads/2026/05/daha-on-yedi-sa-prevodom.jpg"
         }
       ]
+    },
+    "2026-09-21": {
+      "date": "2026-09-21",
+      "day": "Ponedeljak",
+      "episodes": [
+        {
+          "id": "brak-je-predivan-evlilik-guzeldir",
+          "title": "brak-je-predivan-evlilik-guzeldir",
+          "sourceUrl": "https://turskeserije.tv/evlilik-guzeldir/",
+          "nextEpisode": "2026-09-21T12:59:00+01:00",
+          "date": "2026-09-21",
+          "day": "Ponedeljak",
+          "time": "12:59",
+          "image": "https://turskeserije.tv/wp-content/uploads/2026/09/evlilik-guzeldir-sa-prevodom.jpg"
+        },
+        {
+          "id": "daleki-grad-uzak-sehir",
+          "title": "daleki-grad-uzak-sehir",
+          "sourceUrl": "https://turskeserije.tv/uzak-sehir/",
+          "nextEpisode": "2026-09-21T23:59:00+01:00",
+          "date": "2026-09-21",
+          "day": "Ponedeljak",
+          "time": "23:59",
+          "image": "https://turskeserije.tv/wp-content/uploads/2024/11/uzak-sehir-sa-prevodom.jpg"
+        },
+        {
+          "id": "iznad-i-ispod-istanbula-alti-ustu-istanbul",
+          "title": "iznad-i-ispod-istanbula-alti-ustu-istanbul",
+          "sourceUrl": "https://turskeserije.tv/alti-ustu-istanbul/",
+          "nextEpisode": "2026-09-21T23:59:00+01:00",
+          "date": "2026-09-21",
+          "day": "Ponedeljak",
+          "time": "23:59",
+          "image": "https://turskeserije.tv/wp-content/uploads/2026/06/alti-ustu-istanbul-sa-prevodom.jpg"
+        }
+      ]
+    },
+    "2026-09-22": {
+      "date": "2026-09-22",
+      "day": "Utorak",
+      "episodes": [
+        {
+          "id": "dostojanstvo-haysiyet",
+          "title": "dostojanstvo-haysiyet",
+          "sourceUrl": "https://turskeserije.tv/haysiyet/",
+          "nextEpisode": "2026-09-22T23:59:00+01:00",
+          "date": "2026-09-22",
+          "day": "Utorak",
+          "time": "23:59",
+          "image": "https://turskeserije.tv/wp-content/uploads/2026/09/haysiyet-sa-prevodom.jpg"
+        },
+        {
+          "id": "porodica-je-iskusenje-abi",
+          "title": "porodica-je-iskusenje-abi",
+          "sourceUrl": "https://turskeserije.tv/abi/",
+          "nextEpisode": "2026-09-22T23:59:00+01:00",
+          "date": "2026-09-22",
+          "day": "Utorak",
+          "time": "23:59",
+          "image": "https://turskeserije.tv/wp-content/uploads/2026/01/abi-sa-prevodom.jpg"
+        },
+        {
+          "id": "slana-kafa-tuzlu-kahve",
+          "title": "slana-kafa-tuzlu-kahve",
+          "sourceUrl": "https://turskeserije.tv/tuzlu-kahve/",
+          "nextEpisode": "2026-09-22T23:59:00+01:00",
+          "date": "2026-09-22",
+          "day": "Utorak",
+          "time": "23:59",
+          "image": "https://turskeserije.tv/wp-content/uploads/2026/09/slana-kafa-sa-prevodom.jpg"
+        }
+      ]
+    },
+    "2026-09-23": {
+      "date": "2026-09-23",
+      "day": "Sreda",
+      "episodes": [
+        {
+          "id": "ljubav-i-presto-ask-ve-taht",
+          "title": "ljubav-i-presto-ask-ve-taht",
+          "sourceUrl": "https://turskeserije.tv/ask-ve-taht/",
+          "nextEpisode": "2026-09-23T23:59:00+01:00",
+          "date": "2026-09-23",
+          "day": "Sreda",
+          "time": "23:59",
+          "image": "https://turskeserije.tv/wp-content/uploads/2026/09/ask-ve-taht-sa-prevodom.jpg"
+        },
+        {
+          "id": "vrata-ljubavi-sevdan-bir-ates",
+          "title": "vrata-ljubavi-sevdan-bir-ates",
+          "sourceUrl": "https://turskeserije.tv/sevdan-bir-ates/",
+          "nextEpisode": "2026-09-23T23:59:00+01:00",
+          "date": "2026-09-23",
+          "day": "Sreda",
+          "time": "23:59",
+          "image": "https://turskeserije.tv/wp-content/uploads/2026/09/sevdan-bir-ates-sa-prevodom.jpg"
+        }
+      ]
+    },
+    "2026-09-24": {
+      "date": "2026-09-24",
+      "day": "Četvrtak",
+      "episodes": []
+    },
+    "2026-09-25": {
+      "date": "2026-09-25",
+      "day": "Petak",
+      "episodes": []
+    },
+    "2026-09-26": {
+      "date": "2026-09-26",
+      "day": "Subota",
+      "episodes": []
+    },
+    "2026-09-27": {
+      "date": "2026-09-27",
+      "day": "Nedelja",
+      "episodes": []
     }
   }
 }
