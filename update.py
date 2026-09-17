@@ -17,14 +17,26 @@ OUTPUT_FILE = "next-episodes.json"
 
 BASE_URL = "https://turskeserije.tv/"
 
+# Koliko dana unapred da proveravamo
+# 14 = trenutna + sledeća nedelja
+DAYS_TO_SHOW = 14
+
+
 HEADERS = {
     "User-Agent": (
         "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
         "AppleWebKit/537.36 (KHTML, like Gecko) "
         "Chrome/140.0.0.0 Safari/537.36"
     ),
-    "Accept": "text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8",
-    "Accept-Language": "sr-RS,sr;q=0.9,en-US;q=0.8,en;q=0.7",
+    "Accept": (
+        "text/html,application/xhtml+xml,"
+        "application/xml;q=0.9,*/*;q=0.8"
+    ),
+    "Accept-Language": (
+        "sr-RS,sr;q=0.9,en-US;q=0.8,en;q=0.7"
+    ),
+    "Cache-Control": "no-cache",
+    "Pragma": "no-cache",
 }
 
 
@@ -48,14 +60,21 @@ DAY_NAMES = {
 # ============================================================
 
 def load_json(filename):
+
     path = Path(filename)
 
     if not path.exists():
+
         raise FileNotFoundError(
             f"Fajl ne postoji: {filename}"
         )
 
-    with open(path, "r", encoding="utf-8") as f:
+    with open(
+        path,
+        "r",
+        encoding="utf-8"
+    ) as f:
+
         return json.load(f)
 
 
@@ -64,7 +83,13 @@ def load_json(filename):
 # ============================================================
 
 def save_json(filename, data):
-    with open(filename, "w", encoding="utf-8") as f:
+
+    with open(
+        filename,
+        "w",
+        encoding="utf-8"
+    ) as f:
+
         json.dump(
             data,
             f,
@@ -78,7 +103,9 @@ def save_json(filename, data):
 # ============================================================
 
 def fetch_page(url):
+
     try:
+
         response = requests.get(
             url,
             headers=HEADERS,
@@ -90,7 +117,11 @@ def fetch_page(url):
         return response.text
 
     except Exception as e:
-        print(f"   ❌ Greška pri učitavanju: {e}")
+
+        print(
+            f"   ❌ Greška pri učitavanju: {e}"
+        )
+
         return None
 
 
@@ -100,30 +131,98 @@ def fetch_page(url):
 
 def parse_countdown(soup):
 
+    # --------------------------------------------------------
+    # GLAVNI NAČIN
+    # --------------------------------------------------------
+
     countdown = soup.find(
         id="tvshow-countdown"
     )
 
-    if not countdown:
-        return None
+    if countdown:
 
-    # Ako je serija pauzirana
-    countdown_text = countdown.get_text(
+        countdown_text = countdown.get_text(
+            " ",
+            strip=True
+        ).lower()
+
+        # Serija je pauzirana
+        if "pauzirana" in countdown_text:
+
+            return None
+
+        target_time = countdown.get(
+            "data-target-time"
+        )
+
+        if target_time:
+
+            return target_time.strip()
+
+
+    # ========================================================
+    # DODATNI NAČIN
+    #
+    # Ako HTML promeni strukturu, pokušavamo pronaći
+    # datum direktno u tekstu stranice.
+    # ========================================================
+
+    page_text = soup.get_text(
         " ",
         strip=True
-    ).lower()
-
-    if "pauzirana" in countdown_text:
-        return None
-
-    target_time = countdown.get(
-        "data-target-time"
     )
 
-    if not target_time:
-        return None
+    # Primer:
+    #
+    # Sledeća epizoda se očekuje
+    # 23/09/2026 23:59 GMT +1
+    #
+    # ili:
+    #
+    # 23/09/2026 23:59 GMT+1
 
-    return target_time.strip()
+    match = re.search(
+        r"(\d{1,2})/(\d{1,2})/(\d{4})"
+        r"\s+"
+        r"(\d{1,2}):(\d{2})"
+        r"\s*"
+        r"GMT\s*([+-]\d{1,2})",
+        page_text,
+        re.IGNORECASE
+    )
+
+    if match:
+
+        day = match.group(1).zfill(2)
+        month = match.group(2).zfill(2)
+        year = match.group(3)
+
+        hour = match.group(4).zfill(2)
+        minute = match.group(5)
+
+        timezone = match.group(6)
+
+        if not timezone.startswith(
+            ("+", "-")
+        ):
+
+            timezone = "+" + timezone
+
+        if len(timezone) == 2:
+
+            timezone = (
+                timezone[0]
+                + "0"
+                + timezone[1]
+            )
+
+        return (
+            f"{year}-{month}-{day}"
+            f"T{hour}:{minute}:00"
+            f"{timezone}:00"
+        )
+
+    return None
 
 
 # ============================================================
@@ -134,52 +233,55 @@ def parse_countdown(soup):
 #
 # Ako sajt kaže:
 #
-# 2026-09-14T23:59:00+01:00
+# 2026-09-23T23:59:00+01:00
 #
 # koristimo:
 #
-# datum = 2026-09-14
+# datum = 2026-09-23
 # vreme = 23:59
 #
-# a NE pretvaramo u 00:59.
+# Ne pretvaramo u drugo vreme.
 # ============================================================
 
 def parse_target_datetime(value):
 
     if not value:
+
         return None
 
     value = value.strip()
 
     # --------------------------------------------------------
-    # ISO format
+    # ISO FORMAT
     # --------------------------------------------------------
 
     try:
 
         dt = datetime.fromisoformat(
-            value.replace("Z", "+00:00")
+            value.replace(
+                "Z",
+                "+00:00"
+            )
         )
 
-        # Uklanjamo timezone info BEZ pomeranja vremena.
-        #
-        # 23:59 +01:00
-        # ostaje
-        # 23:59
-
-        return dt.replace(tzinfo=None)
+        return dt.replace(
+            tzinfo=None
+        )
 
     except Exception:
+
         pass
 
 
     # --------------------------------------------------------
-    # Rezervni formati
+    # REZERVNI FORMATI
     # --------------------------------------------------------
 
     formats = [
+
         "%Y-%m-%dT%H:%M:%S%z",
         "%Y-%m-%dT%H:%M%z",
+
         "%Y-%m-%d %H:%M:%S%z",
         "%Y-%m-%d %H:%M%z",
 
@@ -188,7 +290,9 @@ def parse_target_datetime(value):
 
         "%Y-%m-%d %H:%M:%S",
         "%Y-%m-%d %H:%M",
+
     ]
+
 
     for fmt in formats:
 
@@ -204,26 +308,73 @@ def parse_target_datetime(value):
             )
 
         except Exception:
+
             continue
+
+
+    # --------------------------------------------------------
+    # FORMAT DD/MM/YYYY HH:MM GMT +1
+    # --------------------------------------------------------
+
+    match = re.search(
+        r"(\d{1,2})/(\d{1,2})/(\d{4})"
+        r"\s+"
+        r"(\d{1,2}):(\d{2})",
+        value
+    )
+
+    if match:
+
+        try:
+
+            day = int(
+                match.group(1)
+            )
+
+            month = int(
+                match.group(2)
+            )
+
+            year = int(
+                match.group(3)
+            )
+
+            hour = int(
+                match.group(4)
+            )
+
+            minute = int(
+                match.group(5)
+            )
+
+            return datetime(
+                year,
+                month,
+                day,
+                hour,
+                minute
+            )
+
+        except Exception:
+
+            pass
+
 
     return None
 
 
 # ============================================================
 # PRONALAŽENJE POSTERA
-#
-# Cilj:
-#
-# <div class="thumb mvic-thumb"
-#      style="background-image: url('...');">
-#
 # ============================================================
 
-def parse_image(soup, source_url):
+def parse_image(
+    soup,
+    source_url
+):
 
-    # --------------------------------------------------------
-    # PRVI I NAJPOUZDANIJI NAČIN
-    # --------------------------------------------------------
+    # ========================================================
+    # PRVI NAČIN
+    # ========================================================
 
     thumb = soup.select_one(
         "div.thumb.mvic-thumb"
@@ -237,14 +388,18 @@ def parse_image(soup, source_url):
         )
 
         match = re.search(
-            r"background-image\s*:\s*url\(\s*['\"]?([^'\")]+)",
+            r"background-image\s*:"
+            r"\s*url\(\s*['\"]?"
+            r"([^'\")]+)",
             style,
             re.IGNORECASE
         )
 
         if match:
 
-            image = match.group(1).strip()
+            image = match.group(
+                1
+            ).strip()
 
             return urljoin(
                 source_url,
@@ -253,22 +408,28 @@ def parse_image(soup, source_url):
 
 
         # ----------------------------------------------------
-        # FALLBACK - IMG UNUTAR DIV-a
+        # IMG UNUTAR DIV-a
         # ----------------------------------------------------
 
-        img = thumb.find("img")
+        img = thumb.find(
+            "img"
+        )
 
         if img:
 
             for attr in [
                 "src",
                 "data-src",
-                "data-lazy-src"
+                "data-lazy-src",
+                "data-original"
             ]:
 
-                image = img.get(attr)
+                image = img.get(
+                    attr
+                )
 
                 if image:
+
                     return urljoin(
                         source_url,
                         image
@@ -276,7 +437,7 @@ def parse_image(soup, source_url):
 
 
     # ========================================================
-    # DODATNI FALLBACK
+    # DRUGI NAČIN
     # ========================================================
 
     thumb = soup.select_one(
@@ -291,14 +452,18 @@ def parse_image(soup, source_url):
         )
 
         match = re.search(
-            r"background-image\s*:\s*url\(\s*['\"]?([^'\")]+)",
+            r"background-image\s*:"
+            r"\s*url\(\s*['\"]?"
+            r"([^'\")]+)",
             style,
             re.IGNORECASE
         )
 
         if match:
 
-            image = match.group(1).strip()
+            image = match.group(
+                1
+            ).strip()
 
             return urljoin(
                 source_url,
@@ -306,23 +471,75 @@ def parse_image(soup, source_url):
             )
 
 
-        img = thumb.find("img")
+        img = thumb.find(
+            "img"
+        )
 
         if img:
 
             for attr in [
                 "src",
                 "data-src",
-                "data-lazy-src"
+                "data-lazy-src",
+                "data-original"
             ]:
 
-                image = img.get(attr)
+                image = img.get(
+                    attr
+                )
 
                 if image:
+
                     return urljoin(
                         source_url,
                         image
                     )
+
+
+    # ========================================================
+    # DODATNI FALLBACK
+    # ========================================================
+
+    selectors = [
+
+        "meta[property='og:image']",
+
+        "meta[name='twitter:image']",
+
+        ".poster img",
+
+        ".post-thumb img",
+
+        ".movie-thumb img",
+
+    ]
+
+
+    for selector in selectors:
+
+        element = soup.select_one(
+            selector
+        )
+
+        if not element:
+
+            continue
+
+
+        image = (
+            element.get("content")
+            or element.get("src")
+            or element.get("data-src")
+            or element.get("data-lazy-src")
+        )
+
+
+        if image:
+
+            return urljoin(
+                source_url,
+                image
+            )
 
 
     return None
@@ -335,9 +552,9 @@ def parse_image(soup, source_url):
 def main():
 
     print()
-    print("=" * 70)
+    print("=" * 75)
     print(" TV KALENDAR - AŽURIRANJE")
-    print("=" * 70)
+    print("=" * 75)
     print()
 
 
@@ -354,14 +571,16 @@ def main():
     except Exception as e:
 
         print(
-            f"❌ Ne mogu da učitam {MAP_FILE}: {e}"
+            f"❌ Ne mogu da učitam "
+            f"{MAP_FILE}: {e}"
         )
 
         return
 
 
     print(
-        f"Pronađeno serija u mapi: {len(series_map)}"
+        f"Pronađeno serija u mapi: "
+        f"{len(series_map)}"
     )
 
     print()
@@ -369,10 +588,6 @@ def main():
 
     # ========================================================
     # DATUM DANAS
-    #
-    # Bitno:
-    # Koristimo datum računara.
-    #
     # ========================================================
 
     now = datetime.now()
@@ -381,45 +596,74 @@ def main():
 
 
     # ========================================================
-    # PONEDELJAK TE NEDELJE
+    # PONEDELJAK TEKUĆE NEDELJE
     # ========================================================
 
-    monday = today - timedelta(
-        days=today.weekday()
+    monday = (
+        today
+        - timedelta(
+            days=today.weekday()
+        )
     )
 
-    sunday = monday + timedelta(
-        days=6
+
+    # ========================================================
+    # KRAJ PERIODA
+    #
+    # 14 dana:
+    #
+    # 14.09 → 27.09.
+    #
+    # Ovo znači da će Ask ve Taht sa 23.09.
+    # sada biti pronađen.
+    # ========================================================
+
+    end_date = (
+        monday
+        + timedelta(
+            days=DAYS_TO_SHOW - 1
+        )
     )
 
 
     print(
-        f"Nedelja: {monday} → {sunday}"
+        f"Period: "
+        f"{monday} → {end_date}"
     )
 
     print()
 
 
     # ========================================================
-    # KREIRAJ SVIH 7 DANA
+    # KREIRAJ SVE DANE
     # ========================================================
 
     days = {}
 
-    for i in range(7):
 
-        current_date = monday + timedelta(
-            days=i
+    for i in range(
+        DAYS_TO_SHOW
+    ):
+
+        current_date = (
+            monday
+            + timedelta(days=i)
         )
 
-        date_string = current_date.isoformat()
+        date_string = (
+            current_date.isoformat()
+        )
 
         days[date_string] = {
+
             "date": date_string,
+
             "day": DAY_NAMES[
                 current_date.weekday()
             ],
+
             "episodes": []
+
         }
 
 
@@ -437,13 +681,21 @@ def main():
     # OBRADA SVIH SERIJA
     # ========================================================
 
-    for index, (series_id, source_url) in enumerate(
+    total_series = len(
+        series_map
+    )
+
+
+    for index, (
+        series_id,
+        source_url
+    ) in enumerate(
         series_map.items(),
         start=1
     ):
 
         print(
-            f"[{index}/{len(series_map)}] "
+            f"[{index}/{total_series}] "
             f"{series_id}"
         )
 
@@ -459,6 +711,7 @@ def main():
         html = fetch_page(
             source_url
         )
+
 
         if not html:
 
@@ -541,21 +794,28 @@ def main():
 
         episode_date = dt.date()
 
-        date_string = episode_date.isoformat()
+        date_string = (
+            episode_date.isoformat()
+        )
 
 
         # ----------------------------------------------------
-        # PROVERA DA LI JE U TEKUĆOJ NEDELJI
+        # PROVERA DA LI JE U PERIODU
+        #
+        # Sada više nije samo trenutna nedelja.
         # ----------------------------------------------------
 
         if not (
-            monday <= episode_date <= sunday
+            monday
+            <= episode_date
+            <= end_date
         ):
 
             skipped += 1
 
             print(
-                f"   ⏭️ Van ove nedelje: {date_string}"
+                f"   ⏭️ Van prikazanog perioda: "
+                f"{date_string}"
             )
 
             print()
@@ -594,13 +854,13 @@ def main():
         if image:
 
             print(
-                f"   Poster: pronađen"
+                "   Poster: pronađen"
             )
 
         else:
 
             print(
-                f"   Poster: nije pronađen"
+                "   Poster: nije pronađen"
             )
 
 
@@ -609,14 +869,23 @@ def main():
         # ----------------------------------------------------
 
         episode = {
+
             "id": series_id,
+
             "title": series_id,
+
             "sourceUrl": source_url,
+
             "nextEpisode": target_time,
+
             "date": date_string,
+
             "day": day_name,
+
             "time": time_string,
+
             "image": image
+
         }
 
 
@@ -624,16 +893,22 @@ def main():
         # DODAJ U DAN
         # ----------------------------------------------------
 
-        days[date_string]["episodes"].append(
+        days[
+            date_string
+        ][
+            "episodes"
+        ].append(
             episode
         )
+
 
         added += 1
 
 
         print(
-            f"   ✅ Dodato: "
-            f"{day_name} {date_string} "
+            f"   ✅ DODATO: "
+            f"{day_name} "
+            f"{date_string} "
             f"u {time_string}"
         )
 
@@ -641,16 +916,29 @@ def main():
 
 
     # ========================================================
-    # SORTIRANJE EPIZODA
+    # SORTIRANJE
     # ========================================================
 
     for date_string, day_data in days.items():
 
-        day_data["episodes"].sort(
+        day_data[
+            "episodes"
+        ].sort(
+
             key=lambda episode: (
-                episode.get("time", "99:99"),
-                episode.get("title", "")
+
+                episode.get(
+                    "time",
+                    "99:99"
+                ),
+
+                episode.get(
+                    "title",
+                    ""
+                )
+
             )
+
         )
 
 
@@ -659,15 +947,28 @@ def main():
     # ========================================================
 
     output = {
-        "updatedAt": datetime.now().astimezone().isoformat(),
+
+        "updatedAt":
+            datetime.now()
+            .astimezone()
+            .isoformat(),
 
         "week": {
-            "start": monday.isoformat(),
-            "end": sunday.isoformat(),
-            "days": 7
+
+            "start":
+                monday.isoformat(),
+
+            "end":
+                end_date.isoformat(),
+
+            "days":
+                DAYS_TO_SHOW
+
         },
 
-        "days": days
+        "days":
+            days
+
     }
 
 
@@ -685,8 +986,10 @@ def main():
     except Exception as e:
 
         print()
+
         print(
-            f"❌ Greška pri čuvanju JSON-a: {e}"
+            f"❌ Greška pri čuvanju "
+            f"JSON-a: {e}"
         )
 
         return
@@ -697,44 +1000,58 @@ def main():
     # ========================================================
 
     total_episodes = sum(
-        len(day["episodes"])
+
+        len(
+            day["episodes"]
+        )
+
         for day in days.values()
+
     )
 
 
     print()
-    print("=" * 70)
+    print("=" * 75)
     print(" GOTOVO")
-    print("=" * 70)
+    print("=" * 75)
 
     print()
+
     print(
-        f"Serija u mapi:       {len(series_map)}"
+        f"Serija u mapi:       "
+        f"{len(series_map)}"
     )
 
     print(
-        f"Pronađen countdown:  {found}"
+        f"Pronađen countdown:  "
+        f"{found}"
     )
 
     print(
-        f"Dodato u kalendar:   {added}"
+        f"Dodato u kalendar:   "
+        f"{added}"
     )
 
     print(
-        f"Preskočeno:          {skipped}"
+        f"Preskočeno:          "
+        f"{skipped}"
     )
 
     print(
-        f"Greške:              {errors}"
+        f"Greške:              "
+        f"{errors}"
     )
 
     print(
-        f"Ukupno epizoda:      {total_episodes}"
+        f"Ukupno epizoda:      "
+        f"{total_episodes}"
     )
 
     print()
+
     print(
-        f"Nedelja: {monday} → {sunday}"
+        f"Period: "
+        f"{monday} → {end_date}"
     )
 
     print(
@@ -748,20 +1065,25 @@ def main():
     # PRIKAŽI KALENDAR
     # ========================================================
 
-    print("=" * 70)
+    print("=" * 75)
     print(" KALENDAR")
-    print("=" * 70)
+    print("=" * 75)
 
     print()
 
+
     for date_string, day_data in days.items():
 
-        episodes = day_data["episodes"]
+        episodes = day_data[
+            "episodes"
+        ]
+
 
         print(
             f"{day_data['day']} "
             f"({date_string})"
         )
+
 
         if not episodes:
 
@@ -774,9 +1096,11 @@ def main():
             for episode in episodes:
 
                 print(
-                    f"   {episode['time']}  "
+                    f"   "
+                    f"{episode['time']}  "
                     f"{episode['title']}"
                 )
+
 
         print()
 
@@ -786,4 +1110,5 @@ def main():
 # ============================================================
 
 if __name__ == "__main__":
+
     main()
