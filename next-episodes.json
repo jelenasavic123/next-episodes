@@ -1,36 +1,6 @@
 {
-  "updatedAt": "2026-09-17T22:00:30.293931+00:00",
+  "updatedAt": "2026-09-18T12:10:17.317694+00:00",
   "episodes": [
-    {
-      "id": "moguca-ljubav-muhtemel-ask",
-      "title": "moguca-ljubav-muhtemel-ask",
-      "sourceUrl": "https://turskeserije.tv/muhtemel-ask/",
-      "nextEpisode": "2026-09-17T23:59:00+01:00",
-      "date": "17.09.2026",
-      "dateISO": "2026-09-17",
-      "time": "23:59",
-      "image": "https://turskeserije.tv/wp-content/uploads/2026/06/muhtemel-ask-sa-prevodom.jpg"
-    },
-    {
-      "id": "ti-si-ona-koju-volim-sevdigim-sensin",
-      "title": "ti-si-ona-koju-volim-sevdigim-sensin",
-      "sourceUrl": "https://turskeserije.tv/sevdigim-sensin/",
-      "nextEpisode": "2026-09-17T23:59:00+01:00",
-      "date": "17.09.2026",
-      "dateISO": "2026-09-17",
-      "time": "23:59",
-      "image": "https://turskeserije.tv/wp-content/uploads/2026/02/sevdigim-sensin-sa-prevodom.jpg"
-    },
-    {
-      "id": "gde-sunce-izlazi-devojke-sunca-gunesin-dogdugu-yer",
-      "title": "gde-sunce-izlazi-devojke-sunca-gunesin-dogdugu-yer",
-      "sourceUrl": "https://turskeserije.tv/gunesin-dogdugu-yer/",
-      "nextEpisode": "2026-09-17T23:59:00+01:00",
-      "date": "17.09.2026",
-      "dateISO": "2026-09-17",
-      "time": "23:59",
-      "image": "https://turskeserije.tv/wp-content/uploads/2026/09/gunesin-dogdugu-yer-sa-prevodom.jpg"
-    },
     {
       "id": "sudbinom-povezani-arafta",
       "title": "sudbinom-povezani-arafta",
@@ -160,41 +130,39 @@
       "dateISO": "2026-09-23",
       "time": "23:59",
       "image": "https://turskeserije.tv/wp-content/uploads/2026/09/ask-ve-taht-sa-prevodom.jpg"
+    },
+    {
+      "id": "moguca-ljubav-muhtemel-ask",
+      "title": "moguca-ljubav-muhtemel-ask",
+      "sourceUrl": "https://turskeserije.tv/muhtemel-ask/",
+      "nextEpisode": "2026-09-24T23:59:00+01:00",
+      "date": "24.09.2026",
+      "dateISO": "2026-09-24",
+      "time": "23:59",
+      "image": "https://turskeserije.tv/wp-content/uploads/2026/06/muhtemel-ask-sa-prevodom.jpg"
+    },
+    {
+      "id": "ti-si-ona-koju-volim-sevdigim-sensin",
+      "title": "ti-si-ona-koju-volim-sevdigim-sensin",
+      "sourceUrl": "https://turskeserije.tv/sevdigim-sensin/",
+      "nextEpisode": "2026-09-24T23:59:00+01:00",
+      "date": "24.09.2026",
+      "dateISO": "2026-09-24",
+      "time": "23:59",
+      "image": "https://turskeserije.tv/wp-content/uploads/2026/02/sevdigim-sensin-sa-prevodom.jpg"
+    },
+    {
+      "id": "gde-sunce-izlazi-devojke-sunca-gunesin-dogdugu-yer",
+      "title": "gde-sunce-izlazi-devojke-sunca-gunesin-dogdugu-yer",
+      "sourceUrl": "https://turskeserije.tv/gunesin-dogdugu-yer/",
+      "nextEpisode": "2026-09-24T23:59:00+01:00",
+      "date": "24.09.2026",
+      "dateISO": "2026-09-24",
+      "time": "23:59",
+      "image": "https://turskeserije.tv/wp-content/uploads/2026/09/gunesin-dogdugu-yer-sa-prevodom.jpg"
     }
   ],
   "days": {
-    "2026-09-17": [
-      {
-        "id": "moguca-ljubav-muhtemel-ask",
-        "title": "moguca-ljubav-muhtemel-ask",
-        "sourceUrl": "https://turskeserije.tv/muhtemel-ask/",
-        "nextEpisode": "2026-09-17T23:59:00+01:00",
-        "date": "17.09.2026",
-        "dateISO": "2026-09-17",
-        "time": "23:59",
-        "image": "https://turskeserije.tv/wp-content/uploads/2026/06/muhtemel-ask-sa-prevodom.jpg"
-      },
-      {
-        "id": "ti-si-ona-koju-volim-sevdigim-sensin",
-        "title": "ti-si-ona-koju-volim-sevdigim-sensin",
-        "sourceUrl": "https://turskeserije.tv/sevdigim-sensin/",
-        "nextEpisode": "2026-09-17T23:59:00+01:00",
-        "date": "17.09.2026",
-        "dateISO": "2026-09-17",
-        "time": "23:59",
-        "image": "https://turskeserije.tv/wp-content/uploads/2026/02/sevdigim-sensin-sa-prevodom.jpg"
-      },
-      {
-        "id": "gde-sunce-izlazi-devojke-sunca-gunesin-dogdugu-yer",
-        "title": "gde-sunce-izlazi-devojke-sunca-gunesin-dogdugu-yer",
-        "sourceUrl": "https://turskeserije.tv/gunesin-dogdugu-yer/",
-        "nextEpisode": "2026-09-17T23:59:00+01:00",
-        "date": "17.09.2026",
-        "dateISO": "2026-09-17",
-        "time": "23:59",
-        "image": "https://turskeserije.tv/wp-content/uploads/2026/09/gunesin-dogdugu-yer-sa-prevodom.jpg"
-      }
-    ],
     "2026-09-18": [
       {
         "id": "sudbinom-povezani-arafta",
@@ -335,6 +303,38 @@
         "dateISO": "2026-09-23",
         "time": "23:59",
         "image": "https://turskeserije.tv/wp-content/uploads/2026/09/ask-ve-taht-sa-prevodom.jpg"
+      }
+    ],
+    "2026-09-24": [
+      {
+        "id": "moguca-ljubav-muhtemel-ask",
+        "title": "moguca-ljubav-muhtemel-ask",
+        "sourceUrl": "https://turskeserije.tv/muhtemel-ask/",
+        "nextEpisode": "2026-09-24T23:59:00+01:00",
+        "date": "24.09.2026",
+        "dateISO": "2026-09-24",
+        "time": "23:59",
+        "image": "https://turskeserije.tv/wp-content/uploads/2026/06/muhtemel-ask-sa-prevodom.jpg"
+      },
+      {
+        "id": "ti-si-ona-koju-volim-sevdigim-sensin",
+        "title": "ti-si-ona-koju-volim-sevdigim-sensin",
+        "sourceUrl": "https://turskeserije.tv/sevdigim-sensin/",
+        "nextEpisode": "2026-09-24T23:59:00+01:00",
+        "date": "24.09.2026",
+        "dateISO": "2026-09-24",
+        "time": "23:59",
+        "image": "https://turskeserije.tv/wp-content/uploads/2026/02/sevdigim-sensin-sa-prevodom.jpg"
+      },
+      {
+        "id": "gde-sunce-izlazi-devojke-sunca-gunesin-dogdugu-yer",
+        "title": "gde-sunce-izlazi-devojke-sunca-gunesin-dogdugu-yer",
+        "sourceUrl": "https://turskeserije.tv/gunesin-dogdugu-yer/",
+        "nextEpisode": "2026-09-24T23:59:00+01:00",
+        "date": "24.09.2026",
+        "dateISO": "2026-09-24",
+        "time": "23:59",
+        "image": "https://turskeserije.tv/wp-content/uploads/2026/09/gunesin-dogdugu-yer-sa-prevodom.jpg"
       }
     ]
   }
