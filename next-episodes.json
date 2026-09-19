@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-18T12:10:17.317694+00:00",
+  "updatedAt": "2026-09-19T06:31:25.198833+00:00",
   "episodes": [
     {
       "id": "sudbinom-povezani-arafta",
@@ -10,6 +10,16 @@
       "dateISO": "2026-09-18",
       "time": "23:59",
       "image": "https://turskeserije.tv/wp-content/uploads/2025/11/arafta-sa-prevodom.jpg"
+    },
+    {
+      "id": "caj-od-brusnice-mostovi-zivota-kizilcik-serbeti-jedina-ljubav",
+      "title": "caj-od-brusnice-mostovi-zivota-kizilcik-serbeti-jedina-ljubav",
+      "sourceUrl": "https://turskeserije.tv/kizilcik-serbeti/",
+      "nextEpisode": "2026-09-18T23:59:00+01:00",
+      "date": "18.09.2026",
+      "dateISO": "2026-09-18",
+      "time": "23:59",
+      "image": "https://turskeserije.tv/wp-content/uploads/2022/11/kizilcik-serbeti-sa-prevodom.jpg"
     },
     {
       "id": "planina-ljubavi-gonul-dagi",
@@ -173,6 +183,16 @@
         "dateISO": "2026-09-18",
         "time": "23:59",
         "image": "https://turskeserije.tv/wp-content/uploads/2025/11/arafta-sa-prevodom.jpg"
+      },
+      {
+        "id": "caj-od-brusnice-mostovi-zivota-kizilcik-serbeti-jedina-ljubav",
+        "title": "caj-od-brusnice-mostovi-zivota-kizilcik-serbeti-jedina-ljubav",
+        "sourceUrl": "https://turskeserije.tv/kizilcik-serbeti/",
+        "nextEpisode": "2026-09-18T23:59:00+01:00",
+        "date": "18.09.2026",
+        "dateISO": "2026-09-18",
+        "time": "23:59",
+        "image": "https://turskeserije.tv/wp-content/uploads/2022/11/kizilcik-serbeti-sa-prevodom.jpg"
       }
     ],
     "2026-09-19": [
