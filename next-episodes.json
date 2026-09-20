@@ -1,26 +1,6 @@
 {
-  "updatedAt": "2026-09-19T11:52:43.120941+00:00",
+  "updatedAt": "2026-09-20T12:11:32.188472+00:00",
   "episodes": [
-    {
-      "id": "sudbinom-povezani-arafta",
-      "title": "sudbinom-povezani-arafta",
-      "sourceUrl": "https://turskeserije.tv/arafta/",
-      "nextEpisode": "2026-09-18T23:59:00+01:00",
-      "date": "18.09.2026",
-      "dateISO": "2026-09-18",
-      "time": "23:59",
-      "image": "https://turskeserije.tv/wp-content/uploads/2025/11/arafta-sa-prevodom.jpg"
-    },
-    {
-      "id": "caj-od-brusnice-mostovi-zivota-kizilcik-serbeti-jedina-ljubav",
-      "title": "caj-od-brusnice-mostovi-zivota-kizilcik-serbeti-jedina-ljubav",
-      "sourceUrl": "https://turskeserije.tv/kizilcik-serbeti/",
-      "nextEpisode": "2026-09-18T23:59:00+01:00",
-      "date": "18.09.2026",
-      "dateISO": "2026-09-18",
-      "time": "23:59",
-      "image": "https://turskeserije.tv/wp-content/uploads/2022/11/kizilcik-serbeti-sa-prevodom.jpg"
-    },
     {
       "id": "planina-ljubavi-gonul-dagi",
       "title": "planina-ljubavi-gonul-dagi",
@@ -70,6 +50,16 @@
       "dateISO": "2026-09-21",
       "time": "12:59",
       "image": "https://turskeserije.tv/wp-content/uploads/2026/09/evlilik-guzeldir-sa-prevodom.jpg"
+    },
+    {
+      "id": "sudbinom-povezani-arafta",
+      "title": "sudbinom-povezani-arafta",
+      "sourceUrl": "https://turskeserije.tv/arafta/",
+      "nextEpisode": "2026-09-21T23:59:00+01:00",
+      "date": "21.09.2026",
+      "dateISO": "2026-09-21",
+      "time": "23:59",
+      "image": "https://turskeserije.tv/wp-content/uploads/2025/11/arafta-sa-prevodom.jpg"
     },
     {
       "id": "iznad-i-ispod-istanbula-alti-ustu-istanbul",
@@ -170,31 +160,19 @@
       "dateISO": "2026-09-24",
       "time": "23:59",
       "image": "https://turskeserije.tv/wp-content/uploads/2026/09/gunesin-dogdugu-yer-sa-prevodom.jpg"
+    },
+    {
+      "id": "caj-od-brusnice-mostovi-zivota-kizilcik-serbeti-jedina-ljubav",
+      "title": "caj-od-brusnice-mostovi-zivota-kizilcik-serbeti-jedina-ljubav",
+      "sourceUrl": "https://turskeserije.tv/kizilcik-serbeti/",
+      "nextEpisode": "2026-09-25T23:59:00+01:00",
+      "date": "25.09.2026",
+      "dateISO": "2026-09-25",
+      "time": "23:59",
+      "image": "https://turskeserije.tv/wp-content/uploads/2022/11/kizilcik-serbeti-sa-prevodom.jpg"
     }
   ],
   "days": {
-    "2026-09-18": [
-      {
-        "id": "sudbinom-povezani-arafta",
-        "title": "sudbinom-povezani-arafta",
-        "sourceUrl": "https://turskeserije.tv/arafta/",
-        "nextEpisode": "2026-09-18T23:59:00+01:00",
-        "date": "18.09.2026",
-        "dateISO": "2026-09-18",
-        "time": "23:59",
-        "image": "https://turskeserije.tv/wp-content/uploads/2025/11/arafta-sa-prevodom.jpg"
-      },
-      {
-        "id": "caj-od-brusnice-mostovi-zivota-kizilcik-serbeti-jedina-ljubav",
-        "title": "caj-od-brusnice-mostovi-zivota-kizilcik-serbeti-jedina-ljubav",
-        "sourceUrl": "https://turskeserije.tv/kizilcik-serbeti/",
-        "nextEpisode": "2026-09-18T23:59:00+01:00",
-        "date": "18.09.2026",
-        "dateISO": "2026-09-18",
-        "time": "23:59",
-        "image": "https://turskeserije.tv/wp-content/uploads/2022/11/kizilcik-serbeti-sa-prevodom.jpg"
-      }
-    ],
     "2026-09-19": [
       {
         "id": "planina-ljubavi-gonul-dagi",
@@ -249,6 +227,16 @@
         "dateISO": "2026-09-21",
         "time": "12:59",
         "image": "https://turskeserije.tv/wp-content/uploads/2026/09/evlilik-guzeldir-sa-prevodom.jpg"
+      },
+      {
+        "id": "sudbinom-povezani-arafta",
+        "title": "sudbinom-povezani-arafta",
+        "sourceUrl": "https://turskeserije.tv/arafta/",
+        "nextEpisode": "2026-09-21T23:59:00+01:00",
+        "date": "21.09.2026",
+        "dateISO": "2026-09-21",
+        "time": "23:59",
+        "image": "https://turskeserije.tv/wp-content/uploads/2025/11/arafta-sa-prevodom.jpg"
       },
       {
         "id": "iznad-i-ispod-istanbula-alti-ustu-istanbul",
@@ -355,6 +343,18 @@
         "dateISO": "2026-09-24",
         "time": "23:59",
         "image": "https://turskeserije.tv/wp-content/uploads/2026/09/gunesin-dogdugu-yer-sa-prevodom.jpg"
+      }
+    ],
+    "2026-09-25": [
+      {
+        "id": "caj-od-brusnice-mostovi-zivota-kizilcik-serbeti-jedina-ljubav",
+        "title": "caj-od-brusnice-mostovi-zivota-kizilcik-serbeti-jedina-ljubav",
+        "sourceUrl": "https://turskeserije.tv/kizilcik-serbeti/",
+        "nextEpisode": "2026-09-25T23:59:00+01:00",
+        "date": "25.09.2026",
+        "dateISO": "2026-09-25",
+        "time": "23:59",
+        "image": "https://turskeserije.tv/wp-content/uploads/2022/11/kizilcik-serbeti-sa-prevodom.jpg"
       }
     ]
   }
