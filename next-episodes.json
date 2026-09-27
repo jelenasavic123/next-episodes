@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-27T07:11:23.428737+00:00",
+  "updatedAt": "2026-09-27T07:24:14.324090+00:00",
   "episodes": [
     {
       "id": "daha-on-yedi-samo-17",
@@ -20,6 +20,26 @@
       "dateISO": "2026-09-27",
       "time": "23:59",
       "image": "https://turskeserije.tv/wp-content/uploads/2024/02/gelin-sa-prevodom.jpg"
+    },
+    {
+      "id": "ruzan-cirkin-ruzna",
+      "title": "ruzan-cirkin-ruzna",
+      "sourceUrl": "https://turskeserije.tv/cirkin/",
+      "nextEpisode": "2026-09-27T23:59:00+01:00",
+      "date": "27.09.2026",
+      "dateISO": "2026-09-27",
+      "time": "23:59",
+      "image": "https://turskeserije.tv/wp-content/uploads/2026/03/cirkin-sa-prevodom.jpg"
+    },
+    {
+      "id": "organizacija-teskilat",
+      "title": "organizacija-teskilat",
+      "sourceUrl": "https://turskeserije.tv/teskilat/",
+      "nextEpisode": "2026-09-27T23:59:00+01:00",
+      "date": "27.09.2026",
+      "dateISO": "2026-09-27",
+      "time": "23:59",
+      "image": "https://turskeserije.tv/wp-content/uploads/2021/03/teskilat-sa-prevodom.jpg"
     },
     {
       "id": "brak-je-predivan-evlilik-guzeldir",
@@ -223,6 +243,26 @@
         "dateISO": "2026-09-27",
         "time": "23:59",
         "image": "https://turskeserije.tv/wp-content/uploads/2024/02/gelin-sa-prevodom.jpg"
+      },
+      {
+        "id": "ruzan-cirkin-ruzna",
+        "title": "ruzan-cirkin-ruzna",
+        "sourceUrl": "https://turskeserije.tv/cirkin/",
+        "nextEpisode": "2026-09-27T23:59:00+01:00",
+        "date": "27.09.2026",
+        "dateISO": "2026-09-27",
+        "time": "23:59",
+        "image": "https://turskeserije.tv/wp-content/uploads/2026/03/cirkin-sa-prevodom.jpg"
+      },
+      {
+        "id": "organizacija-teskilat",
+        "title": "organizacija-teskilat",
+        "sourceUrl": "https://turskeserije.tv/teskilat/",
+        "nextEpisode": "2026-09-27T23:59:00+01:00",
+        "date": "27.09.2026",
+        "dateISO": "2026-09-27",
+        "time": "23:59",
+        "image": "https://turskeserije.tv/wp-content/uploads/2021/03/teskilat-sa-prevodom.jpg"
       }
     ],
     "2026-09-28": [
