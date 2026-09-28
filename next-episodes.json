@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-09-27T12:54:30.842254+00:00",
+  "updatedAt": "2026-09-28T08:48:26.546174+00:00",
   "episodes": [
     {
       "id": "daha-on-yedi-samo-17",
@@ -40,6 +40,16 @@
       "dateISO": "2026-09-27",
       "time": "23:59",
       "image": "https://turskeserije.tv/wp-content/uploads/2021/03/teskilat-sa-prevodom.jpg"
+    },
+    {
+      "id": "majstor-omur-omur-usta",
+      "title": "majstor-omur-omur-usta",
+      "sourceUrl": "https://turskeserije.tv/omur-usta/",
+      "nextEpisode": "2026-09-27T23:59:00+01:00",
+      "date": "27.09.2026",
+      "dateISO": "2026-09-27",
+      "time": "23:59",
+      "image": "https://turskeserije.tv/wp-content/uploads/2026/09/omur-usta-sa-prevodom.jpg"
     },
     {
       "id": "brak-je-predivan-evlilik-guzeldir",
@@ -263,6 +273,16 @@
         "dateISO": "2026-09-27",
         "time": "23:59",
         "image": "https://turskeserije.tv/wp-content/uploads/2021/03/teskilat-sa-prevodom.jpg"
+      },
+      {
+        "id": "majstor-omur-omur-usta",
+        "title": "majstor-omur-omur-usta",
+        "sourceUrl": "https://turskeserije.tv/omur-usta/",
+        "nextEpisode": "2026-09-27T23:59:00+01:00",
+        "date": "27.09.2026",
+        "dateISO": "2026-09-27",
+        "time": "23:59",
+        "image": "https://turskeserije.tv/wp-content/uploads/2026/09/omur-usta-sa-prevodom.jpg"
       }
     ],
     "2026-09-28": [
