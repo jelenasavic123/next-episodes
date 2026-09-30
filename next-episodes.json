@@ -1,36 +1,6 @@
 {
-  "updatedAt": "2026-09-29T13:56:01.835549+00:00",
+  "updatedAt": "2026-09-30T13:32:34.959980+00:00",
   "episodes": [
-    {
-      "id": "sudbinom-povezani-arafta",
-      "title": "sudbinom-povezani-arafta",
-      "sourceUrl": "https://turskeserije.tv/arafta/",
-      "nextEpisode": "2026-09-28T23:59:00+01:00",
-      "date": "28.09.2026",
-      "dateISO": "2026-09-28",
-      "time": "23:59",
-      "image": "https://turskeserije.tv/wp-content/uploads/2025/11/arafta-sa-prevodom.jpg"
-    },
-    {
-      "id": "daleki-grad-uzak-sehir",
-      "title": "daleki-grad-uzak-sehir",
-      "sourceUrl": "https://turskeserije.tv/uzak-sehir/",
-      "nextEpisode": "2026-09-28T23:59:00+01:00",
-      "date": "28.09.2026",
-      "dateISO": "2026-09-28",
-      "time": "23:59",
-      "image": "https://turskeserije.tv/wp-content/uploads/2024/11/uzak-sehir-sa-prevodom.jpg"
-    },
-    {
-      "id": "nevesta-klopka-ljubavi-gelin",
-      "title": "nevesta-klopka-ljubavi-gelin",
-      "sourceUrl": "https://turskeserije.tv/gelin/",
-      "nextEpisode": "2026-09-28T23:59:00+01:00",
-      "date": "28.09.2026",
-      "dateISO": "2026-09-28",
-      "time": "23:59",
-      "image": "https://turskeserije.tv/wp-content/uploads/2024/02/gelin-sa-prevodom.jpg"
-    },
     {
       "id": "slana-kafa-tuzlu-kahve",
       "title": "slana-kafa-tuzlu-kahve",
@@ -70,6 +40,16 @@
       "dateISO": "2026-09-29",
       "time": "23:59",
       "image": "https://turskeserije.tv/wp-content/uploads/2026/09/anne-yarisi-sa-prevodom.jpg"
+    },
+    {
+      "id": "nevesta-klopka-ljubavi-gelin",
+      "title": "nevesta-klopka-ljubavi-gelin",
+      "sourceUrl": "https://turskeserije.tv/gelin/",
+      "nextEpisode": "2026-09-29T23:59:00+01:00",
+      "date": "29.09.2026",
+      "dateISO": "2026-09-29",
+      "time": "23:59",
+      "image": "https://turskeserije.tv/wp-content/uploads/2024/02/gelin-sa-prevodom.jpg"
     },
     {
       "id": "vrata-ljubavi-sevdan-bir-ates",
@@ -120,6 +100,16 @@
       "dateISO": "2026-10-01",
       "time": "23:59",
       "image": "https://turskeserije.tv/wp-content/uploads/2026/09/gunesin-dogdugu-yer-sa-prevodom.jpg"
+    },
+    {
+      "id": "sudbinom-povezani-arafta",
+      "title": "sudbinom-povezani-arafta",
+      "sourceUrl": "https://turskeserije.tv/arafta/",
+      "nextEpisode": "2026-10-02T23:59:00+01:00",
+      "date": "02.10.2026",
+      "dateISO": "2026-10-02",
+      "time": "23:59",
+      "image": "https://turskeserije.tv/wp-content/uploads/2025/11/arafta-sa-prevodom.jpg"
     },
     {
       "id": "caj-od-brusnice-mostovi-zivota-kizilcik-serbeti-jedina-ljubav",
@@ -220,41 +210,19 @@
       "dateISO": "2026-10-05",
       "time": "12:59",
       "image": "https://turskeserije.tv/wp-content/uploads/2026/09/evlilik-guzeldir-sa-prevodom.jpg"
+    },
+    {
+      "id": "daleki-grad-uzak-sehir",
+      "title": "daleki-grad-uzak-sehir",
+      "sourceUrl": "https://turskeserije.tv/uzak-sehir/",
+      "nextEpisode": "2026-10-05T23:59:00+01:00",
+      "date": "05.10.2026",
+      "dateISO": "2026-10-05",
+      "time": "23:59",
+      "image": "https://turskeserije.tv/wp-content/uploads/2024/11/uzak-sehir-sa-prevodom.jpg"
     }
   ],
   "days": {
-    "2026-09-28": [
-      {
-        "id": "sudbinom-povezani-arafta",
-        "title": "sudbinom-povezani-arafta",
-        "sourceUrl": "https://turskeserije.tv/arafta/",
-        "nextEpisode": "2026-09-28T23:59:00+01:00",
-        "date": "28.09.2026",
-        "dateISO": "2026-09-28",
-        "time": "23:59",
-        "image": "https://turskeserije.tv/wp-content/uploads/2025/11/arafta-sa-prevodom.jpg"
-      },
-      {
-        "id": "daleki-grad-uzak-sehir",
-        "title": "daleki-grad-uzak-sehir",
-        "sourceUrl": "https://turskeserije.tv/uzak-sehir/",
-        "nextEpisode": "2026-09-28T23:59:00+01:00",
-        "date": "28.09.2026",
-        "dateISO": "2026-09-28",
-        "time": "23:59",
-        "image": "https://turskeserije.tv/wp-content/uploads/2024/11/uzak-sehir-sa-prevodom.jpg"
-      },
-      {
-        "id": "nevesta-klopka-ljubavi-gelin",
-        "title": "nevesta-klopka-ljubavi-gelin",
-        "sourceUrl": "https://turskeserije.tv/gelin/",
-        "nextEpisode": "2026-09-28T23:59:00+01:00",
-        "date": "28.09.2026",
-        "dateISO": "2026-09-28",
-        "time": "23:59",
-        "image": "https://turskeserije.tv/wp-content/uploads/2024/02/gelin-sa-prevodom.jpg"
-      }
-    ],
     "2026-09-29": [
       {
         "id": "slana-kafa-tuzlu-kahve",
@@ -295,6 +263,16 @@
         "dateISO": "2026-09-29",
         "time": "23:59",
         "image": "https://turskeserije.tv/wp-content/uploads/2026/09/anne-yarisi-sa-prevodom.jpg"
+      },
+      {
+        "id": "nevesta-klopka-ljubavi-gelin",
+        "title": "nevesta-klopka-ljubavi-gelin",
+        "sourceUrl": "https://turskeserije.tv/gelin/",
+        "nextEpisode": "2026-09-29T23:59:00+01:00",
+        "date": "29.09.2026",
+        "dateISO": "2026-09-29",
+        "time": "23:59",
+        "image": "https://turskeserije.tv/wp-content/uploads/2024/02/gelin-sa-prevodom.jpg"
       }
     ],
     "2026-09-30": [
@@ -352,6 +330,16 @@
       }
     ],
     "2026-10-02": [
+      {
+        "id": "sudbinom-povezani-arafta",
+        "title": "sudbinom-povezani-arafta",
+        "sourceUrl": "https://turskeserije.tv/arafta/",
+        "nextEpisode": "2026-10-02T23:59:00+01:00",
+        "date": "02.10.2026",
+        "dateISO": "2026-10-02",
+        "time": "23:59",
+        "image": "https://turskeserije.tv/wp-content/uploads/2025/11/arafta-sa-prevodom.jpg"
+      },
       {
         "id": "caj-od-brusnice-mostovi-zivota-kizilcik-serbeti-jedina-ljubav",
         "title": "caj-od-brusnice-mostovi-zivota-kizilcik-serbeti-jedina-ljubav",
@@ -457,6 +445,16 @@
         "dateISO": "2026-10-05",
         "time": "12:59",
         "image": "https://turskeserije.tv/wp-content/uploads/2026/09/evlilik-guzeldir-sa-prevodom.jpg"
+      },
+      {
+        "id": "daleki-grad-uzak-sehir",
+        "title": "daleki-grad-uzak-sehir",
+        "sourceUrl": "https://turskeserije.tv/uzak-sehir/",
+        "nextEpisode": "2026-10-05T23:59:00+01:00",
+        "date": "05.10.2026",
+        "dateISO": "2026-10-05",
+        "time": "23:59",
+        "image": "https://turskeserije.tv/wp-content/uploads/2024/11/uzak-sehir-sa-prevodom.jpg"
       }
     ]
   }
