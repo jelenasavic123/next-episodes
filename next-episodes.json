@@ -1,56 +1,6 @@
 {
-  "updatedAt": "2026-09-30T13:32:34.959980+00:00",
+  "updatedAt": "2026-10-01T14:22:26.696903+00:00",
   "episodes": [
-    {
-      "id": "slana-kafa-tuzlu-kahve",
-      "title": "slana-kafa-tuzlu-kahve",
-      "sourceUrl": "https://turskeserije.tv/tuzlu-kahve/",
-      "nextEpisode": "2026-09-29T23:59:00+01:00",
-      "date": "29.09.2026",
-      "dateISO": "2026-09-29",
-      "time": "23:59",
-      "image": "https://turskeserije.tv/wp-content/uploads/2026/09/slana-kafa-sa-prevodom.jpg"
-    },
-    {
-      "id": "dostojanstvo-haysiyet",
-      "title": "dostojanstvo-haysiyet",
-      "sourceUrl": "https://turskeserije.tv/haysiyet/",
-      "nextEpisode": "2026-09-29T23:59:00+01:00",
-      "date": "29.09.2026",
-      "dateISO": "2026-09-29",
-      "time": "23:59",
-      "image": "https://turskeserije.tv/wp-content/uploads/2026/09/haysiyet-sa-prevodom.jpg"
-    },
-    {
-      "id": "porodica-je-iskusenje-abi",
-      "title": "porodica-je-iskusenje-abi",
-      "sourceUrl": "https://turskeserije.tv/abi/",
-      "nextEpisode": "2026-09-29T23:59:00+01:00",
-      "date": "29.09.2026",
-      "dateISO": "2026-09-29",
-      "time": "23:59",
-      "image": "https://turskeserije.tv/wp-content/uploads/2026/01/abi-sa-prevodom.jpg"
-    },
-    {
-      "id": "druga-majka-anne-yarisi",
-      "title": "druga-majka-anne-yarisi",
-      "sourceUrl": "https://turskeserije.tv/anne-yarisi/",
-      "nextEpisode": "2026-09-29T23:59:00+01:00",
-      "date": "29.09.2026",
-      "dateISO": "2026-09-29",
-      "time": "23:59",
-      "image": "https://turskeserije.tv/wp-content/uploads/2026/09/anne-yarisi-sa-prevodom.jpg"
-    },
-    {
-      "id": "nevesta-klopka-ljubavi-gelin",
-      "title": "nevesta-klopka-ljubavi-gelin",
-      "sourceUrl": "https://turskeserije.tv/gelin/",
-      "nextEpisode": "2026-09-29T23:59:00+01:00",
-      "date": "29.09.2026",
-      "dateISO": "2026-09-29",
-      "time": "23:59",
-      "image": "https://turskeserije.tv/wp-content/uploads/2024/02/gelin-sa-prevodom.jpg"
-    },
     {
       "id": "vrata-ljubavi-sevdan-bir-ates",
       "title": "vrata-ljubavi-sevdan-bir-ates",
@@ -70,6 +20,16 @@
       "dateISO": "2026-09-30",
       "time": "23:59",
       "image": "https://turskeserije.tv/wp-content/uploads/2026/09/ask-ve-taht-sa-prevodom.jpg"
+    },
+    {
+      "id": "nevesta-klopka-ljubavi-gelin",
+      "title": "nevesta-klopka-ljubavi-gelin",
+      "sourceUrl": "https://turskeserije.tv/gelin/",
+      "nextEpisode": "2026-09-30T23:59:00+01:00",
+      "date": "30.09.2026",
+      "dateISO": "2026-09-30",
+      "time": "23:59",
+      "image": "https://turskeserije.tv/wp-content/uploads/2024/02/gelin-sa-prevodom.jpg"
     },
     {
       "id": "moguca-ljubav-muhtemel-ask",
@@ -220,61 +180,49 @@
       "dateISO": "2026-10-05",
       "time": "23:59",
       "image": "https://turskeserije.tv/wp-content/uploads/2024/11/uzak-sehir-sa-prevodom.jpg"
+    },
+    {
+      "id": "slana-kafa-tuzlu-kahve",
+      "title": "slana-kafa-tuzlu-kahve",
+      "sourceUrl": "https://turskeserije.tv/tuzlu-kahve/",
+      "nextEpisode": "2026-10-06T23:59:00+01:00",
+      "date": "06.10.2026",
+      "dateISO": "2026-10-06",
+      "time": "23:59",
+      "image": "https://turskeserije.tv/wp-content/uploads/2026/09/slana-kafa-sa-prevodom.jpg"
+    },
+    {
+      "id": "dostojanstvo-haysiyet",
+      "title": "dostojanstvo-haysiyet",
+      "sourceUrl": "https://turskeserije.tv/haysiyet/",
+      "nextEpisode": "2026-10-06T23:59:00+01:00",
+      "date": "06.10.2026",
+      "dateISO": "2026-10-06",
+      "time": "23:59",
+      "image": "https://turskeserije.tv/wp-content/uploads/2026/09/haysiyet-sa-prevodom.jpg"
+    },
+    {
+      "id": "porodica-je-iskusenje-abi",
+      "title": "porodica-je-iskusenje-abi",
+      "sourceUrl": "https://turskeserije.tv/abi/",
+      "nextEpisode": "2026-10-06T23:59:00+01:00",
+      "date": "06.10.2026",
+      "dateISO": "2026-10-06",
+      "time": "23:59",
+      "image": "https://turskeserije.tv/wp-content/uploads/2026/01/abi-sa-prevodom.jpg"
+    },
+    {
+      "id": "druga-majka-anne-yarisi",
+      "title": "druga-majka-anne-yarisi",
+      "sourceUrl": "https://turskeserije.tv/anne-yarisi/",
+      "nextEpisode": "2026-10-06T23:59:00+01:00",
+      "date": "06.10.2026",
+      "dateISO": "2026-10-06",
+      "time": "23:59",
+      "image": "https://turskeserije.tv/wp-content/uploads/2026/09/anne-yarisi-sa-prevodom.jpg"
     }
   ],
   "days": {
-    "2026-09-29": [
-      {
-        "id": "slana-kafa-tuzlu-kahve",
-        "title": "slana-kafa-tuzlu-kahve",
-        "sourceUrl": "https://turskeserije.tv/tuzlu-kahve/",
-        "nextEpisode": "2026-09-29T23:59:00+01:00",
-        "date": "29.09.2026",
-        "dateISO": "2026-09-29",
-        "time": "23:59",
-        "image": "https://turskeserije.tv/wp-content/uploads/2026/09/slana-kafa-sa-prevodom.jpg"
-      },
-      {
-        "id": "dostojanstvo-haysiyet",
-        "title": "dostojanstvo-haysiyet",
-        "sourceUrl": "https://turskeserije.tv/haysiyet/",
-        "nextEpisode": "2026-09-29T23:59:00+01:00",
-        "date": "29.09.2026",
-        "dateISO": "2026-09-29",
-        "time": "23:59",
-        "image": "https://turskeserije.tv/wp-content/uploads/2026/09/haysiyet-sa-prevodom.jpg"
-      },
-      {
-        "id": "porodica-je-iskusenje-abi",
-        "title": "porodica-je-iskusenje-abi",
-        "sourceUrl": "https://turskeserije.tv/abi/",
-        "nextEpisode": "2026-09-29T23:59:00+01:00",
-        "date": "29.09.2026",
-        "dateISO": "2026-09-29",
-        "time": "23:59",
-        "image": "https://turskeserije.tv/wp-content/uploads/2026/01/abi-sa-prevodom.jpg"
-      },
-      {
-        "id": "druga-majka-anne-yarisi",
-        "title": "druga-majka-anne-yarisi",
-        "sourceUrl": "https://turskeserije.tv/anne-yarisi/",
-        "nextEpisode": "2026-09-29T23:59:00+01:00",
-        "date": "29.09.2026",
-        "dateISO": "2026-09-29",
-        "time": "23:59",
-        "image": "https://turskeserije.tv/wp-content/uploads/2026/09/anne-yarisi-sa-prevodom.jpg"
-      },
-      {
-        "id": "nevesta-klopka-ljubavi-gelin",
-        "title": "nevesta-klopka-ljubavi-gelin",
-        "sourceUrl": "https://turskeserije.tv/gelin/",
-        "nextEpisode": "2026-09-29T23:59:00+01:00",
-        "date": "29.09.2026",
-        "dateISO": "2026-09-29",
-        "time": "23:59",
-        "image": "https://turskeserije.tv/wp-content/uploads/2024/02/gelin-sa-prevodom.jpg"
-      }
-    ],
     "2026-09-30": [
       {
         "id": "vrata-ljubavi-sevdan-bir-ates",
@@ -295,6 +243,16 @@
         "dateISO": "2026-09-30",
         "time": "23:59",
         "image": "https://turskeserije.tv/wp-content/uploads/2026/09/ask-ve-taht-sa-prevodom.jpg"
+      },
+      {
+        "id": "nevesta-klopka-ljubavi-gelin",
+        "title": "nevesta-klopka-ljubavi-gelin",
+        "sourceUrl": "https://turskeserije.tv/gelin/",
+        "nextEpisode": "2026-09-30T23:59:00+01:00",
+        "date": "30.09.2026",
+        "dateISO": "2026-09-30",
+        "time": "23:59",
+        "image": "https://turskeserije.tv/wp-content/uploads/2024/02/gelin-sa-prevodom.jpg"
       }
     ],
     "2026-10-01": [
@@ -455,6 +413,48 @@
         "dateISO": "2026-10-05",
         "time": "23:59",
         "image": "https://turskeserije.tv/wp-content/uploads/2024/11/uzak-sehir-sa-prevodom.jpg"
+      }
+    ],
+    "2026-10-06": [
+      {
+        "id": "slana-kafa-tuzlu-kahve",
+        "title": "slana-kafa-tuzlu-kahve",
+        "sourceUrl": "https://turskeserije.tv/tuzlu-kahve/",
+        "nextEpisode": "2026-10-06T23:59:00+01:00",
+        "date": "06.10.2026",
+        "dateISO": "2026-10-06",
+        "time": "23:59",
+        "image": "https://turskeserije.tv/wp-content/uploads/2026/09/slana-kafa-sa-prevodom.jpg"
+      },
+      {
+        "id": "dostojanstvo-haysiyet",
+        "title": "dostojanstvo-haysiyet",
+        "sourceUrl": "https://turskeserije.tv/haysiyet/",
+        "nextEpisode": "2026-10-06T23:59:00+01:00",
+        "date": "06.10.2026",
+        "dateISO": "2026-10-06",
+        "time": "23:59",
+        "image": "https://turskeserije.tv/wp-content/uploads/2026/09/haysiyet-sa-prevodom.jpg"
+      },
+      {
+        "id": "porodica-je-iskusenje-abi",
+        "title": "porodica-je-iskusenje-abi",
+        "sourceUrl": "https://turskeserije.tv/abi/",
+        "nextEpisode": "2026-10-06T23:59:00+01:00",
+        "date": "06.10.2026",
+        "dateISO": "2026-10-06",
+        "time": "23:59",
+        "image": "https://turskeserije.tv/wp-content/uploads/2026/01/abi-sa-prevodom.jpg"
+      },
+      {
+        "id": "druga-majka-anne-yarisi",
+        "title": "druga-majka-anne-yarisi",
+        "sourceUrl": "https://turskeserije.tv/anne-yarisi/",
+        "nextEpisode": "2026-10-06T23:59:00+01:00",
+        "date": "06.10.2026",
+        "dateISO": "2026-10-06",
+        "time": "23:59",
+        "image": "https://turskeserije.tv/wp-content/uploads/2026/09/anne-yarisi-sa-prevodom.jpg"
       }
     ]
   }
