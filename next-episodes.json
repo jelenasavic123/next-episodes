@@ -1,106 +1,6 @@
 {
-  "updatedAt": "2026-10-04T13:07:45.130861+00:00",
+  "updatedAt": "2026-10-05T15:48:24.726587+00:00",
   "episodes": [
-    {
-      "id": "planina-ljubavi-gonul-dagi",
-      "title": "planina-ljubavi-gonul-dagi",
-      "sourceUrl": "https://turskeserije.tv/gonul-dagi/",
-      "nextEpisode": "2026-10-03T23:59:00+01:00",
-      "date": "03.10.2026",
-      "dateISO": "2026-10-03",
-      "time": "23:59",
-      "image": "https://turskeserije.tv/wp-content/uploads/2025/06/gonul-dagi-sa-prevodom.jpg"
-    },
-    {
-      "id": "koralna-vila-koralna-palata-mercan-kosk",
-      "title": "koralna-vila-koralna-palata-mercan-kosk",
-      "sourceUrl": "https://turskeserije.tv/mercan-kosk/",
-      "nextEpisode": "2026-10-03T23:59:00+01:00",
-      "date": "03.10.2026",
-      "dateISO": "2026-10-03",
-      "time": "23:59",
-      "image": "https://turskeserije.tv/wp-content/uploads/2026/09/mercan-kosk-sa-prevodom.jpg"
-    },
-    {
-      "id": "ruze-i-grehovi-guller-ve-gunahlar-tajne-proslosti",
-      "title": "ruze-i-grehovi-guller-ve-gunahlar-tajne-proslosti",
-      "sourceUrl": "https://turskeserije.tv/guller-ve-gunahlar/",
-      "nextEpisode": "2026-10-03T23:59:00+01:00",
-      "date": "03.10.2026",
-      "dateISO": "2026-10-03",
-      "time": "23:59",
-      "image": "https://turskeserije.tv/wp-content/uploads/2025/10/guller-ve-gunahlar-sa-prevodom.jpg"
-    },
-    {
-      "id": "nevesta-klopka-ljubavi-gelin",
-      "title": "nevesta-klopka-ljubavi-gelin",
-      "sourceUrl": "https://turskeserije.tv/gelin/",
-      "nextEpisode": "2026-10-03T23:59:00+01:00",
-      "date": "03.10.2026",
-      "dateISO": "2026-10-03",
-      "time": "23:59",
-      "image": "https://turskeserije.tv/wp-content/uploads/2024/02/gelin-sa-prevodom.jpg"
-    },
-    {
-      "id": "zivoti-drugih-baskalarinin-hayat",
-      "title": "zivoti-drugih-baskalarinin-hayat",
-      "sourceUrl": "https://turskeserije.tv/baskalarinin-hayati/",
-      "nextEpisode": "2026-10-03T23:59:00+01:00",
-      "date": "03.10.2026",
-      "dateISO": "2026-10-03",
-      "time": "23:59",
-      "image": "https://turskeserije.tv/wp-content/uploads/2026/09/baskalarinin-hayati-sa-prevodom.jpg"
-    },
-    {
-      "id": "daha-on-yedi-samo-17",
-      "title": "daha-on-yedi-samo-17",
-      "sourceUrl": "https://turskeserije.tv/daha-on-yedi/",
-      "nextEpisode": "2026-10-04T23:59:00+01:00",
-      "date": "04.10.2026",
-      "dateISO": "2026-10-04",
-      "time": "23:59",
-      "image": "https://turskeserije.tv/wp-content/uploads/2026/05/daha-on-yedi-sa-prevodom.jpg"
-    },
-    {
-      "id": "ruzan-cirkin-ruzna",
-      "title": "ruzan-cirkin-ruzna",
-      "sourceUrl": "https://turskeserije.tv/cirkin/",
-      "nextEpisode": "2026-10-04T23:59:00+01:00",
-      "date": "04.10.2026",
-      "dateISO": "2026-10-04",
-      "time": "23:59",
-      "image": "https://turskeserije.tv/wp-content/uploads/2026/03/cirkin-sa-prevodom.jpg"
-    },
-    {
-      "id": "organizacija-teskilat",
-      "title": "organizacija-teskilat",
-      "sourceUrl": "https://turskeserije.tv/teskilat/",
-      "nextEpisode": "2026-10-04T23:59:00+01:00",
-      "date": "04.10.2026",
-      "dateISO": "2026-10-04",
-      "time": "23:59",
-      "image": "https://turskeserije.tv/wp-content/uploads/2021/03/teskilat-sa-prevodom.jpg"
-    },
-    {
-      "id": "majstor-omur-omur-usta",
-      "title": "majstor-omur-omur-usta",
-      "sourceUrl": "https://turskeserije.tv/omur-usta/",
-      "nextEpisode": "2026-10-04T23:59:00+01:00",
-      "date": "04.10.2026",
-      "dateISO": "2026-10-04",
-      "time": "23:59",
-      "image": "https://turskeserije.tv/wp-content/uploads/2026/09/omur-usta-sa-prevodom.jpg"
-    },
-    {
-      "id": "brak-je-predivan-evlilik-guzeldir",
-      "title": "brak-je-predivan-evlilik-guzeldir",
-      "sourceUrl": "https://turskeserije.tv/evlilik-guzeldir/",
-      "nextEpisode": "2026-10-05T12:59:00+01:00",
-      "date": "05.10.2026",
-      "dateISO": "2026-10-05",
-      "time": "12:59",
-      "image": "https://turskeserije.tv/wp-content/uploads/2026/09/evlilik-guzeldir-sa-prevodom.jpg"
-    },
     {
       "id": "sudbinom-povezani-arafta",
       "title": "sudbinom-povezani-arafta",
@@ -120,6 +20,16 @@
       "dateISO": "2026-10-05",
       "time": "23:59",
       "image": "https://turskeserije.tv/wp-content/uploads/2024/11/uzak-sehir-sa-prevodom.jpg"
+    },
+    {
+      "id": "nevesta-klopka-ljubavi-gelin",
+      "title": "nevesta-klopka-ljubavi-gelin",
+      "sourceUrl": "https://turskeserije.tv/gelin/",
+      "nextEpisode": "2026-10-05T23:59:00+01:00",
+      "date": "05.10.2026",
+      "dateISO": "2026-10-05",
+      "time": "23:59",
+      "image": "https://turskeserije.tv/wp-content/uploads/2024/02/gelin-sa-prevodom.jpg"
     },
     {
       "id": "slana-kafa-tuzlu-kahve",
@@ -230,114 +140,90 @@
       "dateISO": "2026-10-09",
       "time": "23:59",
       "image": "https://turskeserije.tv/wp-content/uploads/2025/10/tasacak-bu-deniz-sa-prevodom.jpg"
+    },
+    {
+      "id": "planina-ljubavi-gonul-dagi",
+      "title": "planina-ljubavi-gonul-dagi",
+      "sourceUrl": "https://turskeserije.tv/gonul-dagi/",
+      "nextEpisode": "2026-10-10T23:59:00+01:00",
+      "date": "10.10.2026",
+      "dateISO": "2026-10-10",
+      "time": "23:59",
+      "image": "https://turskeserije.tv/wp-content/uploads/2025/06/gonul-dagi-sa-prevodom.jpg"
+    },
+    {
+      "id": "koralna-vila-koralna-palata-mercan-kosk",
+      "title": "koralna-vila-koralna-palata-mercan-kosk",
+      "sourceUrl": "https://turskeserije.tv/mercan-kosk/",
+      "nextEpisode": "2026-10-10T23:59:00+01:00",
+      "date": "10.10.2026",
+      "dateISO": "2026-10-10",
+      "time": "23:59",
+      "image": "https://turskeserije.tv/wp-content/uploads/2026/09/mercan-kosk-sa-prevodom.jpg"
+    },
+    {
+      "id": "ruze-i-grehovi-guller-ve-gunahlar-tajne-proslosti",
+      "title": "ruze-i-grehovi-guller-ve-gunahlar-tajne-proslosti",
+      "sourceUrl": "https://turskeserije.tv/guller-ve-gunahlar/",
+      "nextEpisode": "2026-10-10T23:59:00+01:00",
+      "date": "10.10.2026",
+      "dateISO": "2026-10-10",
+      "time": "23:59",
+      "image": "https://turskeserije.tv/wp-content/uploads/2025/10/guller-ve-gunahlar-sa-prevodom.jpg"
+    },
+    {
+      "id": "zivoti-drugih-baskalarinin-hayat",
+      "title": "zivoti-drugih-baskalarinin-hayat",
+      "sourceUrl": "https://turskeserije.tv/baskalarinin-hayati/",
+      "nextEpisode": "2026-10-10T23:59:00+01:00",
+      "date": "10.10.2026",
+      "dateISO": "2026-10-10",
+      "time": "23:59",
+      "image": "https://turskeserije.tv/wp-content/uploads/2026/09/baskalarinin-hayati-sa-prevodom.jpg"
+    },
+    {
+      "id": "daha-on-yedi-samo-17",
+      "title": "daha-on-yedi-samo-17",
+      "sourceUrl": "https://turskeserije.tv/daha-on-yedi/",
+      "nextEpisode": "2026-10-11T23:59:00+01:00",
+      "date": "11.10.2026",
+      "dateISO": "2026-10-11",
+      "time": "23:59",
+      "image": "https://turskeserije.tv/wp-content/uploads/2026/05/daha-on-yedi-sa-prevodom.jpg"
+    },
+    {
+      "id": "organizacija-teskilat",
+      "title": "organizacija-teskilat",
+      "sourceUrl": "https://turskeserije.tv/teskilat/",
+      "nextEpisode": "2026-10-11T23:59:00+01:00",
+      "date": "11.10.2026",
+      "dateISO": "2026-10-11",
+      "time": "23:59",
+      "image": "https://turskeserije.tv/wp-content/uploads/2021/03/teskilat-sa-prevodom.jpg"
+    },
+    {
+      "id": "majstor-omur-omur-usta",
+      "title": "majstor-omur-omur-usta",
+      "sourceUrl": "https://turskeserije.tv/omur-usta/",
+      "nextEpisode": "2026-10-11T23:59:00+01:00",
+      "date": "11.10.2026",
+      "dateISO": "2026-10-11",
+      "time": "23:59",
+      "image": "https://turskeserije.tv/wp-content/uploads/2026/09/omur-usta-sa-prevodom.jpg"
+    },
+    {
+      "id": "brak-je-predivan-evlilik-guzeldir",
+      "title": "brak-je-predivan-evlilik-guzeldir",
+      "sourceUrl": "https://turskeserije.tv/evlilik-guzeldir/",
+      "nextEpisode": "2026-10-12T12:59:00+01:00",
+      "date": "12.10.2026",
+      "dateISO": "2026-10-12",
+      "time": "12:59",
+      "image": "https://turskeserije.tv/wp-content/uploads/2026/09/evlilik-guzeldir-sa-prevodom.jpg"
     }
   ],
   "days": {
-    "2026-10-03": [
-      {
-        "id": "planina-ljubavi-gonul-dagi",
-        "title": "planina-ljubavi-gonul-dagi",
-        "sourceUrl": "https://turskeserije.tv/gonul-dagi/",
-        "nextEpisode": "2026-10-03T23:59:00+01:00",
-        "date": "03.10.2026",
-        "dateISO": "2026-10-03",
-        "time": "23:59",
-        "image": "https://turskeserije.tv/wp-content/uploads/2025/06/gonul-dagi-sa-prevodom.jpg"
-      },
-      {
-        "id": "koralna-vila-koralna-palata-mercan-kosk",
-        "title": "koralna-vila-koralna-palata-mercan-kosk",
-        "sourceUrl": "https://turskeserije.tv/mercan-kosk/",
-        "nextEpisode": "2026-10-03T23:59:00+01:00",
-        "date": "03.10.2026",
-        "dateISO": "2026-10-03",
-        "time": "23:59",
-        "image": "https://turskeserije.tv/wp-content/uploads/2026/09/mercan-kosk-sa-prevodom.jpg"
-      },
-      {
-        "id": "ruze-i-grehovi-guller-ve-gunahlar-tajne-proslosti",
-        "title": "ruze-i-grehovi-guller-ve-gunahlar-tajne-proslosti",
-        "sourceUrl": "https://turskeserije.tv/guller-ve-gunahlar/",
-        "nextEpisode": "2026-10-03T23:59:00+01:00",
-        "date": "03.10.2026",
-        "dateISO": "2026-10-03",
-        "time": "23:59",
-        "image": "https://turskeserije.tv/wp-content/uploads/2025/10/guller-ve-gunahlar-sa-prevodom.jpg"
-      },
-      {
-        "id": "nevesta-klopka-ljubavi-gelin",
-        "title": "nevesta-klopka-ljubavi-gelin",
-        "sourceUrl": "https://turskeserije.tv/gelin/",
-        "nextEpisode": "2026-10-03T23:59:00+01:00",
-        "date": "03.10.2026",
-        "dateISO": "2026-10-03",
-        "time": "23:59",
-        "image": "https://turskeserije.tv/wp-content/uploads/2024/02/gelin-sa-prevodom.jpg"
-      },
-      {
-        "id": "zivoti-drugih-baskalarinin-hayat",
-        "title": "zivoti-drugih-baskalarinin-hayat",
-        "sourceUrl": "https://turskeserije.tv/baskalarinin-hayati/",
-        "nextEpisode": "2026-10-03T23:59:00+01:00",
-        "date": "03.10.2026",
-        "dateISO": "2026-10-03",
-        "time": "23:59",
-        "image": "https://turskeserije.tv/wp-content/uploads/2026/09/baskalarinin-hayati-sa-prevodom.jpg"
-      }
-    ],
-    "2026-10-04": [
-      {
-        "id": "daha-on-yedi-samo-17",
-        "title": "daha-on-yedi-samo-17",
-        "sourceUrl": "https://turskeserije.tv/daha-on-yedi/",
-        "nextEpisode": "2026-10-04T23:59:00+01:00",
-        "date": "04.10.2026",
-        "dateISO": "2026-10-04",
-        "time": "23:59",
-        "image": "https://turskeserije.tv/wp-content/uploads/2026/05/daha-on-yedi-sa-prevodom.jpg"
-      },
-      {
-        "id": "ruzan-cirkin-ruzna",
-        "title": "ruzan-cirkin-ruzna",
-        "sourceUrl": "https://turskeserije.tv/cirkin/",
-        "nextEpisode": "2026-10-04T23:59:00+01:00",
-        "date": "04.10.2026",
-        "dateISO": "2026-10-04",
-        "time": "23:59",
-        "image": "https://turskeserije.tv/wp-content/uploads/2026/03/cirkin-sa-prevodom.jpg"
-      },
-      {
-        "id": "organizacija-teskilat",
-        "title": "organizacija-teskilat",
-        "sourceUrl": "https://turskeserije.tv/teskilat/",
-        "nextEpisode": "2026-10-04T23:59:00+01:00",
-        "date": "04.10.2026",
-        "dateISO": "2026-10-04",
-        "time": "23:59",
-        "image": "https://turskeserije.tv/wp-content/uploads/2021/03/teskilat-sa-prevodom.jpg"
-      },
-      {
-        "id": "majstor-omur-omur-usta",
-        "title": "majstor-omur-omur-usta",
-        "sourceUrl": "https://turskeserije.tv/omur-usta/",
-        "nextEpisode": "2026-10-04T23:59:00+01:00",
-        "date": "04.10.2026",
-        "dateISO": "2026-10-04",
-        "time": "23:59",
-        "image": "https://turskeserije.tv/wp-content/uploads/2026/09/omur-usta-sa-prevodom.jpg"
-      }
-    ],
     "2026-10-05": [
-      {
-        "id": "brak-je-predivan-evlilik-guzeldir",
-        "title": "brak-je-predivan-evlilik-guzeldir",
-        "sourceUrl": "https://turskeserije.tv/evlilik-guzeldir/",
-        "nextEpisode": "2026-10-05T12:59:00+01:00",
-        "date": "05.10.2026",
-        "dateISO": "2026-10-05",
-        "time": "12:59",
-        "image": "https://turskeserije.tv/wp-content/uploads/2026/09/evlilik-guzeldir-sa-prevodom.jpg"
-      },
       {
         "id": "sudbinom-povezani-arafta",
         "title": "sudbinom-povezani-arafta",
@@ -357,6 +243,16 @@
         "dateISO": "2026-10-05",
         "time": "23:59",
         "image": "https://turskeserije.tv/wp-content/uploads/2024/11/uzak-sehir-sa-prevodom.jpg"
+      },
+      {
+        "id": "nevesta-klopka-ljubavi-gelin",
+        "title": "nevesta-klopka-ljubavi-gelin",
+        "sourceUrl": "https://turskeserije.tv/gelin/",
+        "nextEpisode": "2026-10-05T23:59:00+01:00",
+        "date": "05.10.2026",
+        "dateISO": "2026-10-05",
+        "time": "23:59",
+        "image": "https://turskeserije.tv/wp-content/uploads/2024/02/gelin-sa-prevodom.jpg"
       }
     ],
     "2026-10-06": [
@@ -475,6 +371,92 @@
         "dateISO": "2026-10-09",
         "time": "23:59",
         "image": "https://turskeserije.tv/wp-content/uploads/2025/10/tasacak-bu-deniz-sa-prevodom.jpg"
+      }
+    ],
+    "2026-10-10": [
+      {
+        "id": "planina-ljubavi-gonul-dagi",
+        "title": "planina-ljubavi-gonul-dagi",
+        "sourceUrl": "https://turskeserije.tv/gonul-dagi/",
+        "nextEpisode": "2026-10-10T23:59:00+01:00",
+        "date": "10.10.2026",
+        "dateISO": "2026-10-10",
+        "time": "23:59",
+        "image": "https://turskeserije.tv/wp-content/uploads/2025/06/gonul-dagi-sa-prevodom.jpg"
+      },
+      {
+        "id": "koralna-vila-koralna-palata-mercan-kosk",
+        "title": "koralna-vila-koralna-palata-mercan-kosk",
+        "sourceUrl": "https://turskeserije.tv/mercan-kosk/",
+        "nextEpisode": "2026-10-10T23:59:00+01:00",
+        "date": "10.10.2026",
+        "dateISO": "2026-10-10",
+        "time": "23:59",
+        "image": "https://turskeserije.tv/wp-content/uploads/2026/09/mercan-kosk-sa-prevodom.jpg"
+      },
+      {
+        "id": "ruze-i-grehovi-guller-ve-gunahlar-tajne-proslosti",
+        "title": "ruze-i-grehovi-guller-ve-gunahlar-tajne-proslosti",
+        "sourceUrl": "https://turskeserije.tv/guller-ve-gunahlar/",
+        "nextEpisode": "2026-10-10T23:59:00+01:00",
+        "date": "10.10.2026",
+        "dateISO": "2026-10-10",
+        "time": "23:59",
+        "image": "https://turskeserije.tv/wp-content/uploads/2025/10/guller-ve-gunahlar-sa-prevodom.jpg"
+      },
+      {
+        "id": "zivoti-drugih-baskalarinin-hayat",
+        "title": "zivoti-drugih-baskalarinin-hayat",
+        "sourceUrl": "https://turskeserije.tv/baskalarinin-hayati/",
+        "nextEpisode": "2026-10-10T23:59:00+01:00",
+        "date": "10.10.2026",
+        "dateISO": "2026-10-10",
+        "time": "23:59",
+        "image": "https://turskeserije.tv/wp-content/uploads/2026/09/baskalarinin-hayati-sa-prevodom.jpg"
+      }
+    ],
+    "2026-10-11": [
+      {
+        "id": "daha-on-yedi-samo-17",
+        "title": "daha-on-yedi-samo-17",
+        "sourceUrl": "https://turskeserije.tv/daha-on-yedi/",
+        "nextEpisode": "2026-10-11T23:59:00+01:00",
+        "date": "11.10.2026",
+        "dateISO": "2026-10-11",
+        "time": "23:59",
+        "image": "https://turskeserije.tv/wp-content/uploads/2026/05/daha-on-yedi-sa-prevodom.jpg"
+      },
+      {
+        "id": "organizacija-teskilat",
+        "title": "organizacija-teskilat",
+        "sourceUrl": "https://turskeserije.tv/teskilat/",
+        "nextEpisode": "2026-10-11T23:59:00+01:00",
+        "date": "11.10.2026",
+        "dateISO": "2026-10-11",
+        "time": "23:59",
+        "image": "https://turskeserije.tv/wp-content/uploads/2021/03/teskilat-sa-prevodom.jpg"
+      },
+      {
+        "id": "majstor-omur-omur-usta",
+        "title": "majstor-omur-omur-usta",
+        "sourceUrl": "https://turskeserije.tv/omur-usta/",
+        "nextEpisode": "2026-10-11T23:59:00+01:00",
+        "date": "11.10.2026",
+        "dateISO": "2026-10-11",
+        "time": "23:59",
+        "image": "https://turskeserije.tv/wp-content/uploads/2026/09/omur-usta-sa-prevodom.jpg"
+      }
+    ],
+    "2026-10-12": [
+      {
+        "id": "brak-je-predivan-evlilik-guzeldir",
+        "title": "brak-je-predivan-evlilik-guzeldir",
+        "sourceUrl": "https://turskeserije.tv/evlilik-guzeldir/",
+        "nextEpisode": "2026-10-12T12:59:00+01:00",
+        "date": "12.10.2026",
+        "dateISO": "2026-10-12",
+        "time": "12:59",
+        "image": "https://turskeserije.tv/wp-content/uploads/2026/09/evlilik-guzeldir-sa-prevodom.jpg"
       }
     ]
   }
