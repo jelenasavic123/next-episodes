@@ -1,36 +1,6 @@
 {
-  "updatedAt": "2026-10-06T14:05:16.082024+00:00",
+  "updatedAt": "2026-10-07T14:22:33.235994+00:00",
   "episodes": [
-    {
-      "id": "sudbinom-povezani-arafta",
-      "title": "sudbinom-povezani-arafta",
-      "sourceUrl": "https://turskeserije.tv/arafta/",
-      "nextEpisode": "2026-10-05T23:59:00+01:00",
-      "date": "05.10.2026",
-      "dateISO": "2026-10-05",
-      "time": "23:59",
-      "image": "https://turskeserije.tv/wp-content/uploads/2025/11/arafta-sa-prevodom.jpg"
-    },
-    {
-      "id": "daleki-grad-uzak-sehir",
-      "title": "daleki-grad-uzak-sehir",
-      "sourceUrl": "https://turskeserije.tv/uzak-sehir/",
-      "nextEpisode": "2026-10-05T23:59:00+01:00",
-      "date": "05.10.2026",
-      "dateISO": "2026-10-05",
-      "time": "23:59",
-      "image": "https://turskeserije.tv/wp-content/uploads/2024/11/uzak-sehir-sa-prevodom.jpg"
-    },
-    {
-      "id": "nevesta-klopka-ljubavi-gelin",
-      "title": "nevesta-klopka-ljubavi-gelin",
-      "sourceUrl": "https://turskeserije.tv/gelin/",
-      "nextEpisode": "2026-10-05T23:59:00+01:00",
-      "date": "05.10.2026",
-      "dateISO": "2026-10-05",
-      "time": "23:59",
-      "image": "https://turskeserije.tv/wp-content/uploads/2024/02/gelin-sa-prevodom.jpg"
-    },
     {
       "id": "slana-kafa-tuzlu-kahve",
       "title": "slana-kafa-tuzlu-kahve",
@@ -52,16 +22,6 @@
       "image": "https://turskeserije.tv/wp-content/uploads/2026/09/haysiyet-sa-prevodom.jpg"
     },
     {
-      "id": "porodica-je-iskusenje-abi",
-      "title": "porodica-je-iskusenje-abi",
-      "sourceUrl": "https://turskeserije.tv/abi/",
-      "nextEpisode": "2026-10-06T23:59:00+01:00",
-      "date": "06.10.2026",
-      "dateISO": "2026-10-06",
-      "time": "23:59",
-      "image": "https://turskeserije.tv/wp-content/uploads/2026/01/abi-sa-prevodom.jpg"
-    },
-    {
       "id": "druga-majka-anne-yarisi",
       "title": "druga-majka-anne-yarisi",
       "sourceUrl": "https://turskeserije.tv/anne-yarisi/",
@@ -70,6 +30,16 @@
       "dateISO": "2026-10-06",
       "time": "23:59",
       "image": "https://turskeserije.tv/wp-content/uploads/2026/09/anne-yarisi-sa-prevodom.jpg"
+    },
+    {
+      "id": "nevesta-klopka-ljubavi-gelin",
+      "title": "nevesta-klopka-ljubavi-gelin",
+      "sourceUrl": "https://turskeserije.tv/gelin/",
+      "nextEpisode": "2026-10-06T23:59:00+01:00",
+      "date": "06.10.2026",
+      "dateISO": "2026-10-06",
+      "time": "23:59",
+      "image": "https://turskeserije.tv/wp-content/uploads/2024/02/gelin-sa-prevodom.jpg"
     },
     {
       "id": "vrata-ljubavi-sevdan-bir-ates",
@@ -120,6 +90,16 @@
       "dateISO": "2026-10-08",
       "time": "23:59",
       "image": "https://turskeserije.tv/wp-content/uploads/2026/09/gunesin-dogdugu-yer-sa-prevodom.jpg"
+    },
+    {
+      "id": "sudbinom-povezani-arafta",
+      "title": "sudbinom-povezani-arafta",
+      "sourceUrl": "https://turskeserije.tv/arafta/",
+      "nextEpisode": "2026-10-09T23:59:00+01:00",
+      "date": "09.10.2026",
+      "dateISO": "2026-10-09",
+      "time": "23:59",
+      "image": "https://turskeserije.tv/wp-content/uploads/2025/11/arafta-sa-prevodom.jpg"
     },
     {
       "id": "caj-od-brusnice-mostovi-zivota-kizilcik-serbeti-jedina-ljubav",
@@ -220,41 +200,19 @@
       "dateISO": "2026-10-12",
       "time": "12:59",
       "image": "https://turskeserije.tv/wp-content/uploads/2026/09/evlilik-guzeldir-sa-prevodom.jpg"
+    },
+    {
+      "id": "daleki-grad-uzak-sehir",
+      "title": "daleki-grad-uzak-sehir",
+      "sourceUrl": "https://turskeserije.tv/uzak-sehir/",
+      "nextEpisode": "2026-10-12T23:59:00+01:00",
+      "date": "12.10.2026",
+      "dateISO": "2026-10-12",
+      "time": "23:59",
+      "image": "https://turskeserije.tv/wp-content/uploads/2024/11/uzak-sehir-sa-prevodom.jpg"
     }
   ],
   "days": {
-    "2026-10-05": [
-      {
-        "id": "sudbinom-povezani-arafta",
-        "title": "sudbinom-povezani-arafta",
-        "sourceUrl": "https://turskeserije.tv/arafta/",
-        "nextEpisode": "2026-10-05T23:59:00+01:00",
-        "date": "05.10.2026",
-        "dateISO": "2026-10-05",
-        "time": "23:59",
-        "image": "https://turskeserije.tv/wp-content/uploads/2025/11/arafta-sa-prevodom.jpg"
-      },
-      {
-        "id": "daleki-grad-uzak-sehir",
-        "title": "daleki-grad-uzak-sehir",
-        "sourceUrl": "https://turskeserije.tv/uzak-sehir/",
-        "nextEpisode": "2026-10-05T23:59:00+01:00",
-        "date": "05.10.2026",
-        "dateISO": "2026-10-05",
-        "time": "23:59",
-        "image": "https://turskeserije.tv/wp-content/uploads/2024/11/uzak-sehir-sa-prevodom.jpg"
-      },
-      {
-        "id": "nevesta-klopka-ljubavi-gelin",
-        "title": "nevesta-klopka-ljubavi-gelin",
-        "sourceUrl": "https://turskeserije.tv/gelin/",
-        "nextEpisode": "2026-10-05T23:59:00+01:00",
-        "date": "05.10.2026",
-        "dateISO": "2026-10-05",
-        "time": "23:59",
-        "image": "https://turskeserije.tv/wp-content/uploads/2024/02/gelin-sa-prevodom.jpg"
-      }
-    ],
     "2026-10-06": [
       {
         "id": "slana-kafa-tuzlu-kahve",
@@ -277,16 +235,6 @@
         "image": "https://turskeserije.tv/wp-content/uploads/2026/09/haysiyet-sa-prevodom.jpg"
       },
       {
-        "id": "porodica-je-iskusenje-abi",
-        "title": "porodica-je-iskusenje-abi",
-        "sourceUrl": "https://turskeserije.tv/abi/",
-        "nextEpisode": "2026-10-06T23:59:00+01:00",
-        "date": "06.10.2026",
-        "dateISO": "2026-10-06",
-        "time": "23:59",
-        "image": "https://turskeserije.tv/wp-content/uploads/2026/01/abi-sa-prevodom.jpg"
-      },
-      {
         "id": "druga-majka-anne-yarisi",
         "title": "druga-majka-anne-yarisi",
         "sourceUrl": "https://turskeserije.tv/anne-yarisi/",
@@ -295,6 +243,16 @@
         "dateISO": "2026-10-06",
         "time": "23:59",
         "image": "https://turskeserije.tv/wp-content/uploads/2026/09/anne-yarisi-sa-prevodom.jpg"
+      },
+      {
+        "id": "nevesta-klopka-ljubavi-gelin",
+        "title": "nevesta-klopka-ljubavi-gelin",
+        "sourceUrl": "https://turskeserije.tv/gelin/",
+        "nextEpisode": "2026-10-06T23:59:00+01:00",
+        "date": "06.10.2026",
+        "dateISO": "2026-10-06",
+        "time": "23:59",
+        "image": "https://turskeserije.tv/wp-content/uploads/2024/02/gelin-sa-prevodom.jpg"
       }
     ],
     "2026-10-07": [
@@ -352,6 +310,16 @@
       }
     ],
     "2026-10-09": [
+      {
+        "id": "sudbinom-povezani-arafta",
+        "title": "sudbinom-povezani-arafta",
+        "sourceUrl": "https://turskeserije.tv/arafta/",
+        "nextEpisode": "2026-10-09T23:59:00+01:00",
+        "date": "09.10.2026",
+        "dateISO": "2026-10-09",
+        "time": "23:59",
+        "image": "https://turskeserije.tv/wp-content/uploads/2025/11/arafta-sa-prevodom.jpg"
+      },
       {
         "id": "caj-od-brusnice-mostovi-zivota-kizilcik-serbeti-jedina-ljubav",
         "title": "caj-od-brusnice-mostovi-zivota-kizilcik-serbeti-jedina-ljubav",
@@ -457,6 +425,16 @@
         "dateISO": "2026-10-12",
         "time": "12:59",
         "image": "https://turskeserije.tv/wp-content/uploads/2026/09/evlilik-guzeldir-sa-prevodom.jpg"
+      },
+      {
+        "id": "daleki-grad-uzak-sehir",
+        "title": "daleki-grad-uzak-sehir",
+        "sourceUrl": "https://turskeserije.tv/uzak-sehir/",
+        "nextEpisode": "2026-10-12T23:59:00+01:00",
+        "date": "12.10.2026",
+        "dateISO": "2026-10-12",
+        "time": "23:59",
+        "image": "https://turskeserije.tv/wp-content/uploads/2024/11/uzak-sehir-sa-prevodom.jpg"
       }
     ]
   }
