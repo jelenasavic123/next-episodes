@@ -1,46 +1,6 @@
 {
-  "updatedAt": "2026-10-10T13:30:11.046383+00:00",
+  "updatedAt": "2026-10-11T13:54:08.580355+00:00",
   "episodes": [
-    {
-      "id": "sudbinom-povezani-arafta",
-      "title": "sudbinom-povezani-arafta",
-      "sourceUrl": "https://turskeserije.tv/arafta/",
-      "nextEpisode": "2026-10-09T23:59:00+01:00",
-      "date": "09.10.2026",
-      "dateISO": "2026-10-09",
-      "time": "23:59",
-      "image": "https://turskeserije.tv/wp-content/uploads/2025/11/arafta-sa-prevodom.jpg"
-    },
-    {
-      "id": "caj-od-brusnice-mostovi-zivota-kizilcik-serbeti-jedina-ljubav",
-      "title": "caj-od-brusnice-mostovi-zivota-kizilcik-serbeti-jedina-ljubav",
-      "sourceUrl": "https://turskeserije.tv/kizilcik-serbeti/",
-      "nextEpisode": "2026-10-09T23:59:00+01:00",
-      "date": "09.10.2026",
-      "dateISO": "2026-10-09",
-      "time": "23:59",
-      "image": "https://turskeserije.tv/wp-content/uploads/2022/11/kizilcik-serbeti-sa-prevodom.jpg"
-    },
-    {
-      "id": "nevesta-klopka-ljubavi-gelin",
-      "title": "nevesta-klopka-ljubavi-gelin",
-      "sourceUrl": "https://turskeserije.tv/gelin/",
-      "nextEpisode": "2026-10-09T23:59:00+01:00",
-      "date": "09.10.2026",
-      "dateISO": "2026-10-09",
-      "time": "23:59",
-      "image": "https://turskeserije.tv/wp-content/uploads/2024/02/gelin-sa-prevodom.jpg"
-    },
-    {
-      "id": "ovo-more-ce-se-preliti-tasacak-bu-deniz",
-      "title": "ovo-more-ce-se-preliti-tasacak-bu-deniz",
-      "sourceUrl": "https://turskeserije.tv/tasacak-bu-deniz/",
-      "nextEpisode": "2026-10-09T23:59:00+01:00",
-      "date": "09.10.2026",
-      "dateISO": "2026-10-09",
-      "time": "23:59",
-      "image": "https://turskeserije.tv/wp-content/uploads/2025/10/tasacak-bu-deniz-sa-prevodom.jpg"
-    },
     {
       "id": "planina-ljubavi-gonul-dagi",
       "title": "planina-ljubavi-gonul-dagi",
@@ -70,6 +30,16 @@
       "dateISO": "2026-10-10",
       "time": "23:59",
       "image": "https://turskeserije.tv/wp-content/uploads/2025/10/guller-ve-gunahlar-sa-prevodom.jpg"
+    },
+    {
+      "id": "nevesta-klopka-ljubavi-gelin",
+      "title": "nevesta-klopka-ljubavi-gelin",
+      "sourceUrl": "https://turskeserije.tv/gelin/",
+      "nextEpisode": "2026-10-10T23:59:00+01:00",
+      "date": "10.10.2026",
+      "dateISO": "2026-10-10",
+      "time": "23:59",
+      "image": "https://turskeserije.tv/wp-content/uploads/2024/02/gelin-sa-prevodom.jpg"
     },
     {
       "id": "zivoti-drugih-baskalarinin-hayat",
@@ -120,6 +90,16 @@
       "dateISO": "2026-10-12",
       "time": "12:59",
       "image": "https://turskeserije.tv/wp-content/uploads/2026/09/evlilik-guzeldir-sa-prevodom.jpg"
+    },
+    {
+      "id": "sudbinom-povezani-arafta",
+      "title": "sudbinom-povezani-arafta",
+      "sourceUrl": "https://turskeserije.tv/arafta/",
+      "nextEpisode": "2026-10-12T23:59:00+01:00",
+      "date": "12.10.2026",
+      "dateISO": "2026-10-12",
+      "time": "23:59",
+      "image": "https://turskeserije.tv/wp-content/uploads/2025/11/arafta-sa-prevodom.jpg"
     },
     {
       "id": "daleki-grad-uzak-sehir",
@@ -200,51 +180,29 @@
       "dateISO": "2026-10-15",
       "time": "23:59",
       "image": "https://turskeserije.tv/wp-content/uploads/2026/09/gunesin-dogdugu-yer-sa-prevodom.jpg"
+    },
+    {
+      "id": "caj-od-brusnice-mostovi-zivota-kizilcik-serbeti-jedina-ljubav",
+      "title": "caj-od-brusnice-mostovi-zivota-kizilcik-serbeti-jedina-ljubav",
+      "sourceUrl": "https://turskeserije.tv/kizilcik-serbeti/",
+      "nextEpisode": "2026-10-16T23:59:00+01:00",
+      "date": "16.10.2026",
+      "dateISO": "2026-10-16",
+      "time": "23:59",
+      "image": "https://turskeserije.tv/wp-content/uploads/2022/11/kizilcik-serbeti-sa-prevodom.jpg"
+    },
+    {
+      "id": "ovo-more-ce-se-preliti-tasacak-bu-deniz",
+      "title": "ovo-more-ce-se-preliti-tasacak-bu-deniz",
+      "sourceUrl": "https://turskeserije.tv/tasacak-bu-deniz/",
+      "nextEpisode": "2026-10-16T23:59:00+01:00",
+      "date": "16.10.2026",
+      "dateISO": "2026-10-16",
+      "time": "23:59",
+      "image": "https://turskeserije.tv/wp-content/uploads/2025/10/tasacak-bu-deniz-sa-prevodom.jpg"
     }
   ],
   "days": {
-    "2026-10-09": [
-      {
-        "id": "sudbinom-povezani-arafta",
-        "title": "sudbinom-povezani-arafta",
-        "sourceUrl": "https://turskeserije.tv/arafta/",
-        "nextEpisode": "2026-10-09T23:59:00+01:00",
-        "date": "09.10.2026",
-        "dateISO": "2026-10-09",
-        "time": "23:59",
-        "image": "https://turskeserije.tv/wp-content/uploads/2025/11/arafta-sa-prevodom.jpg"
-      },
-      {
-        "id": "caj-od-brusnice-mostovi-zivota-kizilcik-serbeti-jedina-ljubav",
-        "title": "caj-od-brusnice-mostovi-zivota-kizilcik-serbeti-jedina-ljubav",
-        "sourceUrl": "https://turskeserije.tv/kizilcik-serbeti/",
-        "nextEpisode": "2026-10-09T23:59:00+01:00",
-        "date": "09.10.2026",
-        "dateISO": "2026-10-09",
-        "time": "23:59",
-        "image": "https://turskeserije.tv/wp-content/uploads/2022/11/kizilcik-serbeti-sa-prevodom.jpg"
-      },
-      {
-        "id": "nevesta-klopka-ljubavi-gelin",
-        "title": "nevesta-klopka-ljubavi-gelin",
-        "sourceUrl": "https://turskeserije.tv/gelin/",
-        "nextEpisode": "2026-10-09T23:59:00+01:00",
-        "date": "09.10.2026",
-        "dateISO": "2026-10-09",
-        "time": "23:59",
-        "image": "https://turskeserije.tv/wp-content/uploads/2024/02/gelin-sa-prevodom.jpg"
-      },
-      {
-        "id": "ovo-more-ce-se-preliti-tasacak-bu-deniz",
-        "title": "ovo-more-ce-se-preliti-tasacak-bu-deniz",
-        "sourceUrl": "https://turskeserije.tv/tasacak-bu-deniz/",
-        "nextEpisode": "2026-10-09T23:59:00+01:00",
-        "date": "09.10.2026",
-        "dateISO": "2026-10-09",
-        "time": "23:59",
-        "image": "https://turskeserije.tv/wp-content/uploads/2025/10/tasacak-bu-deniz-sa-prevodom.jpg"
-      }
-    ],
     "2026-10-10": [
       {
         "id": "planina-ljubavi-gonul-dagi",
@@ -275,6 +233,16 @@
         "dateISO": "2026-10-10",
         "time": "23:59",
         "image": "https://turskeserije.tv/wp-content/uploads/2025/10/guller-ve-gunahlar-sa-prevodom.jpg"
+      },
+      {
+        "id": "nevesta-klopka-ljubavi-gelin",
+        "title": "nevesta-klopka-ljubavi-gelin",
+        "sourceUrl": "https://turskeserije.tv/gelin/",
+        "nextEpisode": "2026-10-10T23:59:00+01:00",
+        "date": "10.10.2026",
+        "dateISO": "2026-10-10",
+        "time": "23:59",
+        "image": "https://turskeserije.tv/wp-content/uploads/2024/02/gelin-sa-prevodom.jpg"
       },
       {
         "id": "zivoti-drugih-baskalarinin-hayat",
@@ -329,6 +297,16 @@
         "dateISO": "2026-10-12",
         "time": "12:59",
         "image": "https://turskeserije.tv/wp-content/uploads/2026/09/evlilik-guzeldir-sa-prevodom.jpg"
+      },
+      {
+        "id": "sudbinom-povezani-arafta",
+        "title": "sudbinom-povezani-arafta",
+        "sourceUrl": "https://turskeserije.tv/arafta/",
+        "nextEpisode": "2026-10-12T23:59:00+01:00",
+        "date": "12.10.2026",
+        "dateISO": "2026-10-12",
+        "time": "23:59",
+        "image": "https://turskeserije.tv/wp-content/uploads/2025/11/arafta-sa-prevodom.jpg"
       },
       {
         "id": "daleki-grad-uzak-sehir",
@@ -415,6 +393,28 @@
         "dateISO": "2026-10-15",
         "time": "23:59",
         "image": "https://turskeserije.tv/wp-content/uploads/2026/09/gunesin-dogdugu-yer-sa-prevodom.jpg"
+      }
+    ],
+    "2026-10-16": [
+      {
+        "id": "caj-od-brusnice-mostovi-zivota-kizilcik-serbeti-jedina-ljubav",
+        "title": "caj-od-brusnice-mostovi-zivota-kizilcik-serbeti-jedina-ljubav",
+        "sourceUrl": "https://turskeserije.tv/kizilcik-serbeti/",
+        "nextEpisode": "2026-10-16T23:59:00+01:00",
+        "date": "16.10.2026",
+        "dateISO": "2026-10-16",
+        "time": "23:59",
+        "image": "https://turskeserije.tv/wp-content/uploads/2022/11/kizilcik-serbeti-sa-prevodom.jpg"
+      },
+      {
+        "id": "ovo-more-ce-se-preliti-tasacak-bu-deniz",
+        "title": "ovo-more-ce-se-preliti-tasacak-bu-deniz",
+        "sourceUrl": "https://turskeserije.tv/tasacak-bu-deniz/",
+        "nextEpisode": "2026-10-16T23:59:00+01:00",
+        "date": "16.10.2026",
+        "dateISO": "2026-10-16",
+        "time": "23:59",
+        "image": "https://turskeserije.tv/wp-content/uploads/2025/10/tasacak-bu-deniz-sa-prevodom.jpg"
       }
     ]
   }
