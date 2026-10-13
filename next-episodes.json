@@ -1,5 +1,5 @@
 {
-  "updatedAt": "2026-10-12T16:38:56.351684+00:00",
+  "updatedAt": "2026-10-13T14:55:46.606939+00:00",
   "episodes": [
     {
       "id": "sudbinom-povezani-arafta",
@@ -10,6 +10,16 @@
       "dateISO": "2026-10-12",
       "time": "23:59",
       "image": "https://turskeserije.tv/wp-content/uploads/2025/11/arafta-sa-prevodom.jpg"
+    },
+    {
+      "id": "iznad-i-ispod-istanbula-alti-ustu-istanbul",
+      "title": "iznad-i-ispod-istanbula-alti-ustu-istanbul",
+      "sourceUrl": "https://turskeserije.tv/alti-ustu-istanbul/",
+      "nextEpisode": "2026-10-12T23:59:00+01:00",
+      "date": "12.10.2026",
+      "dateISO": "2026-10-12",
+      "time": "23:59",
+      "image": "https://turskeserije.tv/wp-content/uploads/2026/06/alti-ustu-istanbul-sa-prevodom.jpg"
     },
     {
       "id": "daleki-grad-uzak-sehir",
@@ -30,6 +40,16 @@
       "dateISO": "2026-10-12",
       "time": "23:59",
       "image": "https://turskeserije.tv/wp-content/uploads/2024/02/gelin-sa-prevodom.jpg"
+    },
+    {
+      "id": "moja-ljubav-je-crno-more-sevdam-karadeniz",
+      "title": "moja-ljubav-je-crno-more-sevdam-karadeniz",
+      "sourceUrl": "https://turskeserije.tv/sevdam-karadeniz/",
+      "nextEpisode": "2026-10-12T23:59:00+01:00",
+      "date": "12.10.2026",
+      "dateISO": "2026-10-12",
+      "time": "23:59",
+      "image": "https://turskeserije.tv/wp-content/uploads/2026/10/sevdam-karadeniz-sa-prevodom.jpg"
     },
     {
       "id": "slana-kafa-tuzlu-kahve",
@@ -215,6 +235,16 @@
         "image": "https://turskeserije.tv/wp-content/uploads/2025/11/arafta-sa-prevodom.jpg"
       },
       {
+        "id": "iznad-i-ispod-istanbula-alti-ustu-istanbul",
+        "title": "iznad-i-ispod-istanbula-alti-ustu-istanbul",
+        "sourceUrl": "https://turskeserije.tv/alti-ustu-istanbul/",
+        "nextEpisode": "2026-10-12T23:59:00+01:00",
+        "date": "12.10.2026",
+        "dateISO": "2026-10-12",
+        "time": "23:59",
+        "image": "https://turskeserije.tv/wp-content/uploads/2026/06/alti-ustu-istanbul-sa-prevodom.jpg"
+      },
+      {
         "id": "daleki-grad-uzak-sehir",
         "title": "daleki-grad-uzak-sehir",
         "sourceUrl": "https://turskeserije.tv/uzak-sehir/",
@@ -233,6 +263,16 @@
         "dateISO": "2026-10-12",
         "time": "23:59",
         "image": "https://turskeserije.tv/wp-content/uploads/2024/02/gelin-sa-prevodom.jpg"
+      },
+      {
+        "id": "moja-ljubav-je-crno-more-sevdam-karadeniz",
+        "title": "moja-ljubav-je-crno-more-sevdam-karadeniz",
+        "sourceUrl": "https://turskeserije.tv/sevdam-karadeniz/",
+        "nextEpisode": "2026-10-12T23:59:00+01:00",
+        "date": "12.10.2026",
+        "dateISO": "2026-10-12",
+        "time": "23:59",
+        "image": "https://turskeserije.tv/wp-content/uploads/2026/10/sevdam-karadeniz-sa-prevodom.jpg"
       }
     ],
     "2026-10-13": [
