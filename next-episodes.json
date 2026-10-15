@@ -1,46 +1,6 @@
 {
-  "updatedAt": "2026-10-14T12:47:53.734481+00:00",
+  "updatedAt": "2026-10-15T12:34:32.917709+00:00",
   "episodes": [
-    {
-      "id": "slana-kafa-tuzlu-kahve",
-      "title": "slana-kafa-tuzlu-kahve",
-      "sourceUrl": "https://turskeserije.tv/tuzlu-kahve/",
-      "nextEpisode": "2026-10-13T23:59:00+01:00",
-      "date": "13.10.2026",
-      "dateISO": "2026-10-13",
-      "time": "23:59",
-      "image": "https://turskeserije.tv/wp-content/uploads/2026/09/slana-kafa-sa-prevodom.jpg"
-    },
-    {
-      "id": "dostojanstvo-haysiyet",
-      "title": "dostojanstvo-haysiyet",
-      "sourceUrl": "https://turskeserije.tv/haysiyet/",
-      "nextEpisode": "2026-10-13T23:59:00+01:00",
-      "date": "13.10.2026",
-      "dateISO": "2026-10-13",
-      "time": "23:59",
-      "image": "https://turskeserije.tv/wp-content/uploads/2026/09/haysiyet-sa-prevodom.jpg"
-    },
-    {
-      "id": "druga-majka-anne-yarisi",
-      "title": "druga-majka-anne-yarisi",
-      "sourceUrl": "https://turskeserije.tv/anne-yarisi/",
-      "nextEpisode": "2026-10-13T23:59:00+01:00",
-      "date": "13.10.2026",
-      "dateISO": "2026-10-13",
-      "time": "23:59",
-      "image": "https://turskeserije.tv/wp-content/uploads/2026/09/anne-yarisi-sa-prevodom.jpg"
-    },
-    {
-      "id": "nevesta-klopka-ljubavi-gelin",
-      "title": "nevesta-klopka-ljubavi-gelin",
-      "sourceUrl": "https://turskeserije.tv/gelin/",
-      "nextEpisode": "2026-10-13T23:59:00+01:00",
-      "date": "13.10.2026",
-      "dateISO": "2026-10-13",
-      "time": "23:59",
-      "image": "https://turskeserije.tv/wp-content/uploads/2024/02/gelin-sa-prevodom.jpg"
-    },
     {
       "id": "vrata-ljubavi-sevdan-bir-ates",
       "title": "vrata-ljubavi-sevdan-bir-ates",
@@ -50,6 +10,16 @@
       "dateISO": "2026-10-14",
       "time": "23:59",
       "image": "https://turskeserije.tv/wp-content/uploads/2026/09/sevdan-bir-ates-sa-prevodom.jpg"
+    },
+    {
+      "id": "nevesta-klopka-ljubavi-gelin",
+      "title": "nevesta-klopka-ljubavi-gelin",
+      "sourceUrl": "https://turskeserije.tv/gelin/",
+      "nextEpisode": "2026-10-14T23:59:00+01:00",
+      "date": "14.10.2026",
+      "dateISO": "2026-10-14",
+      "time": "23:59",
+      "image": "https://turskeserije.tv/wp-content/uploads/2024/02/gelin-sa-prevodom.jpg"
     },
     {
       "id": "moguca-ljubav-muhtemel-ask",
@@ -220,51 +190,39 @@
       "dateISO": "2026-10-19",
       "time": "23:59",
       "image": "https://turskeserije.tv/wp-content/uploads/2026/10/sevdam-karadeniz-sa-prevodom.jpg"
+    },
+    {
+      "id": "slana-kafa-tuzlu-kahve",
+      "title": "slana-kafa-tuzlu-kahve",
+      "sourceUrl": "https://turskeserije.tv/tuzlu-kahve/",
+      "nextEpisode": "2026-10-20T23:59:00+01:00",
+      "date": "20.10.2026",
+      "dateISO": "2026-10-20",
+      "time": "23:59",
+      "image": "https://turskeserije.tv/wp-content/uploads/2026/09/slana-kafa-sa-prevodom.jpg"
+    },
+    {
+      "id": "dostojanstvo-haysiyet",
+      "title": "dostojanstvo-haysiyet",
+      "sourceUrl": "https://turskeserije.tv/haysiyet/",
+      "nextEpisode": "2026-10-20T23:59:00+01:00",
+      "date": "20.10.2026",
+      "dateISO": "2026-10-20",
+      "time": "23:59",
+      "image": "https://turskeserije.tv/wp-content/uploads/2026/09/haysiyet-sa-prevodom.jpg"
+    },
+    {
+      "id": "druga-majka-anne-yarisi",
+      "title": "druga-majka-anne-yarisi",
+      "sourceUrl": "https://turskeserije.tv/anne-yarisi/",
+      "nextEpisode": "2026-10-20T23:59:00+01:00",
+      "date": "20.10.2026",
+      "dateISO": "2026-10-20",
+      "time": "23:59",
+      "image": "https://turskeserije.tv/wp-content/uploads/2026/09/anne-yarisi-sa-prevodom.jpg"
     }
   ],
   "days": {
-    "2026-10-13": [
-      {
-        "id": "slana-kafa-tuzlu-kahve",
-        "title": "slana-kafa-tuzlu-kahve",
-        "sourceUrl": "https://turskeserije.tv/tuzlu-kahve/",
-        "nextEpisode": "2026-10-13T23:59:00+01:00",
-        "date": "13.10.2026",
-        "dateISO": "2026-10-13",
-        "time": "23:59",
-        "image": "https://turskeserije.tv/wp-content/uploads/2026/09/slana-kafa-sa-prevodom.jpg"
-      },
-      {
-        "id": "dostojanstvo-haysiyet",
-        "title": "dostojanstvo-haysiyet",
-        "sourceUrl": "https://turskeserije.tv/haysiyet/",
-        "nextEpisode": "2026-10-13T23:59:00+01:00",
-        "date": "13.10.2026",
-        "dateISO": "2026-10-13",
-        "time": "23:59",
-        "image": "https://turskeserije.tv/wp-content/uploads/2026/09/haysiyet-sa-prevodom.jpg"
-      },
-      {
-        "id": "druga-majka-anne-yarisi",
-        "title": "druga-majka-anne-yarisi",
-        "sourceUrl": "https://turskeserije.tv/anne-yarisi/",
-        "nextEpisode": "2026-10-13T23:59:00+01:00",
-        "date": "13.10.2026",
-        "dateISO": "2026-10-13",
-        "time": "23:59",
-        "image": "https://turskeserije.tv/wp-content/uploads/2026/09/anne-yarisi-sa-prevodom.jpg"
-      },
-      {
-        "id": "nevesta-klopka-ljubavi-gelin",
-        "title": "nevesta-klopka-ljubavi-gelin",
-        "sourceUrl": "https://turskeserije.tv/gelin/",
-        "nextEpisode": "2026-10-13T23:59:00+01:00",
-        "date": "13.10.2026",
-        "dateISO": "2026-10-13",
-        "time": "23:59",
-        "image": "https://turskeserije.tv/wp-content/uploads/2024/02/gelin-sa-prevodom.jpg"
-      }
-    ],
     "2026-10-14": [
       {
         "id": "vrata-ljubavi-sevdan-bir-ates",
@@ -275,6 +233,16 @@
         "dateISO": "2026-10-14",
         "time": "23:59",
         "image": "https://turskeserije.tv/wp-content/uploads/2026/09/sevdan-bir-ates-sa-prevodom.jpg"
+      },
+      {
+        "id": "nevesta-klopka-ljubavi-gelin",
+        "title": "nevesta-klopka-ljubavi-gelin",
+        "sourceUrl": "https://turskeserije.tv/gelin/",
+        "nextEpisode": "2026-10-14T23:59:00+01:00",
+        "date": "14.10.2026",
+        "dateISO": "2026-10-14",
+        "time": "23:59",
+        "image": "https://turskeserije.tv/wp-content/uploads/2024/02/gelin-sa-prevodom.jpg"
       }
     ],
     "2026-10-15": [
@@ -455,6 +423,38 @@
         "dateISO": "2026-10-19",
         "time": "23:59",
         "image": "https://turskeserije.tv/wp-content/uploads/2026/10/sevdam-karadeniz-sa-prevodom.jpg"
+      }
+    ],
+    "2026-10-20": [
+      {
+        "id": "slana-kafa-tuzlu-kahve",
+        "title": "slana-kafa-tuzlu-kahve",
+        "sourceUrl": "https://turskeserije.tv/tuzlu-kahve/",
+        "nextEpisode": "2026-10-20T23:59:00+01:00",
+        "date": "20.10.2026",
+        "dateISO": "2026-10-20",
+        "time": "23:59",
+        "image": "https://turskeserije.tv/wp-content/uploads/2026/09/slana-kafa-sa-prevodom.jpg"
+      },
+      {
+        "id": "dostojanstvo-haysiyet",
+        "title": "dostojanstvo-haysiyet",
+        "sourceUrl": "https://turskeserije.tv/haysiyet/",
+        "nextEpisode": "2026-10-20T23:59:00+01:00",
+        "date": "20.10.2026",
+        "dateISO": "2026-10-20",
+        "time": "23:59",
+        "image": "https://turskeserije.tv/wp-content/uploads/2026/09/haysiyet-sa-prevodom.jpg"
+      },
+      {
+        "id": "druga-majka-anne-yarisi",
+        "title": "druga-majka-anne-yarisi",
+        "sourceUrl": "https://turskeserije.tv/anne-yarisi/",
+        "nextEpisode": "2026-10-20T23:59:00+01:00",
+        "date": "20.10.2026",
+        "dateISO": "2026-10-20",
+        "time": "23:59",
+        "image": "https://turskeserije.tv/wp-content/uploads/2026/09/anne-yarisi-sa-prevodom.jpg"
       }
     ]
   }
