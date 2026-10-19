@@ -1,46 +1,6 @@
 {
-  "updatedAt": "2026-10-18T12:00:23.221297+00:00",
+  "updatedAt": "2026-10-19T14:32:32.376373+00:00",
   "episodes": [
-    {
-      "id": "planina-ljubavi-gonul-dagi",
-      "title": "planina-ljubavi-gonul-dagi",
-      "sourceUrl": "https://turskeserije.tv/gonul-dagi/",
-      "nextEpisode": "2026-10-17T23:59:00+01:00",
-      "date": "17.10.2026",
-      "dateISO": "2026-10-17",
-      "time": "23:59",
-      "image": "https://turskeserije.tv/wp-content/uploads/2025/06/gonul-dagi-sa-prevodom.jpg"
-    },
-    {
-      "id": "ruze-i-grehovi-guller-ve-gunahlar-tajne-proslosti",
-      "title": "ruze-i-grehovi-guller-ve-gunahlar-tajne-proslosti",
-      "sourceUrl": "https://turskeserije.tv/guller-ve-gunahlar/",
-      "nextEpisode": "2026-10-17T23:59:00+01:00",
-      "date": "17.10.2026",
-      "dateISO": "2026-10-17",
-      "time": "23:59",
-      "image": "https://turskeserije.tv/wp-content/uploads/2025/10/guller-ve-gunahlar-sa-prevodom.jpg"
-    },
-    {
-      "id": "nevesta-klopka-ljubavi-gelin",
-      "title": "nevesta-klopka-ljubavi-gelin",
-      "sourceUrl": "https://turskeserije.tv/gelin/",
-      "nextEpisode": "2026-10-17T23:59:00+01:00",
-      "date": "17.10.2026",
-      "dateISO": "2026-10-17",
-      "time": "23:59",
-      "image": "https://turskeserije.tv/wp-content/uploads/2024/02/gelin-sa-prevodom.jpg"
-    },
-    {
-      "id": "zivoti-drugih-baskalarinin-hayat",
-      "title": "zivoti-drugih-baskalarinin-hayat",
-      "sourceUrl": "https://turskeserije.tv/baskalarinin-hayati/",
-      "nextEpisode": "2026-10-17T23:59:00+01:00",
-      "date": "17.10.2026",
-      "dateISO": "2026-10-17",
-      "time": "23:59",
-      "image": "https://turskeserije.tv/wp-content/uploads/2026/09/baskalarinin-hayati-sa-prevodom.jpg"
-    },
     {
       "id": "daha-on-yedi-samo-17",
       "title": "daha-on-yedi-samo-17",
@@ -50,6 +10,16 @@
       "dateISO": "2026-10-18",
       "time": "23:59",
       "image": "https://turskeserije.tv/wp-content/uploads/2026/05/daha-on-yedi-sa-prevodom.jpg"
+    },
+    {
+      "id": "nevesta-klopka-ljubavi-gelin",
+      "title": "nevesta-klopka-ljubavi-gelin",
+      "sourceUrl": "https://turskeserije.tv/gelin/",
+      "nextEpisode": "2026-10-18T23:59:00+01:00",
+      "date": "18.10.2026",
+      "dateISO": "2026-10-18",
+      "time": "23:59",
+      "image": "https://turskeserije.tv/wp-content/uploads/2024/02/gelin-sa-prevodom.jpg"
     },
     {
       "id": "organizacija-teskilat",
@@ -210,51 +180,39 @@
       "dateISO": "2026-10-23",
       "time": "23:59",
       "image": "https://turskeserije.tv/wp-content/uploads/2025/10/tasacak-bu-deniz-sa-prevodom.jpg"
+    },
+    {
+      "id": "planina-ljubavi-gonul-dagi",
+      "title": "planina-ljubavi-gonul-dagi",
+      "sourceUrl": "https://turskeserije.tv/gonul-dagi/",
+      "nextEpisode": "2026-10-24T23:59:00+01:00",
+      "date": "24.10.2026",
+      "dateISO": "2026-10-24",
+      "time": "23:59",
+      "image": "https://turskeserije.tv/wp-content/uploads/2025/06/gonul-dagi-sa-prevodom.jpg"
+    },
+    {
+      "id": "ruze-i-grehovi-guller-ve-gunahlar-tajne-proslosti",
+      "title": "ruze-i-grehovi-guller-ve-gunahlar-tajne-proslosti",
+      "sourceUrl": "https://turskeserije.tv/guller-ve-gunahlar/",
+      "nextEpisode": "2026-10-24T23:59:00+01:00",
+      "date": "24.10.2026",
+      "dateISO": "2026-10-24",
+      "time": "23:59",
+      "image": "https://turskeserije.tv/wp-content/uploads/2025/10/guller-ve-gunahlar-sa-prevodom.jpg"
+    },
+    {
+      "id": "zivoti-drugih-baskalarinin-hayat",
+      "title": "zivoti-drugih-baskalarinin-hayat",
+      "sourceUrl": "https://turskeserije.tv/baskalarinin-hayati/",
+      "nextEpisode": "2026-10-24T23:59:00+01:00",
+      "date": "24.10.2026",
+      "dateISO": "2026-10-24",
+      "time": "23:59",
+      "image": "https://turskeserije.tv/wp-content/uploads/2026/09/baskalarinin-hayati-sa-prevodom.jpg"
     }
   ],
   "days": {
-    "2026-10-17": [
-      {
-        "id": "planina-ljubavi-gonul-dagi",
-        "title": "planina-ljubavi-gonul-dagi",
-        "sourceUrl": "https://turskeserije.tv/gonul-dagi/",
-        "nextEpisode": "2026-10-17T23:59:00+01:00",
-        "date": "17.10.2026",
-        "dateISO": "2026-10-17",
-        "time": "23:59",
-        "image": "https://turskeserije.tv/wp-content/uploads/2025/06/gonul-dagi-sa-prevodom.jpg"
-      },
-      {
-        "id": "ruze-i-grehovi-guller-ve-gunahlar-tajne-proslosti",
-        "title": "ruze-i-grehovi-guller-ve-gunahlar-tajne-proslosti",
-        "sourceUrl": "https://turskeserije.tv/guller-ve-gunahlar/",
-        "nextEpisode": "2026-10-17T23:59:00+01:00",
-        "date": "17.10.2026",
-        "dateISO": "2026-10-17",
-        "time": "23:59",
-        "image": "https://turskeserije.tv/wp-content/uploads/2025/10/guller-ve-gunahlar-sa-prevodom.jpg"
-      },
-      {
-        "id": "nevesta-klopka-ljubavi-gelin",
-        "title": "nevesta-klopka-ljubavi-gelin",
-        "sourceUrl": "https://turskeserije.tv/gelin/",
-        "nextEpisode": "2026-10-17T23:59:00+01:00",
-        "date": "17.10.2026",
-        "dateISO": "2026-10-17",
-        "time": "23:59",
-        "image": "https://turskeserije.tv/wp-content/uploads/2024/02/gelin-sa-prevodom.jpg"
-      },
-      {
-        "id": "zivoti-drugih-baskalarinin-hayat",
-        "title": "zivoti-drugih-baskalarinin-hayat",
-        "sourceUrl": "https://turskeserije.tv/baskalarinin-hayati/",
-        "nextEpisode": "2026-10-17T23:59:00+01:00",
-        "date": "17.10.2026",
-        "dateISO": "2026-10-17",
-        "time": "23:59",
-        "image": "https://turskeserije.tv/wp-content/uploads/2026/09/baskalarinin-hayati-sa-prevodom.jpg"
-      }
-    ],
     "2026-10-18": [
       {
         "id": "daha-on-yedi-samo-17",
@@ -265,6 +223,16 @@
         "dateISO": "2026-10-18",
         "time": "23:59",
         "image": "https://turskeserije.tv/wp-content/uploads/2026/05/daha-on-yedi-sa-prevodom.jpg"
+      },
+      {
+        "id": "nevesta-klopka-ljubavi-gelin",
+        "title": "nevesta-klopka-ljubavi-gelin",
+        "sourceUrl": "https://turskeserije.tv/gelin/",
+        "nextEpisode": "2026-10-18T23:59:00+01:00",
+        "date": "18.10.2026",
+        "dateISO": "2026-10-18",
+        "time": "23:59",
+        "image": "https://turskeserije.tv/wp-content/uploads/2024/02/gelin-sa-prevodom.jpg"
       },
       {
         "id": "organizacija-teskilat",
@@ -435,6 +403,38 @@
         "dateISO": "2026-10-23",
         "time": "23:59",
         "image": "https://turskeserije.tv/wp-content/uploads/2025/10/tasacak-bu-deniz-sa-prevodom.jpg"
+      }
+    ],
+    "2026-10-24": [
+      {
+        "id": "planina-ljubavi-gonul-dagi",
+        "title": "planina-ljubavi-gonul-dagi",
+        "sourceUrl": "https://turskeserije.tv/gonul-dagi/",
+        "nextEpisode": "2026-10-24T23:59:00+01:00",
+        "date": "24.10.2026",
+        "dateISO": "2026-10-24",
+        "time": "23:59",
+        "image": "https://turskeserije.tv/wp-content/uploads/2025/06/gonul-dagi-sa-prevodom.jpg"
+      },
+      {
+        "id": "ruze-i-grehovi-guller-ve-gunahlar-tajne-proslosti",
+        "title": "ruze-i-grehovi-guller-ve-gunahlar-tajne-proslosti",
+        "sourceUrl": "https://turskeserije.tv/guller-ve-gunahlar/",
+        "nextEpisode": "2026-10-24T23:59:00+01:00",
+        "date": "24.10.2026",
+        "dateISO": "2026-10-24",
+        "time": "23:59",
+        "image": "https://turskeserije.tv/wp-content/uploads/2025/10/guller-ve-gunahlar-sa-prevodom.jpg"
+      },
+      {
+        "id": "zivoti-drugih-baskalarinin-hayat",
+        "title": "zivoti-drugih-baskalarinin-hayat",
+        "sourceUrl": "https://turskeserije.tv/baskalarinin-hayati/",
+        "nextEpisode": "2026-10-24T23:59:00+01:00",
+        "date": "24.10.2026",
+        "dateISO": "2026-10-24",
+        "time": "23:59",
+        "image": "https://turskeserije.tv/wp-content/uploads/2026/09/baskalarinin-hayati-sa-prevodom.jpg"
       }
     ]
   }
