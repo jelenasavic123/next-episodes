@@ -1,96 +1,6 @@
 {
-  "updatedAt": "2026-10-19T14:32:32.376373+00:00",
+  "updatedAt": "2026-10-20T12:39:04.269023+00:00",
   "episodes": [
-    {
-      "id": "daha-on-yedi-samo-17",
-      "title": "daha-on-yedi-samo-17",
-      "sourceUrl": "https://turskeserije.tv/daha-on-yedi/",
-      "nextEpisode": "2026-10-18T23:59:00+01:00",
-      "date": "18.10.2026",
-      "dateISO": "2026-10-18",
-      "time": "23:59",
-      "image": "https://turskeserije.tv/wp-content/uploads/2026/05/daha-on-yedi-sa-prevodom.jpg"
-    },
-    {
-      "id": "nevesta-klopka-ljubavi-gelin",
-      "title": "nevesta-klopka-ljubavi-gelin",
-      "sourceUrl": "https://turskeserije.tv/gelin/",
-      "nextEpisode": "2026-10-18T23:59:00+01:00",
-      "date": "18.10.2026",
-      "dateISO": "2026-10-18",
-      "time": "23:59",
-      "image": "https://turskeserije.tv/wp-content/uploads/2024/02/gelin-sa-prevodom.jpg"
-    },
-    {
-      "id": "organizacija-teskilat",
-      "title": "organizacija-teskilat",
-      "sourceUrl": "https://turskeserije.tv/teskilat/",
-      "nextEpisode": "2026-10-18T23:59:00+01:00",
-      "date": "18.10.2026",
-      "dateISO": "2026-10-18",
-      "time": "23:59",
-      "image": "https://turskeserije.tv/wp-content/uploads/2021/03/teskilat-sa-prevodom.jpg"
-    },
-    {
-      "id": "majstor-omur-omur-usta",
-      "title": "majstor-omur-omur-usta",
-      "sourceUrl": "https://turskeserije.tv/omur-usta/",
-      "nextEpisode": "2026-10-18T23:59:00+01:00",
-      "date": "18.10.2026",
-      "dateISO": "2026-10-18",
-      "time": "23:59",
-      "image": "https://turskeserije.tv/wp-content/uploads/2026/09/omur-usta-sa-prevodom.jpg"
-    },
-    {
-      "id": "brak-je-predivan-evlilik-guzeldir",
-      "title": "brak-je-predivan-evlilik-guzeldir",
-      "sourceUrl": "https://turskeserije.tv/evlilik-guzeldir/",
-      "nextEpisode": "2026-10-19T12:59:00+01:00",
-      "date": "19.10.2026",
-      "dateISO": "2026-10-19",
-      "time": "12:59",
-      "image": "https://turskeserije.tv/wp-content/uploads/2026/09/evlilik-guzeldir-sa-prevodom.jpg"
-    },
-    {
-      "id": "sudbinom-povezani-arafta",
-      "title": "sudbinom-povezani-arafta",
-      "sourceUrl": "https://turskeserije.tv/arafta/",
-      "nextEpisode": "2026-10-19T23:59:00+01:00",
-      "date": "19.10.2026",
-      "dateISO": "2026-10-19",
-      "time": "23:59",
-      "image": "https://turskeserije.tv/wp-content/uploads/2025/11/arafta-sa-prevodom.jpg"
-    },
-    {
-      "id": "iznad-i-ispod-istanbula-alti-ustu-istanbul",
-      "title": "iznad-i-ispod-istanbula-alti-ustu-istanbul",
-      "sourceUrl": "https://turskeserije.tv/alti-ustu-istanbul/",
-      "nextEpisode": "2026-10-19T23:59:00+01:00",
-      "date": "19.10.2026",
-      "dateISO": "2026-10-19",
-      "time": "23:59",
-      "image": "https://turskeserije.tv/wp-content/uploads/2026/06/alti-ustu-istanbul-sa-prevodom.jpg"
-    },
-    {
-      "id": "daleki-grad-uzak-sehir",
-      "title": "daleki-grad-uzak-sehir",
-      "sourceUrl": "https://turskeserije.tv/uzak-sehir/",
-      "nextEpisode": "2026-10-19T23:59:00+01:00",
-      "date": "19.10.2026",
-      "dateISO": "2026-10-19",
-      "time": "23:59",
-      "image": "https://turskeserije.tv/wp-content/uploads/2024/11/uzak-sehir-sa-prevodom.jpg"
-    },
-    {
-      "id": "moja-ljubav-je-crno-more-sevdam-karadeniz",
-      "title": "moja-ljubav-je-crno-more-sevdam-karadeniz",
-      "sourceUrl": "https://turskeserije.tv/sevdam-karadeniz/",
-      "nextEpisode": "2026-10-19T23:59:00+01:00",
-      "date": "19.10.2026",
-      "dateISO": "2026-10-19",
-      "time": "23:59",
-      "image": "https://turskeserije.tv/wp-content/uploads/2026/10/sevdam-karadeniz-sa-prevodom.jpg"
-    },
     {
       "id": "slana-kafa-tuzlu-kahve",
       "title": "slana-kafa-tuzlu-kahve",
@@ -120,6 +30,16 @@
       "dateISO": "2026-10-20",
       "time": "23:59",
       "image": "https://turskeserije.tv/wp-content/uploads/2026/09/anne-yarisi-sa-prevodom.jpg"
+    },
+    {
+      "id": "nevesta-klopka-ljubavi-gelin",
+      "title": "nevesta-klopka-ljubavi-gelin",
+      "sourceUrl": "https://turskeserije.tv/gelin/",
+      "nextEpisode": "2026-10-20T23:59:00+01:00",
+      "date": "20.10.2026",
+      "dateISO": "2026-10-20",
+      "time": "23:59",
+      "image": "https://turskeserije.tv/wp-content/uploads/2024/02/gelin-sa-prevodom.jpg"
     },
     {
       "id": "vrata-ljubavi-sevdan-bir-ates",
@@ -160,6 +80,16 @@
       "dateISO": "2026-10-22",
       "time": "23:59",
       "image": "https://turskeserije.tv/wp-content/uploads/2026/09/gunesin-dogdugu-yer-sa-prevodom.jpg"
+    },
+    {
+      "id": "sudbinom-povezani-arafta",
+      "title": "sudbinom-povezani-arafta",
+      "sourceUrl": "https://turskeserije.tv/arafta/",
+      "nextEpisode": "2026-10-23T23:59:00+01:00",
+      "date": "23.10.2026",
+      "dateISO": "2026-10-23",
+      "time": "23:59",
+      "image": "https://turskeserije.tv/wp-content/uploads/2025/11/arafta-sa-prevodom.jpg"
     },
     {
       "id": "caj-od-brusnice-mostovi-zivota-kizilcik-serbeti-jedina-ljubav",
@@ -210,103 +140,79 @@
       "dateISO": "2026-10-24",
       "time": "23:59",
       "image": "https://turskeserije.tv/wp-content/uploads/2026/09/baskalarinin-hayati-sa-prevodom.jpg"
+    },
+    {
+      "id": "daha-on-yedi-samo-17",
+      "title": "daha-on-yedi-samo-17",
+      "sourceUrl": "https://turskeserije.tv/daha-on-yedi/",
+      "nextEpisode": "2026-10-25T23:59:00+01:00",
+      "date": "25.10.2026",
+      "dateISO": "2026-10-25",
+      "time": "23:59",
+      "image": "https://turskeserije.tv/wp-content/uploads/2026/05/daha-on-yedi-sa-prevodom.jpg"
+    },
+    {
+      "id": "organizacija-teskilat",
+      "title": "organizacija-teskilat",
+      "sourceUrl": "https://turskeserije.tv/teskilat/",
+      "nextEpisode": "2026-10-25T23:59:00+01:00",
+      "date": "25.10.2026",
+      "dateISO": "2026-10-25",
+      "time": "23:59",
+      "image": "https://turskeserije.tv/wp-content/uploads/2021/03/teskilat-sa-prevodom.jpg"
+    },
+    {
+      "id": "majstor-omur-omur-usta",
+      "title": "majstor-omur-omur-usta",
+      "sourceUrl": "https://turskeserije.tv/omur-usta/",
+      "nextEpisode": "2026-10-25T23:59:00+01:00",
+      "date": "25.10.2026",
+      "dateISO": "2026-10-25",
+      "time": "23:59",
+      "image": "https://turskeserije.tv/wp-content/uploads/2026/09/omur-usta-sa-prevodom.jpg"
+    },
+    {
+      "id": "brak-je-predivan-evlilik-guzeldir",
+      "title": "brak-je-predivan-evlilik-guzeldir",
+      "sourceUrl": "https://turskeserije.tv/evlilik-guzeldir/",
+      "nextEpisode": "2026-10-26T12:59:00+01:00",
+      "date": "26.10.2026",
+      "dateISO": "2026-10-26",
+      "time": "12:59",
+      "image": "https://turskeserije.tv/wp-content/uploads/2026/09/evlilik-guzeldir-sa-prevodom.jpg"
+    },
+    {
+      "id": "iznad-i-ispod-istanbula-alti-ustu-istanbul",
+      "title": "iznad-i-ispod-istanbula-alti-ustu-istanbul",
+      "sourceUrl": "https://turskeserije.tv/alti-ustu-istanbul/",
+      "nextEpisode": "2026-10-26T23:59:00+01:00",
+      "date": "26.10.2026",
+      "dateISO": "2026-10-26",
+      "time": "23:59",
+      "image": "https://turskeserije.tv/wp-content/uploads/2026/06/alti-ustu-istanbul-sa-prevodom.jpg"
+    },
+    {
+      "id": "daleki-grad-uzak-sehir",
+      "title": "daleki-grad-uzak-sehir",
+      "sourceUrl": "https://turskeserije.tv/uzak-sehir/",
+      "nextEpisode": "2026-10-26T23:59:00+01:00",
+      "date": "26.10.2026",
+      "dateISO": "2026-10-26",
+      "time": "23:59",
+      "image": "https://turskeserije.tv/wp-content/uploads/2024/11/uzak-sehir-sa-prevodom.jpg"
+    },
+    {
+      "id": "moja-ljubav-je-crno-more-sevdam-karadeniz",
+      "title": "moja-ljubav-je-crno-more-sevdam-karadeniz",
+      "sourceUrl": "https://turskeserije.tv/sevdam-karadeniz/",
+      "nextEpisode": "2026-10-26T23:59:00+01:00",
+      "date": "26.10.2026",
+      "dateISO": "2026-10-26",
+      "time": "23:59",
+      "image": "https://turskeserije.tv/wp-content/uploads/2026/10/sevdam-karadeniz-sa-prevodom.jpg"
     }
   ],
   "days": {
-    "2026-10-18": [
-      {
-        "id": "daha-on-yedi-samo-17",
-        "title": "daha-on-yedi-samo-17",
-        "sourceUrl": "https://turskeserije.tv/daha-on-yedi/",
-        "nextEpisode": "2026-10-18T23:59:00+01:00",
-        "date": "18.10.2026",
-        "dateISO": "2026-10-18",
-        "time": "23:59",
-        "image": "https://turskeserije.tv/wp-content/uploads/2026/05/daha-on-yedi-sa-prevodom.jpg"
-      },
-      {
-        "id": "nevesta-klopka-ljubavi-gelin",
-        "title": "nevesta-klopka-ljubavi-gelin",
-        "sourceUrl": "https://turskeserije.tv/gelin/",
-        "nextEpisode": "2026-10-18T23:59:00+01:00",
-        "date": "18.10.2026",
-        "dateISO": "2026-10-18",
-        "time": "23:59",
-        "image": "https://turskeserije.tv/wp-content/uploads/2024/02/gelin-sa-prevodom.jpg"
-      },
-      {
-        "id": "organizacija-teskilat",
-        "title": "organizacija-teskilat",
-        "sourceUrl": "https://turskeserije.tv/teskilat/",
-        "nextEpisode": "2026-10-18T23:59:00+01:00",
-        "date": "18.10.2026",
-        "dateISO": "2026-10-18",
-        "time": "23:59",
-        "image": "https://turskeserije.tv/wp-content/uploads/2021/03/teskilat-sa-prevodom.jpg"
-      },
-      {
-        "id": "majstor-omur-omur-usta",
-        "title": "majstor-omur-omur-usta",
-        "sourceUrl": "https://turskeserije.tv/omur-usta/",
-        "nextEpisode": "2026-10-18T23:59:00+01:00",
-        "date": "18.10.2026",
-        "dateISO": "2026-10-18",
-        "time": "23:59",
-        "image": "https://turskeserije.tv/wp-content/uploads/2026/09/omur-usta-sa-prevodom.jpg"
-      }
-    ],
-    "2026-10-19": [
-      {
-        "id": "brak-je-predivan-evlilik-guzeldir",
-        "title": "brak-je-predivan-evlilik-guzeldir",
-        "sourceUrl": "https://turskeserije.tv/evlilik-guzeldir/",
-        "nextEpisode": "2026-10-19T12:59:00+01:00",
-        "date": "19.10.2026",
-        "dateISO": "2026-10-19",
-        "time": "12:59",
-        "image": "https://turskeserije.tv/wp-content/uploads/2026/09/evlilik-guzeldir-sa-prevodom.jpg"
-      },
-      {
-        "id": "sudbinom-povezani-arafta",
-        "title": "sudbinom-povezani-arafta",
-        "sourceUrl": "https://turskeserije.tv/arafta/",
-        "nextEpisode": "2026-10-19T23:59:00+01:00",
-        "date": "19.10.2026",
-        "dateISO": "2026-10-19",
-        "time": "23:59",
-        "image": "https://turskeserije.tv/wp-content/uploads/2025/11/arafta-sa-prevodom.jpg"
-      },
-      {
-        "id": "iznad-i-ispod-istanbula-alti-ustu-istanbul",
-        "title": "iznad-i-ispod-istanbula-alti-ustu-istanbul",
-        "sourceUrl": "https://turskeserije.tv/alti-ustu-istanbul/",
-        "nextEpisode": "2026-10-19T23:59:00+01:00",
-        "date": "19.10.2026",
-        "dateISO": "2026-10-19",
-        "time": "23:59",
-        "image": "https://turskeserije.tv/wp-content/uploads/2026/06/alti-ustu-istanbul-sa-prevodom.jpg"
-      },
-      {
-        "id": "daleki-grad-uzak-sehir",
-        "title": "daleki-grad-uzak-sehir",
-        "sourceUrl": "https://turskeserije.tv/uzak-sehir/",
-        "nextEpisode": "2026-10-19T23:59:00+01:00",
-        "date": "19.10.2026",
-        "dateISO": "2026-10-19",
-        "time": "23:59",
-        "image": "https://turskeserije.tv/wp-content/uploads/2024/11/uzak-sehir-sa-prevodom.jpg"
-      },
-      {
-        "id": "moja-ljubav-je-crno-more-sevdam-karadeniz",
-        "title": "moja-ljubav-je-crno-more-sevdam-karadeniz",
-        "sourceUrl": "https://turskeserije.tv/sevdam-karadeniz/",
-        "nextEpisode": "2026-10-19T23:59:00+01:00",
-        "date": "19.10.2026",
-        "dateISO": "2026-10-19",
-        "time": "23:59",
-        "image": "https://turskeserije.tv/wp-content/uploads/2026/10/sevdam-karadeniz-sa-prevodom.jpg"
-      }
-    ],
     "2026-10-20": [
       {
         "id": "slana-kafa-tuzlu-kahve",
@@ -337,6 +243,16 @@
         "dateISO": "2026-10-20",
         "time": "23:59",
         "image": "https://turskeserije.tv/wp-content/uploads/2026/09/anne-yarisi-sa-prevodom.jpg"
+      },
+      {
+        "id": "nevesta-klopka-ljubavi-gelin",
+        "title": "nevesta-klopka-ljubavi-gelin",
+        "sourceUrl": "https://turskeserije.tv/gelin/",
+        "nextEpisode": "2026-10-20T23:59:00+01:00",
+        "date": "20.10.2026",
+        "dateISO": "2026-10-20",
+        "time": "23:59",
+        "image": "https://turskeserije.tv/wp-content/uploads/2024/02/gelin-sa-prevodom.jpg"
       }
     ],
     "2026-10-21": [
@@ -384,6 +300,16 @@
       }
     ],
     "2026-10-23": [
+      {
+        "id": "sudbinom-povezani-arafta",
+        "title": "sudbinom-povezani-arafta",
+        "sourceUrl": "https://turskeserije.tv/arafta/",
+        "nextEpisode": "2026-10-23T23:59:00+01:00",
+        "date": "23.10.2026",
+        "dateISO": "2026-10-23",
+        "time": "23:59",
+        "image": "https://turskeserije.tv/wp-content/uploads/2025/11/arafta-sa-prevodom.jpg"
+      },
       {
         "id": "caj-od-brusnice-mostovi-zivota-kizilcik-serbeti-jedina-ljubav",
         "title": "caj-od-brusnice-mostovi-zivota-kizilcik-serbeti-jedina-ljubav",
@@ -435,6 +361,80 @@
         "dateISO": "2026-10-24",
         "time": "23:59",
         "image": "https://turskeserije.tv/wp-content/uploads/2026/09/baskalarinin-hayati-sa-prevodom.jpg"
+      }
+    ],
+    "2026-10-25": [
+      {
+        "id": "daha-on-yedi-samo-17",
+        "title": "daha-on-yedi-samo-17",
+        "sourceUrl": "https://turskeserije.tv/daha-on-yedi/",
+        "nextEpisode": "2026-10-25T23:59:00+01:00",
+        "date": "25.10.2026",
+        "dateISO": "2026-10-25",
+        "time": "23:59",
+        "image": "https://turskeserije.tv/wp-content/uploads/2026/05/daha-on-yedi-sa-prevodom.jpg"
+      },
+      {
+        "id": "organizacija-teskilat",
+        "title": "organizacija-teskilat",
+        "sourceUrl": "https://turskeserije.tv/teskilat/",
+        "nextEpisode": "2026-10-25T23:59:00+01:00",
+        "date": "25.10.2026",
+        "dateISO": "2026-10-25",
+        "time": "23:59",
+        "image": "https://turskeserije.tv/wp-content/uploads/2021/03/teskilat-sa-prevodom.jpg"
+      },
+      {
+        "id": "majstor-omur-omur-usta",
+        "title": "majstor-omur-omur-usta",
+        "sourceUrl": "https://turskeserije.tv/omur-usta/",
+        "nextEpisode": "2026-10-25T23:59:00+01:00",
+        "date": "25.10.2026",
+        "dateISO": "2026-10-25",
+        "time": "23:59",
+        "image": "https://turskeserije.tv/wp-content/uploads/2026/09/omur-usta-sa-prevodom.jpg"
+      }
+    ],
+    "2026-10-26": [
+      {
+        "id": "brak-je-predivan-evlilik-guzeldir",
+        "title": "brak-je-predivan-evlilik-guzeldir",
+        "sourceUrl": "https://turskeserije.tv/evlilik-guzeldir/",
+        "nextEpisode": "2026-10-26T12:59:00+01:00",
+        "date": "26.10.2026",
+        "dateISO": "2026-10-26",
+        "time": "12:59",
+        "image": "https://turskeserije.tv/wp-content/uploads/2026/09/evlilik-guzeldir-sa-prevodom.jpg"
+      },
+      {
+        "id": "iznad-i-ispod-istanbula-alti-ustu-istanbul",
+        "title": "iznad-i-ispod-istanbula-alti-ustu-istanbul",
+        "sourceUrl": "https://turskeserije.tv/alti-ustu-istanbul/",
+        "nextEpisode": "2026-10-26T23:59:00+01:00",
+        "date": "26.10.2026",
+        "dateISO": "2026-10-26",
+        "time": "23:59",
+        "image": "https://turskeserije.tv/wp-content/uploads/2026/06/alti-ustu-istanbul-sa-prevodom.jpg"
+      },
+      {
+        "id": "daleki-grad-uzak-sehir",
+        "title": "daleki-grad-uzak-sehir",
+        "sourceUrl": "https://turskeserije.tv/uzak-sehir/",
+        "nextEpisode": "2026-10-26T23:59:00+01:00",
+        "date": "26.10.2026",
+        "dateISO": "2026-10-26",
+        "time": "23:59",
+        "image": "https://turskeserije.tv/wp-content/uploads/2024/11/uzak-sehir-sa-prevodom.jpg"
+      },
+      {
+        "id": "moja-ljubav-je-crno-more-sevdam-karadeniz",
+        "title": "moja-ljubav-je-crno-more-sevdam-karadeniz",
+        "sourceUrl": "https://turskeserije.tv/sevdam-karadeniz/",
+        "nextEpisode": "2026-10-26T23:59:00+01:00",
+        "date": "26.10.2026",
+        "dateISO": "2026-10-26",
+        "time": "23:59",
+        "image": "https://turskeserije.tv/wp-content/uploads/2026/10/sevdam-karadeniz-sa-prevodom.jpg"
       }
     ]
   }
