@@ -1,46 +1,6 @@
 {
-  "updatedAt": "2026-10-25T13:07:18.057735+00:00",
+  "updatedAt": "2026-10-26T15:03:50.053002+00:00",
   "episodes": [
-    {
-      "id": "daha-on-yedi-samo-17",
-      "title": "daha-on-yedi-samo-17",
-      "sourceUrl": "https://turskeserije.tv/daha-on-yedi/",
-      "nextEpisode": "2026-10-25T23:59:00+01:00",
-      "date": "25.10.2026",
-      "dateISO": "2026-10-25",
-      "time": "23:59",
-      "image": "https://turskeserije.tv/wp-content/uploads/2026/05/daha-on-yedi-sa-prevodom.jpg"
-    },
-    {
-      "id": "nevesta-klopka-ljubavi-gelin",
-      "title": "nevesta-klopka-ljubavi-gelin",
-      "sourceUrl": "https://turskeserije.tv/gelin/",
-      "nextEpisode": "2026-10-25T23:59:00+01:00",
-      "date": "25.10.2026",
-      "dateISO": "2026-10-25",
-      "time": "23:59",
-      "image": "https://turskeserije.tv/wp-content/uploads/2024/02/gelin-sa-prevodom.jpg"
-    },
-    {
-      "id": "organizacija-teskilat",
-      "title": "organizacija-teskilat",
-      "sourceUrl": "https://turskeserije.tv/teskilat/",
-      "nextEpisode": "2026-10-25T23:59:00+01:00",
-      "date": "25.10.2026",
-      "dateISO": "2026-10-25",
-      "time": "23:59",
-      "image": "https://turskeserije.tv/wp-content/uploads/2021/03/teskilat-sa-prevodom.jpg"
-    },
-    {
-      "id": "majstor-omur-omur-usta",
-      "title": "majstor-omur-omur-usta",
-      "sourceUrl": "https://turskeserije.tv/omur-usta/",
-      "nextEpisode": "2026-10-25T23:59:00+01:00",
-      "date": "25.10.2026",
-      "dateISO": "2026-10-25",
-      "time": "23:59",
-      "image": "https://turskeserije.tv/wp-content/uploads/2026/09/omur-usta-sa-prevodom.jpg"
-    },
     {
       "id": "brak-je-predivan-evlilik-guzeldir",
       "title": "brak-je-predivan-evlilik-guzeldir",
@@ -80,6 +40,16 @@
       "dateISO": "2026-10-26",
       "time": "23:59",
       "image": "https://turskeserije.tv/wp-content/uploads/2024/11/uzak-sehir-sa-prevodom.jpg"
+    },
+    {
+      "id": "nevesta-klopka-ljubavi-gelin",
+      "title": "nevesta-klopka-ljubavi-gelin",
+      "sourceUrl": "https://turskeserije.tv/gelin/",
+      "nextEpisode": "2026-10-26T23:59:00+01:00",
+      "date": "26.10.2026",
+      "dateISO": "2026-10-26",
+      "time": "23:59",
+      "image": "https://turskeserije.tv/wp-content/uploads/2024/02/gelin-sa-prevodom.jpg"
     },
     {
       "id": "moja-ljubav-je-crno-more-sevdam-karadeniz",
@@ -210,51 +180,39 @@
       "dateISO": "2026-10-31",
       "time": "23:59",
       "image": "https://turskeserije.tv/wp-content/uploads/2026/09/baskalarinin-hayati-sa-prevodom.jpg"
+    },
+    {
+      "id": "daha-on-yedi-samo-17",
+      "title": "daha-on-yedi-samo-17",
+      "sourceUrl": "https://turskeserije.tv/daha-on-yedi/",
+      "nextEpisode": "2026-11-01T23:59:00+01:00",
+      "date": "01.11.2026",
+      "dateISO": "2026-11-01",
+      "time": "23:59",
+      "image": "https://turskeserije.tv/wp-content/uploads/2026/05/daha-on-yedi-sa-prevodom.jpg"
+    },
+    {
+      "id": "organizacija-teskilat",
+      "title": "organizacija-teskilat",
+      "sourceUrl": "https://turskeserije.tv/teskilat/",
+      "nextEpisode": "2026-11-01T23:59:00+01:00",
+      "date": "01.11.2026",
+      "dateISO": "2026-11-01",
+      "time": "23:59",
+      "image": "https://turskeserije.tv/wp-content/uploads/2021/03/teskilat-sa-prevodom.jpg"
+    },
+    {
+      "id": "majstor-omur-omur-usta",
+      "title": "majstor-omur-omur-usta",
+      "sourceUrl": "https://turskeserije.tv/omur-usta/",
+      "nextEpisode": "2026-11-01T23:59:00+01:00",
+      "date": "01.11.2026",
+      "dateISO": "2026-11-01",
+      "time": "23:59",
+      "image": "https://turskeserije.tv/wp-content/uploads/2026/09/omur-usta-sa-prevodom.jpg"
     }
   ],
   "days": {
-    "2026-10-25": [
-      {
-        "id": "daha-on-yedi-samo-17",
-        "title": "daha-on-yedi-samo-17",
-        "sourceUrl": "https://turskeserije.tv/daha-on-yedi/",
-        "nextEpisode": "2026-10-25T23:59:00+01:00",
-        "date": "25.10.2026",
-        "dateISO": "2026-10-25",
-        "time": "23:59",
-        "image": "https://turskeserije.tv/wp-content/uploads/2026/05/daha-on-yedi-sa-prevodom.jpg"
-      },
-      {
-        "id": "nevesta-klopka-ljubavi-gelin",
-        "title": "nevesta-klopka-ljubavi-gelin",
-        "sourceUrl": "https://turskeserije.tv/gelin/",
-        "nextEpisode": "2026-10-25T23:59:00+01:00",
-        "date": "25.10.2026",
-        "dateISO": "2026-10-25",
-        "time": "23:59",
-        "image": "https://turskeserije.tv/wp-content/uploads/2024/02/gelin-sa-prevodom.jpg"
-      },
-      {
-        "id": "organizacija-teskilat",
-        "title": "organizacija-teskilat",
-        "sourceUrl": "https://turskeserije.tv/teskilat/",
-        "nextEpisode": "2026-10-25T23:59:00+01:00",
-        "date": "25.10.2026",
-        "dateISO": "2026-10-25",
-        "time": "23:59",
-        "image": "https://turskeserije.tv/wp-content/uploads/2021/03/teskilat-sa-prevodom.jpg"
-      },
-      {
-        "id": "majstor-omur-omur-usta",
-        "title": "majstor-omur-omur-usta",
-        "sourceUrl": "https://turskeserije.tv/omur-usta/",
-        "nextEpisode": "2026-10-25T23:59:00+01:00",
-        "date": "25.10.2026",
-        "dateISO": "2026-10-25",
-        "time": "23:59",
-        "image": "https://turskeserije.tv/wp-content/uploads/2026/09/omur-usta-sa-prevodom.jpg"
-      }
-    ],
     "2026-10-26": [
       {
         "id": "brak-je-predivan-evlilik-guzeldir",
@@ -295,6 +253,16 @@
         "dateISO": "2026-10-26",
         "time": "23:59",
         "image": "https://turskeserije.tv/wp-content/uploads/2024/11/uzak-sehir-sa-prevodom.jpg"
+      },
+      {
+        "id": "nevesta-klopka-ljubavi-gelin",
+        "title": "nevesta-klopka-ljubavi-gelin",
+        "sourceUrl": "https://turskeserije.tv/gelin/",
+        "nextEpisode": "2026-10-26T23:59:00+01:00",
+        "date": "26.10.2026",
+        "dateISO": "2026-10-26",
+        "time": "23:59",
+        "image": "https://turskeserije.tv/wp-content/uploads/2024/02/gelin-sa-prevodom.jpg"
       },
       {
         "id": "moja-ljubav-je-crno-more-sevdam-karadeniz",
@@ -435,6 +403,38 @@
         "dateISO": "2026-10-31",
         "time": "23:59",
         "image": "https://turskeserije.tv/wp-content/uploads/2026/09/baskalarinin-hayati-sa-prevodom.jpg"
+      }
+    ],
+    "2026-11-01": [
+      {
+        "id": "daha-on-yedi-samo-17",
+        "title": "daha-on-yedi-samo-17",
+        "sourceUrl": "https://turskeserije.tv/daha-on-yedi/",
+        "nextEpisode": "2026-11-01T23:59:00+01:00",
+        "date": "01.11.2026",
+        "dateISO": "2026-11-01",
+        "time": "23:59",
+        "image": "https://turskeserije.tv/wp-content/uploads/2026/05/daha-on-yedi-sa-prevodom.jpg"
+      },
+      {
+        "id": "organizacija-teskilat",
+        "title": "organizacija-teskilat",
+        "sourceUrl": "https://turskeserije.tv/teskilat/",
+        "nextEpisode": "2026-11-01T23:59:00+01:00",
+        "date": "01.11.2026",
+        "dateISO": "2026-11-01",
+        "time": "23:59",
+        "image": "https://turskeserije.tv/wp-content/uploads/2021/03/teskilat-sa-prevodom.jpg"
+      },
+      {
+        "id": "majstor-omur-omur-usta",
+        "title": "majstor-omur-omur-usta",
+        "sourceUrl": "https://turskeserije.tv/omur-usta/",
+        "nextEpisode": "2026-11-01T23:59:00+01:00",
+        "date": "01.11.2026",
+        "dateISO": "2026-11-01",
+        "time": "23:59",
+        "image": "https://turskeserije.tv/wp-content/uploads/2026/09/omur-usta-sa-prevodom.jpg"
       }
     ]
   }
