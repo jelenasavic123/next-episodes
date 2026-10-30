@@ -1,36 +1,6 @@
 {
-  "updatedAt": "2026-10-29T15:09:22.907061+00:00",
+  "updatedAt": "2026-10-30T14:58:12.543210+00:00",
   "episodes": [
-    {
-      "id": "moguca-ljubav-muhtemel-ask",
-      "title": "moguca-ljubav-muhtemel-ask",
-      "sourceUrl": "https://turskeserije.tv/muhtemel-ask/",
-      "nextEpisode": "2026-10-29T23:59:00+01:00",
-      "date": "29.10.2026",
-      "dateISO": "2026-10-29",
-      "time": "23:59",
-      "image": "https://turskeserije.tv/wp-content/uploads/2026/06/muhtemel-ask-sa-prevodom.jpg"
-    },
-    {
-      "id": "ti-si-ona-koju-volim-sevdigim-sensin",
-      "title": "ti-si-ona-koju-volim-sevdigim-sensin",
-      "sourceUrl": "https://turskeserije.tv/sevdigim-sensin/",
-      "nextEpisode": "2026-10-29T23:59:00+01:00",
-      "date": "29.10.2026",
-      "dateISO": "2026-10-29",
-      "time": "23:59",
-      "image": "https://turskeserije.tv/wp-content/uploads/2026/02/sevdigim-sensin-sa-prevodom.jpg"
-    },
-    {
-      "id": "gde-sunce-izlazi-devojke-sunca-gunesin-dogdugu-yer",
-      "title": "gde-sunce-izlazi-devojke-sunca-gunesin-dogdugu-yer",
-      "sourceUrl": "https://turskeserije.tv/gunesin-dogdugu-yer/",
-      "nextEpisode": "2026-10-29T23:59:00+01:00",
-      "date": "29.10.2026",
-      "dateISO": "2026-10-29",
-      "time": "23:59",
-      "image": "https://turskeserije.tv/wp-content/uploads/2026/09/gunesin-dogdugu-yer-sa-prevodom.jpg"
-    },
     {
       "id": "sudbinom-povezani-arafta",
       "title": "sudbinom-povezani-arafta",
@@ -40,6 +10,36 @@
       "dateISO": "2026-10-30",
       "time": "23:59",
       "image": "https://turskeserije.tv/wp-content/uploads/2025/11/arafta-sa-prevodom.jpg"
+    },
+    {
+      "id": "caj-od-brusnice-mostovi-zivota-kizilcik-serbeti-jedina-ljubav",
+      "title": "caj-od-brusnice-mostovi-zivota-kizilcik-serbeti-jedina-ljubav",
+      "sourceUrl": "https://turskeserije.tv/kizilcik-serbeti/",
+      "nextEpisode": "2026-10-30T23:59:00+01:00",
+      "date": "30.10.2026",
+      "dateISO": "2026-10-30",
+      "time": "23:59",
+      "image": "https://turskeserije.tv/wp-content/uploads/2022/11/kizilcik-serbeti-sa-prevodom.jpg"
+    },
+    {
+      "id": "nevesta-klopka-ljubavi-gelin",
+      "title": "nevesta-klopka-ljubavi-gelin",
+      "sourceUrl": "https://turskeserije.tv/gelin/",
+      "nextEpisode": "2026-10-30T23:59:00+01:00",
+      "date": "30.10.2026",
+      "dateISO": "2026-10-30",
+      "time": "23:59",
+      "image": "https://turskeserije.tv/wp-content/uploads/2024/02/gelin-sa-prevodom.jpg"
+    },
+    {
+      "id": "ovo-more-ce-se-preliti-tasacak-bu-deniz",
+      "title": "ovo-more-ce-se-preliti-tasacak-bu-deniz",
+      "sourceUrl": "https://turskeserije.tv/tasacak-bu-deniz/",
+      "nextEpisode": "2026-10-30T23:59:00+01:00",
+      "date": "30.10.2026",
+      "dateISO": "2026-10-30",
+      "time": "23:59",
+      "image": "https://turskeserije.tv/wp-content/uploads/2025/10/tasacak-bu-deniz-sa-prevodom.jpg"
     },
     {
       "id": "planina-ljubavi-gonul-dagi",
@@ -60,6 +60,16 @@
       "dateISO": "2026-10-31",
       "time": "23:59",
       "image": "https://turskeserije.tv/wp-content/uploads/2025/10/guller-ve-gunahlar-sa-prevodom.jpg"
+    },
+    {
+      "id": "zivoti-drugih-baskalarinin-hayat",
+      "title": "zivoti-drugih-baskalarinin-hayat",
+      "sourceUrl": "https://turskeserije.tv/baskalarinin-hayati/",
+      "nextEpisode": "2026-10-31T23:59:00+01:00",
+      "date": "31.10.2026",
+      "dateISO": "2026-10-31",
+      "time": "23:59",
+      "image": "https://turskeserije.tv/wp-content/uploads/2026/09/baskalarinin-hayati-sa-prevodom.jpg"
     },
     {
       "id": "daha-on-yedi-samo-17",
@@ -90,6 +100,16 @@
       "dateISO": "2026-11-01",
       "time": "23:59",
       "image": "https://turskeserije.tv/wp-content/uploads/2026/09/omur-usta-sa-prevodom.jpg"
+    },
+    {
+      "id": "brak-je-predivan-evlilik-guzeldir",
+      "title": "brak-je-predivan-evlilik-guzeldir",
+      "sourceUrl": "https://turskeserije.tv/evlilik-guzeldir/",
+      "nextEpisode": "2026-11-02T12:59:00+01:00",
+      "date": "02.11.2026",
+      "dateISO": "2026-11-02",
+      "time": "12:59",
+      "image": "https://turskeserije.tv/wp-content/uploads/2026/09/evlilik-guzeldir-sa-prevodom.jpg"
     },
     {
       "id": "iznad-i-ispod-istanbula-alti-ustu-istanbul",
@@ -160,41 +180,19 @@
       "dateISO": "2026-11-04",
       "time": "23:59",
       "image": "https://turskeserije.tv/wp-content/uploads/2026/09/sevdan-bir-ates-sa-prevodom.jpg"
+    },
+    {
+      "id": "gde-sunce-izlazi-devojke-sunca-gunesin-dogdugu-yer",
+      "title": "gde-sunce-izlazi-devojke-sunca-gunesin-dogdugu-yer",
+      "sourceUrl": "https://turskeserije.tv/gunesin-dogdugu-yer/",
+      "nextEpisode": "2026-11-05T23:59:00+01:00",
+      "date": "05.11.2026",
+      "dateISO": "2026-11-05",
+      "time": "23:59",
+      "image": "https://turskeserije.tv/wp-content/uploads/2026/09/gunesin-dogdugu-yer-sa-prevodom.jpg"
     }
   ],
   "days": {
-    "2026-10-29": [
-      {
-        "id": "moguca-ljubav-muhtemel-ask",
-        "title": "moguca-ljubav-muhtemel-ask",
-        "sourceUrl": "https://turskeserije.tv/muhtemel-ask/",
-        "nextEpisode": "2026-10-29T23:59:00+01:00",
-        "date": "29.10.2026",
-        "dateISO": "2026-10-29",
-        "time": "23:59",
-        "image": "https://turskeserije.tv/wp-content/uploads/2026/06/muhtemel-ask-sa-prevodom.jpg"
-      },
-      {
-        "id": "ti-si-ona-koju-volim-sevdigim-sensin",
-        "title": "ti-si-ona-koju-volim-sevdigim-sensin",
-        "sourceUrl": "https://turskeserije.tv/sevdigim-sensin/",
-        "nextEpisode": "2026-10-29T23:59:00+01:00",
-        "date": "29.10.2026",
-        "dateISO": "2026-10-29",
-        "time": "23:59",
-        "image": "https://turskeserije.tv/wp-content/uploads/2026/02/sevdigim-sensin-sa-prevodom.jpg"
-      },
-      {
-        "id": "gde-sunce-izlazi-devojke-sunca-gunesin-dogdugu-yer",
-        "title": "gde-sunce-izlazi-devojke-sunca-gunesin-dogdugu-yer",
-        "sourceUrl": "https://turskeserije.tv/gunesin-dogdugu-yer/",
-        "nextEpisode": "2026-10-29T23:59:00+01:00",
-        "date": "29.10.2026",
-        "dateISO": "2026-10-29",
-        "time": "23:59",
-        "image": "https://turskeserije.tv/wp-content/uploads/2026/09/gunesin-dogdugu-yer-sa-prevodom.jpg"
-      }
-    ],
     "2026-10-30": [
       {
         "id": "sudbinom-povezani-arafta",
@@ -205,6 +203,36 @@
         "dateISO": "2026-10-30",
         "time": "23:59",
         "image": "https://turskeserije.tv/wp-content/uploads/2025/11/arafta-sa-prevodom.jpg"
+      },
+      {
+        "id": "caj-od-brusnice-mostovi-zivota-kizilcik-serbeti-jedina-ljubav",
+        "title": "caj-od-brusnice-mostovi-zivota-kizilcik-serbeti-jedina-ljubav",
+        "sourceUrl": "https://turskeserije.tv/kizilcik-serbeti/",
+        "nextEpisode": "2026-10-30T23:59:00+01:00",
+        "date": "30.10.2026",
+        "dateISO": "2026-10-30",
+        "time": "23:59",
+        "image": "https://turskeserije.tv/wp-content/uploads/2022/11/kizilcik-serbeti-sa-prevodom.jpg"
+      },
+      {
+        "id": "nevesta-klopka-ljubavi-gelin",
+        "title": "nevesta-klopka-ljubavi-gelin",
+        "sourceUrl": "https://turskeserije.tv/gelin/",
+        "nextEpisode": "2026-10-30T23:59:00+01:00",
+        "date": "30.10.2026",
+        "dateISO": "2026-10-30",
+        "time": "23:59",
+        "image": "https://turskeserije.tv/wp-content/uploads/2024/02/gelin-sa-prevodom.jpg"
+      },
+      {
+        "id": "ovo-more-ce-se-preliti-tasacak-bu-deniz",
+        "title": "ovo-more-ce-se-preliti-tasacak-bu-deniz",
+        "sourceUrl": "https://turskeserije.tv/tasacak-bu-deniz/",
+        "nextEpisode": "2026-10-30T23:59:00+01:00",
+        "date": "30.10.2026",
+        "dateISO": "2026-10-30",
+        "time": "23:59",
+        "image": "https://turskeserije.tv/wp-content/uploads/2025/10/tasacak-bu-deniz-sa-prevodom.jpg"
       }
     ],
     "2026-10-31": [
@@ -227,6 +255,16 @@
         "dateISO": "2026-10-31",
         "time": "23:59",
         "image": "https://turskeserije.tv/wp-content/uploads/2025/10/guller-ve-gunahlar-sa-prevodom.jpg"
+      },
+      {
+        "id": "zivoti-drugih-baskalarinin-hayat",
+        "title": "zivoti-drugih-baskalarinin-hayat",
+        "sourceUrl": "https://turskeserije.tv/baskalarinin-hayati/",
+        "nextEpisode": "2026-10-31T23:59:00+01:00",
+        "date": "31.10.2026",
+        "dateISO": "2026-10-31",
+        "time": "23:59",
+        "image": "https://turskeserije.tv/wp-content/uploads/2026/09/baskalarinin-hayati-sa-prevodom.jpg"
       }
     ],
     "2026-11-01": [
@@ -262,6 +300,16 @@
       }
     ],
     "2026-11-02": [
+      {
+        "id": "brak-je-predivan-evlilik-guzeldir",
+        "title": "brak-je-predivan-evlilik-guzeldir",
+        "sourceUrl": "https://turskeserije.tv/evlilik-guzeldir/",
+        "nextEpisode": "2026-11-02T12:59:00+01:00",
+        "date": "02.11.2026",
+        "dateISO": "2026-11-02",
+        "time": "12:59",
+        "image": "https://turskeserije.tv/wp-content/uploads/2026/09/evlilik-guzeldir-sa-prevodom.jpg"
+      },
       {
         "id": "iznad-i-ispod-istanbula-alti-ustu-istanbul",
         "title": "iznad-i-ispod-istanbula-alti-ustu-istanbul",
@@ -335,6 +383,18 @@
         "dateISO": "2026-11-04",
         "time": "23:59",
         "image": "https://turskeserije.tv/wp-content/uploads/2026/09/sevdan-bir-ates-sa-prevodom.jpg"
+      }
+    ],
+    "2026-11-05": [
+      {
+        "id": "gde-sunce-izlazi-devojke-sunca-gunesin-dogdugu-yer",
+        "title": "gde-sunce-izlazi-devojke-sunca-gunesin-dogdugu-yer",
+        "sourceUrl": "https://turskeserije.tv/gunesin-dogdugu-yer/",
+        "nextEpisode": "2026-11-05T23:59:00+01:00",
+        "date": "05.11.2026",
+        "dateISO": "2026-11-05",
+        "time": "23:59",
+        "image": "https://turskeserije.tv/wp-content/uploads/2026/09/gunesin-dogdugu-yer-sa-prevodom.jpg"
       }
     ]
   }
