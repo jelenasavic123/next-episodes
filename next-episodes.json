@@ -1,46 +1,6 @@
 {
-  "updatedAt": "2026-11-03T16:02:27.978633+00:00",
+  "updatedAt": "2026-11-04T16:07:43.239184+00:00",
   "episodes": [
-    {
-      "id": "slana-kafa-tuzlu-kahve",
-      "title": "slana-kafa-tuzlu-kahve",
-      "sourceUrl": "https://turskeserije.tv/tuzlu-kahve/",
-      "nextEpisode": "2026-11-03T23:59:00+01:00",
-      "date": "03.11.2026",
-      "dateISO": "2026-11-03",
-      "time": "23:59",
-      "image": "https://turskeserije.tv/wp-content/uploads/2026/09/slana-kafa-sa-prevodom.jpg"
-    },
-    {
-      "id": "dostojanstvo-haysiyet",
-      "title": "dostojanstvo-haysiyet",
-      "sourceUrl": "https://turskeserije.tv/haysiyet/",
-      "nextEpisode": "2026-11-03T23:59:00+01:00",
-      "date": "03.11.2026",
-      "dateISO": "2026-11-03",
-      "time": "23:59",
-      "image": "https://turskeserije.tv/wp-content/uploads/2026/09/haysiyet-sa-prevodom.jpg"
-    },
-    {
-      "id": "druga-majka-anne-yarisi",
-      "title": "druga-majka-anne-yarisi",
-      "sourceUrl": "https://turskeserije.tv/anne-yarisi/",
-      "nextEpisode": "2026-11-03T23:59:00+01:00",
-      "date": "03.11.2026",
-      "dateISO": "2026-11-03",
-      "time": "23:59",
-      "image": "https://turskeserije.tv/wp-content/uploads/2026/09/anne-yarisi-sa-prevodom.jpg"
-    },
-    {
-      "id": "nevesta-klopka-ljubavi-gelin",
-      "title": "nevesta-klopka-ljubavi-gelin",
-      "sourceUrl": "https://turskeserije.tv/gelin/",
-      "nextEpisode": "2026-11-03T23:59:00+01:00",
-      "date": "03.11.2026",
-      "dateISO": "2026-11-03",
-      "time": "23:59",
-      "image": "https://turskeserije.tv/wp-content/uploads/2024/02/gelin-sa-prevodom.jpg"
-    },
     {
       "id": "vrata-ljubavi-sevdan-bir-ates",
       "title": "vrata-ljubavi-sevdan-bir-ates",
@@ -50,6 +10,16 @@
       "dateISO": "2026-11-04",
       "time": "23:59",
       "image": "https://turskeserije.tv/wp-content/uploads/2026/09/sevdan-bir-ates-sa-prevodom.jpg"
+    },
+    {
+      "id": "nevesta-klopka-ljubavi-gelin",
+      "title": "nevesta-klopka-ljubavi-gelin",
+      "sourceUrl": "https://turskeserije.tv/gelin/",
+      "nextEpisode": "2026-11-04T23:59:00+01:00",
+      "date": "04.11.2026",
+      "dateISO": "2026-11-04",
+      "time": "23:59",
+      "image": "https://turskeserije.tv/wp-content/uploads/2024/02/gelin-sa-prevodom.jpg"
     },
     {
       "id": "gde-sunce-izlazi-devojke-sunca-gunesin-dogdugu-yer",
@@ -153,48 +123,6 @@
     }
   ],
   "days": {
-    "2026-11-03": [
-      {
-        "id": "slana-kafa-tuzlu-kahve",
-        "title": "slana-kafa-tuzlu-kahve",
-        "sourceUrl": "https://turskeserije.tv/tuzlu-kahve/",
-        "nextEpisode": "2026-11-03T23:59:00+01:00",
-        "date": "03.11.2026",
-        "dateISO": "2026-11-03",
-        "time": "23:59",
-        "image": "https://turskeserije.tv/wp-content/uploads/2026/09/slana-kafa-sa-prevodom.jpg"
-      },
-      {
-        "id": "dostojanstvo-haysiyet",
-        "title": "dostojanstvo-haysiyet",
-        "sourceUrl": "https://turskeserije.tv/haysiyet/",
-        "nextEpisode": "2026-11-03T23:59:00+01:00",
-        "date": "03.11.2026",
-        "dateISO": "2026-11-03",
-        "time": "23:59",
-        "image": "https://turskeserije.tv/wp-content/uploads/2026/09/haysiyet-sa-prevodom.jpg"
-      },
-      {
-        "id": "druga-majka-anne-yarisi",
-        "title": "druga-majka-anne-yarisi",
-        "sourceUrl": "https://turskeserije.tv/anne-yarisi/",
-        "nextEpisode": "2026-11-03T23:59:00+01:00",
-        "date": "03.11.2026",
-        "dateISO": "2026-11-03",
-        "time": "23:59",
-        "image": "https://turskeserije.tv/wp-content/uploads/2026/09/anne-yarisi-sa-prevodom.jpg"
-      },
-      {
-        "id": "nevesta-klopka-ljubavi-gelin",
-        "title": "nevesta-klopka-ljubavi-gelin",
-        "sourceUrl": "https://turskeserije.tv/gelin/",
-        "nextEpisode": "2026-11-03T23:59:00+01:00",
-        "date": "03.11.2026",
-        "dateISO": "2026-11-03",
-        "time": "23:59",
-        "image": "https://turskeserije.tv/wp-content/uploads/2024/02/gelin-sa-prevodom.jpg"
-      }
-    ],
     "2026-11-04": [
       {
         "id": "vrata-ljubavi-sevdan-bir-ates",
@@ -205,6 +133,16 @@
         "dateISO": "2026-11-04",
         "time": "23:59",
         "image": "https://turskeserije.tv/wp-content/uploads/2026/09/sevdan-bir-ates-sa-prevodom.jpg"
+      },
+      {
+        "id": "nevesta-klopka-ljubavi-gelin",
+        "title": "nevesta-klopka-ljubavi-gelin",
+        "sourceUrl": "https://turskeserije.tv/gelin/",
+        "nextEpisode": "2026-11-04T23:59:00+01:00",
+        "date": "04.11.2026",
+        "dateISO": "2026-11-04",
+        "time": "23:59",
+        "image": "https://turskeserije.tv/wp-content/uploads/2024/02/gelin-sa-prevodom.jpg"
       }
     ],
     "2026-11-05": [
