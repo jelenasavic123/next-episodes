@@ -1,26 +1,6 @@
 {
-  "updatedAt": "2026-11-07T14:50:06.623989+00:00",
+  "updatedAt": "2026-11-08T14:56:57.294739+00:00",
   "episodes": [
-    {
-      "id": "planina-ljubavi-gonul-dagi",
-      "title": "planina-ljubavi-gonul-dagi",
-      "sourceUrl": "https://turskeserije.tv/gonul-dagi/",
-      "nextEpisode": "2026-11-07T23:59:00+01:00",
-      "date": "07.11.2026",
-      "dateISO": "2026-11-07",
-      "time": "23:59",
-      "image": "https://turskeserije.tv/wp-content/uploads/2025/06/gonul-dagi-sa-prevodom.jpg"
-    },
-    {
-      "id": "nevesta-klopka-ljubavi-gelin",
-      "title": "nevesta-klopka-ljubavi-gelin",
-      "sourceUrl": "https://turskeserije.tv/gelin/",
-      "nextEpisode": "2026-11-07T23:59:00+01:00",
-      "date": "07.11.2026",
-      "dateISO": "2026-11-07",
-      "time": "23:59",
-      "image": "https://turskeserije.tv/wp-content/uploads/2024/02/gelin-sa-prevodom.jpg"
-    },
     {
       "id": "daha-on-yedi-samo-17",
       "title": "daha-on-yedi-samo-17",
@@ -30,6 +10,16 @@
       "dateISO": "2026-11-08",
       "time": "23:59",
       "image": "https://turskeserije.tv/wp-content/uploads/2026/05/daha-on-yedi-sa-prevodom.jpg"
+    },
+    {
+      "id": "nevesta-klopka-ljubavi-gelin",
+      "title": "nevesta-klopka-ljubavi-gelin",
+      "sourceUrl": "https://turskeserije.tv/gelin/",
+      "nextEpisode": "2026-11-08T23:59:00+01:00",
+      "date": "08.11.2026",
+      "dateISO": "2026-11-08",
+      "time": "23:59",
+      "image": "https://turskeserije.tv/wp-content/uploads/2024/02/gelin-sa-prevodom.jpg"
     },
     {
       "id": "organizacija-teskilat",
@@ -150,31 +140,39 @@
       "dateISO": "2026-11-13",
       "time": "23:59",
       "image": "https://turskeserije.tv/wp-content/uploads/2025/10/tasacak-bu-deniz-sa-prevodom.jpg"
+    },
+    {
+      "id": "planina-ljubavi-gonul-dagi",
+      "title": "planina-ljubavi-gonul-dagi",
+      "sourceUrl": "https://turskeserije.tv/gonul-dagi/",
+      "nextEpisode": "2026-11-14T23:59:00+01:00",
+      "date": "14.11.2026",
+      "dateISO": "2026-11-14",
+      "time": "23:59",
+      "image": "https://turskeserije.tv/wp-content/uploads/2025/06/gonul-dagi-sa-prevodom.jpg"
+    },
+    {
+      "id": "ruze-i-grehovi-guller-ve-gunahlar-tajne-proslosti",
+      "title": "ruze-i-grehovi-guller-ve-gunahlar-tajne-proslosti",
+      "sourceUrl": "https://turskeserije.tv/guller-ve-gunahlar/",
+      "nextEpisode": "2026-11-14T23:59:00+01:00",
+      "date": "14.11.2026",
+      "dateISO": "2026-11-14",
+      "time": "23:59",
+      "image": "https://turskeserije.tv/wp-content/uploads/2025/10/guller-ve-gunahlar-sa-prevodom.jpg"
+    },
+    {
+      "id": "zivoti-drugih-baskalarinin-hayat",
+      "title": "zivoti-drugih-baskalarinin-hayat",
+      "sourceUrl": "https://turskeserije.tv/baskalarinin-hayati/",
+      "nextEpisode": "2026-11-14T23:59:00+01:00",
+      "date": "14.11.2026",
+      "dateISO": "2026-11-14",
+      "time": "23:59",
+      "image": "https://turskeserije.tv/wp-content/uploads/2026/09/baskalarinin-hayati-sa-prevodom.jpg"
     }
   ],
   "days": {
-    "2026-11-07": [
-      {
-        "id": "planina-ljubavi-gonul-dagi",
-        "title": "planina-ljubavi-gonul-dagi",
-        "sourceUrl": "https://turskeserije.tv/gonul-dagi/",
-        "nextEpisode": "2026-11-07T23:59:00+01:00",
-        "date": "07.11.2026",
-        "dateISO": "2026-11-07",
-        "time": "23:59",
-        "image": "https://turskeserije.tv/wp-content/uploads/2025/06/gonul-dagi-sa-prevodom.jpg"
-      },
-      {
-        "id": "nevesta-klopka-ljubavi-gelin",
-        "title": "nevesta-klopka-ljubavi-gelin",
-        "sourceUrl": "https://turskeserije.tv/gelin/",
-        "nextEpisode": "2026-11-07T23:59:00+01:00",
-        "date": "07.11.2026",
-        "dateISO": "2026-11-07",
-        "time": "23:59",
-        "image": "https://turskeserije.tv/wp-content/uploads/2024/02/gelin-sa-prevodom.jpg"
-      }
-    ],
     "2026-11-08": [
       {
         "id": "daha-on-yedi-samo-17",
@@ -185,6 +183,16 @@
         "dateISO": "2026-11-08",
         "time": "23:59",
         "image": "https://turskeserije.tv/wp-content/uploads/2026/05/daha-on-yedi-sa-prevodom.jpg"
+      },
+      {
+        "id": "nevesta-klopka-ljubavi-gelin",
+        "title": "nevesta-klopka-ljubavi-gelin",
+        "sourceUrl": "https://turskeserije.tv/gelin/",
+        "nextEpisode": "2026-11-08T23:59:00+01:00",
+        "date": "08.11.2026",
+        "dateISO": "2026-11-08",
+        "time": "23:59",
+        "image": "https://turskeserije.tv/wp-content/uploads/2024/02/gelin-sa-prevodom.jpg"
       },
       {
         "id": "organizacija-teskilat",
@@ -313,6 +321,38 @@
         "dateISO": "2026-11-13",
         "time": "23:59",
         "image": "https://turskeserije.tv/wp-content/uploads/2025/10/tasacak-bu-deniz-sa-prevodom.jpg"
+      }
+    ],
+    "2026-11-14": [
+      {
+        "id": "planina-ljubavi-gonul-dagi",
+        "title": "planina-ljubavi-gonul-dagi",
+        "sourceUrl": "https://turskeserije.tv/gonul-dagi/",
+        "nextEpisode": "2026-11-14T23:59:00+01:00",
+        "date": "14.11.2026",
+        "dateISO": "2026-11-14",
+        "time": "23:59",
+        "image": "https://turskeserije.tv/wp-content/uploads/2025/06/gonul-dagi-sa-prevodom.jpg"
+      },
+      {
+        "id": "ruze-i-grehovi-guller-ve-gunahlar-tajne-proslosti",
+        "title": "ruze-i-grehovi-guller-ve-gunahlar-tajne-proslosti",
+        "sourceUrl": "https://turskeserije.tv/guller-ve-gunahlar/",
+        "nextEpisode": "2026-11-14T23:59:00+01:00",
+        "date": "14.11.2026",
+        "dateISO": "2026-11-14",
+        "time": "23:59",
+        "image": "https://turskeserije.tv/wp-content/uploads/2025/10/guller-ve-gunahlar-sa-prevodom.jpg"
+      },
+      {
+        "id": "zivoti-drugih-baskalarinin-hayat",
+        "title": "zivoti-drugih-baskalarinin-hayat",
+        "sourceUrl": "https://turskeserije.tv/baskalarinin-hayati/",
+        "nextEpisode": "2026-11-14T23:59:00+01:00",
+        "date": "14.11.2026",
+        "dateISO": "2026-11-14",
+        "time": "23:59",
+        "image": "https://turskeserije.tv/wp-content/uploads/2026/09/baskalarinin-hayati-sa-prevodom.jpg"
       }
     ]
   }
