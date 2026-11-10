@@ -1,43 +1,13 @@
 {
-  "updatedAt": "2026-11-09T18:37:29.232370+00:00",
+  "updatedAt": "2026-11-10T16:19:49.769437+00:00",
   "episodes": [
-    {
-      "id": "sudbinom-povezani-arafta",
-      "title": "sudbinom-povezani-arafta",
-      "sourceUrl": "https://turskeserije.tv/arafta/",
-      "nextEpisode": "2026-11-09T23:59:00+01:00",
-      "date": "09.11.2026",
-      "dateISO": "2026-11-09",
-      "time": "23:59",
-      "image": "https://turskeserije.tv/wp-content/uploads/2025/11/arafta-sa-prevodom.jpg"
-    },
-    {
-      "id": "iznad-i-ispod-istanbula-alti-ustu-istanbul",
-      "title": "iznad-i-ispod-istanbula-alti-ustu-istanbul",
-      "sourceUrl": "https://turskeserije.tv/alti-ustu-istanbul/",
-      "nextEpisode": "2026-11-09T23:59:00+01:00",
-      "date": "09.11.2026",
-      "dateISO": "2026-11-09",
-      "time": "23:59",
-      "image": "https://turskeserije.tv/wp-content/uploads/2026/06/alti-ustu-istanbul-sa-prevodom.jpg"
-    },
-    {
-      "id": "daleki-grad-uzak-sehir",
-      "title": "daleki-grad-uzak-sehir",
-      "sourceUrl": "https://turskeserije.tv/uzak-sehir/",
-      "nextEpisode": "2026-11-09T23:59:00+01:00",
-      "date": "09.11.2026",
-      "dateISO": "2026-11-09",
-      "time": "23:59",
-      "image": "https://turskeserije.tv/wp-content/uploads/2024/11/uzak-sehir-sa-prevodom.jpg"
-    },
     {
       "id": "nevesta-klopka-ljubavi-gelin",
       "title": "nevesta-klopka-ljubavi-gelin",
       "sourceUrl": "https://turskeserije.tv/gelin/",
-      "nextEpisode": "2026-11-09T23:59:00+01:00",
-      "date": "09.11.2026",
-      "dateISO": "2026-11-09",
+      "nextEpisode": "2026-11-10T23:59:00+01:00",
+      "date": "10.11.2026",
+      "dateISO": "2026-11-10",
       "time": "23:59",
       "image": "https://turskeserije.tv/wp-content/uploads/2024/02/gelin-sa-prevodom.jpg"
     },
@@ -80,6 +50,16 @@
       "dateISO": "2026-11-12",
       "time": "23:59",
       "image": "https://turskeserije.tv/wp-content/uploads/2026/09/gunesin-dogdugu-yer-sa-prevodom.jpg"
+    },
+    {
+      "id": "sudbinom-povezani-arafta",
+      "title": "sudbinom-povezani-arafta",
+      "sourceUrl": "https://turskeserije.tv/arafta/",
+      "nextEpisode": "2026-11-13T23:59:00+01:00",
+      "date": "13.11.2026",
+      "dateISO": "2026-11-13",
+      "time": "23:59",
+      "image": "https://turskeserije.tv/wp-content/uploads/2025/11/arafta-sa-prevodom.jpg"
     },
     {
       "id": "caj-od-brusnice-mostovi-zivota-kizilcik-serbeti-jedina-ljubav",
@@ -162,55 +142,35 @@
       "image": "https://turskeserije.tv/wp-content/uploads/2026/09/omur-usta-sa-prevodom.jpg"
     },
     {
-      "id": "brak-je-predivan-evlilik-guzeldir",
-      "title": "brak-je-predivan-evlilik-guzeldir",
-      "sourceUrl": "https://turskeserije.tv/evlilik-guzeldir/",
-      "nextEpisode": "2026-11-16T12:59:00+01:00",
+      "id": "iznad-i-ispod-istanbula-alti-ustu-istanbul",
+      "title": "iznad-i-ispod-istanbula-alti-ustu-istanbul",
+      "sourceUrl": "https://turskeserije.tv/alti-ustu-istanbul/",
+      "nextEpisode": "2026-11-16T23:59:00+01:00",
       "date": "16.11.2026",
       "dateISO": "2026-11-16",
-      "time": "12:59",
-      "image": "https://turskeserije.tv/wp-content/uploads/2026/09/evlilik-guzeldir-sa-prevodom.jpg"
+      "time": "23:59",
+      "image": "https://turskeserije.tv/wp-content/uploads/2026/06/alti-ustu-istanbul-sa-prevodom.jpg"
+    },
+    {
+      "id": "daleki-grad-uzak-sehir",
+      "title": "daleki-grad-uzak-sehir",
+      "sourceUrl": "https://turskeserije.tv/uzak-sehir/",
+      "nextEpisode": "2026-11-16T23:59:00+01:00",
+      "date": "16.11.2026",
+      "dateISO": "2026-11-16",
+      "time": "23:59",
+      "image": "https://turskeserije.tv/wp-content/uploads/2024/11/uzak-sehir-sa-prevodom.jpg"
     }
   ],
   "days": {
-    "2026-11-09": [
-      {
-        "id": "sudbinom-povezani-arafta",
-        "title": "sudbinom-povezani-arafta",
-        "sourceUrl": "https://turskeserije.tv/arafta/",
-        "nextEpisode": "2026-11-09T23:59:00+01:00",
-        "date": "09.11.2026",
-        "dateISO": "2026-11-09",
-        "time": "23:59",
-        "image": "https://turskeserije.tv/wp-content/uploads/2025/11/arafta-sa-prevodom.jpg"
-      },
-      {
-        "id": "iznad-i-ispod-istanbula-alti-ustu-istanbul",
-        "title": "iznad-i-ispod-istanbula-alti-ustu-istanbul",
-        "sourceUrl": "https://turskeserije.tv/alti-ustu-istanbul/",
-        "nextEpisode": "2026-11-09T23:59:00+01:00",
-        "date": "09.11.2026",
-        "dateISO": "2026-11-09",
-        "time": "23:59",
-        "image": "https://turskeserije.tv/wp-content/uploads/2026/06/alti-ustu-istanbul-sa-prevodom.jpg"
-      },
-      {
-        "id": "daleki-grad-uzak-sehir",
-        "title": "daleki-grad-uzak-sehir",
-        "sourceUrl": "https://turskeserije.tv/uzak-sehir/",
-        "nextEpisode": "2026-11-09T23:59:00+01:00",
-        "date": "09.11.2026",
-        "dateISO": "2026-11-09",
-        "time": "23:59",
-        "image": "https://turskeserije.tv/wp-content/uploads/2024/11/uzak-sehir-sa-prevodom.jpg"
-      },
+    "2026-11-10": [
       {
         "id": "nevesta-klopka-ljubavi-gelin",
         "title": "nevesta-klopka-ljubavi-gelin",
         "sourceUrl": "https://turskeserije.tv/gelin/",
-        "nextEpisode": "2026-11-09T23:59:00+01:00",
-        "date": "09.11.2026",
-        "dateISO": "2026-11-09",
+        "nextEpisode": "2026-11-10T23:59:00+01:00",
+        "date": "10.11.2026",
+        "dateISO": "2026-11-10",
         "time": "23:59",
         "image": "https://turskeserije.tv/wp-content/uploads/2024/02/gelin-sa-prevodom.jpg"
       }
@@ -260,6 +220,16 @@
       }
     ],
     "2026-11-13": [
+      {
+        "id": "sudbinom-povezani-arafta",
+        "title": "sudbinom-povezani-arafta",
+        "sourceUrl": "https://turskeserije.tv/arafta/",
+        "nextEpisode": "2026-11-13T23:59:00+01:00",
+        "date": "13.11.2026",
+        "dateISO": "2026-11-13",
+        "time": "23:59",
+        "image": "https://turskeserije.tv/wp-content/uploads/2025/11/arafta-sa-prevodom.jpg"
+      },
       {
         "id": "caj-od-brusnice-mostovi-zivota-kizilcik-serbeti-jedina-ljubav",
         "title": "caj-od-brusnice-mostovi-zivota-kizilcik-serbeti-jedina-ljubav",
@@ -347,14 +317,24 @@
     ],
     "2026-11-16": [
       {
-        "id": "brak-je-predivan-evlilik-guzeldir",
-        "title": "brak-je-predivan-evlilik-guzeldir",
-        "sourceUrl": "https://turskeserije.tv/evlilik-guzeldir/",
-        "nextEpisode": "2026-11-16T12:59:00+01:00",
+        "id": "iznad-i-ispod-istanbula-alti-ustu-istanbul",
+        "title": "iznad-i-ispod-istanbula-alti-ustu-istanbul",
+        "sourceUrl": "https://turskeserije.tv/alti-ustu-istanbul/",
+        "nextEpisode": "2026-11-16T23:59:00+01:00",
         "date": "16.11.2026",
         "dateISO": "2026-11-16",
-        "time": "12:59",
-        "image": "https://turskeserije.tv/wp-content/uploads/2026/09/evlilik-guzeldir-sa-prevodom.jpg"
+        "time": "23:59",
+        "image": "https://turskeserije.tv/wp-content/uploads/2026/06/alti-ustu-istanbul-sa-prevodom.jpg"
+      },
+      {
+        "id": "daleki-grad-uzak-sehir",
+        "title": "daleki-grad-uzak-sehir",
+        "sourceUrl": "https://turskeserije.tv/uzak-sehir/",
+        "nextEpisode": "2026-11-16T23:59:00+01:00",
+        "date": "16.11.2026",
+        "dateISO": "2026-11-16",
+        "time": "23:59",
+        "image": "https://turskeserije.tv/wp-content/uploads/2024/11/uzak-sehir-sa-prevodom.jpg"
       }
     ]
   }
