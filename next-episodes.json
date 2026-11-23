@@ -1,46 +1,6 @@
 {
-  "updatedAt": "2026-11-22T16:08:11.511411+00:00",
+  "updatedAt": "2026-11-23T20:01:46.438118+00:00",
   "episodes": [
-    {
-      "id": "daha-on-yedi-samo-17",
-      "title": "daha-on-yedi-samo-17",
-      "sourceUrl": "https://turskeserije.tv/daha-on-yedi/",
-      "nextEpisode": "2026-11-22T23:59:00+01:00",
-      "date": "22.11.2026",
-      "dateISO": "2026-11-22",
-      "time": "23:59",
-      "image": "https://turskeserije.tv/wp-content/uploads/2026/05/daha-on-yedi-sa-prevodom.jpg"
-    },
-    {
-      "id": "organizacija-teskilat",
-      "title": "organizacija-teskilat",
-      "sourceUrl": "https://turskeserije.tv/teskilat/",
-      "nextEpisode": "2026-11-22T23:59:00+01:00",
-      "date": "22.11.2026",
-      "dateISO": "2026-11-22",
-      "time": "23:59",
-      "image": "https://turskeserije.tv/wp-content/uploads/2021/03/teskilat-sa-prevodom.jpg"
-    },
-    {
-      "id": "majstor-omur-omur-usta",
-      "title": "majstor-omur-omur-usta",
-      "sourceUrl": "https://turskeserije.tv/omur-usta/",
-      "nextEpisode": "2026-11-22T23:59:00+01:00",
-      "date": "22.11.2026",
-      "dateISO": "2026-11-22",
-      "time": "23:59",
-      "image": "https://turskeserije.tv/wp-content/uploads/2026/09/omur-usta-sa-prevodom.jpg"
-    },
-    {
-      "id": "brak-je-predivan-evlilik-guzeldir",
-      "title": "brak-je-predivan-evlilik-guzeldir",
-      "sourceUrl": "https://turskeserije.tv/evlilik-guzeldir/",
-      "nextEpisode": "2026-11-23T12:59:00+01:00",
-      "date": "23.11.2026",
-      "dateISO": "2026-11-23",
-      "time": "12:59",
-      "image": "https://turskeserije.tv/wp-content/uploads/2026/09/evlilik-guzeldir-sa-prevodom.jpg"
-    },
     {
       "id": "sudbinom-povezani-arafta",
       "title": "sudbinom-povezani-arafta",
@@ -200,52 +160,50 @@
       "dateISO": "2026-11-28",
       "time": "23:59",
       "image": "https://turskeserije.tv/wp-content/uploads/2026/09/baskalarinin-hayati-sa-prevodom.jpg"
+    },
+    {
+      "id": "daha-on-yedi-samo-17",
+      "title": "daha-on-yedi-samo-17",
+      "sourceUrl": "https://turskeserije.tv/daha-on-yedi/",
+      "nextEpisode": "2026-11-29T23:59:00+01:00",
+      "date": "29.11.2026",
+      "dateISO": "2026-11-29",
+      "time": "23:59",
+      "image": "https://turskeserije.tv/wp-content/uploads/2026/05/daha-on-yedi-sa-prevodom.jpg"
+    },
+    {
+      "id": "organizacija-teskilat",
+      "title": "organizacija-teskilat",
+      "sourceUrl": "https://turskeserije.tv/teskilat/",
+      "nextEpisode": "2026-11-29T23:59:00+01:00",
+      "date": "29.11.2026",
+      "dateISO": "2026-11-29",
+      "time": "23:59",
+      "image": "https://turskeserije.tv/wp-content/uploads/2021/03/teskilat-sa-prevodom.jpg"
+    },
+    {
+      "id": "majstor-omur-omur-usta",
+      "title": "majstor-omur-omur-usta",
+      "sourceUrl": "https://turskeserije.tv/omur-usta/",
+      "nextEpisode": "2026-11-29T23:59:00+01:00",
+      "date": "29.11.2026",
+      "dateISO": "2026-11-29",
+      "time": "23:59",
+      "image": "https://turskeserije.tv/wp-content/uploads/2026/09/omur-usta-sa-prevodom.jpg"
+    },
+    {
+      "id": "brak-je-predivan-evlilik-guzeldir",
+      "title": "brak-je-predivan-evlilik-guzeldir",
+      "sourceUrl": "https://turskeserije.tv/evlilik-guzeldir/",
+      "nextEpisode": "2026-11-30T12:59:00+01:00",
+      "date": "30.11.2026",
+      "dateISO": "2026-11-30",
+      "time": "12:59",
+      "image": "https://turskeserije.tv/wp-content/uploads/2026/09/evlilik-guzeldir-sa-prevodom.jpg"
     }
   ],
   "days": {
-    "2026-11-22": [
-      {
-        "id": "daha-on-yedi-samo-17",
-        "title": "daha-on-yedi-samo-17",
-        "sourceUrl": "https://turskeserije.tv/daha-on-yedi/",
-        "nextEpisode": "2026-11-22T23:59:00+01:00",
-        "date": "22.11.2026",
-        "dateISO": "2026-11-22",
-        "time": "23:59",
-        "image": "https://turskeserije.tv/wp-content/uploads/2026/05/daha-on-yedi-sa-prevodom.jpg"
-      },
-      {
-        "id": "organizacija-teskilat",
-        "title": "organizacija-teskilat",
-        "sourceUrl": "https://turskeserije.tv/teskilat/",
-        "nextEpisode": "2026-11-22T23:59:00+01:00",
-        "date": "22.11.2026",
-        "dateISO": "2026-11-22",
-        "time": "23:59",
-        "image": "https://turskeserije.tv/wp-content/uploads/2021/03/teskilat-sa-prevodom.jpg"
-      },
-      {
-        "id": "majstor-omur-omur-usta",
-        "title": "majstor-omur-omur-usta",
-        "sourceUrl": "https://turskeserije.tv/omur-usta/",
-        "nextEpisode": "2026-11-22T23:59:00+01:00",
-        "date": "22.11.2026",
-        "dateISO": "2026-11-22",
-        "time": "23:59",
-        "image": "https://turskeserije.tv/wp-content/uploads/2026/09/omur-usta-sa-prevodom.jpg"
-      }
-    ],
     "2026-11-23": [
-      {
-        "id": "brak-je-predivan-evlilik-guzeldir",
-        "title": "brak-je-predivan-evlilik-guzeldir",
-        "sourceUrl": "https://turskeserije.tv/evlilik-guzeldir/",
-        "nextEpisode": "2026-11-23T12:59:00+01:00",
-        "date": "23.11.2026",
-        "dateISO": "2026-11-23",
-        "time": "12:59",
-        "image": "https://turskeserije.tv/wp-content/uploads/2026/09/evlilik-guzeldir-sa-prevodom.jpg"
-      },
       {
         "id": "sudbinom-povezani-arafta",
         "title": "sudbinom-povezani-arafta",
@@ -415,6 +373,50 @@
         "dateISO": "2026-11-28",
         "time": "23:59",
         "image": "https://turskeserije.tv/wp-content/uploads/2026/09/baskalarinin-hayati-sa-prevodom.jpg"
+      }
+    ],
+    "2026-11-29": [
+      {
+        "id": "daha-on-yedi-samo-17",
+        "title": "daha-on-yedi-samo-17",
+        "sourceUrl": "https://turskeserije.tv/daha-on-yedi/",
+        "nextEpisode": "2026-11-29T23:59:00+01:00",
+        "date": "29.11.2026",
+        "dateISO": "2026-11-29",
+        "time": "23:59",
+        "image": "https://turskeserije.tv/wp-content/uploads/2026/05/daha-on-yedi-sa-prevodom.jpg"
+      },
+      {
+        "id": "organizacija-teskilat",
+        "title": "organizacija-teskilat",
+        "sourceUrl": "https://turskeserije.tv/teskilat/",
+        "nextEpisode": "2026-11-29T23:59:00+01:00",
+        "date": "29.11.2026",
+        "dateISO": "2026-11-29",
+        "time": "23:59",
+        "image": "https://turskeserije.tv/wp-content/uploads/2021/03/teskilat-sa-prevodom.jpg"
+      },
+      {
+        "id": "majstor-omur-omur-usta",
+        "title": "majstor-omur-omur-usta",
+        "sourceUrl": "https://turskeserije.tv/omur-usta/",
+        "nextEpisode": "2026-11-29T23:59:00+01:00",
+        "date": "29.11.2026",
+        "dateISO": "2026-11-29",
+        "time": "23:59",
+        "image": "https://turskeserije.tv/wp-content/uploads/2026/09/omur-usta-sa-prevodom.jpg"
+      }
+    ],
+    "2026-11-30": [
+      {
+        "id": "brak-je-predivan-evlilik-guzeldir",
+        "title": "brak-je-predivan-evlilik-guzeldir",
+        "sourceUrl": "https://turskeserije.tv/evlilik-guzeldir/",
+        "nextEpisode": "2026-11-30T12:59:00+01:00",
+        "date": "30.11.2026",
+        "dateISO": "2026-11-30",
+        "time": "12:59",
+        "image": "https://turskeserije.tv/wp-content/uploads/2026/09/evlilik-guzeldir-sa-prevodom.jpg"
       }
     ]
   }
