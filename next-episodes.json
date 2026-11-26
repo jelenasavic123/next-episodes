@@ -1,26 +1,6 @@
 {
-  "updatedAt": "2026-11-25T18:34:51.733977+00:00",
+  "updatedAt": "2026-11-26T18:18:12.797315+00:00",
   "episodes": [
-    {
-      "id": "vrata-ljubavi-sevdan-bir-ates",
-      "title": "vrata-ljubavi-sevdan-bir-ates",
-      "sourceUrl": "https://turskeserije.tv/sevdan-bir-ates/",
-      "nextEpisode": "2026-11-25T23:59:00+01:00",
-      "date": "25.11.2026",
-      "dateISO": "2026-11-25",
-      "time": "23:59",
-      "image": "https://turskeserije.tv/wp-content/uploads/2026/09/sevdan-bir-ates-sa-prevodom.jpg"
-    },
-    {
-      "id": "nevesta-klopka-ljubavi-gelin",
-      "title": "nevesta-klopka-ljubavi-gelin",
-      "sourceUrl": "https://turskeserije.tv/gelin/",
-      "nextEpisode": "2026-11-25T23:59:00+01:00",
-      "date": "25.11.2026",
-      "dateISO": "2026-11-25",
-      "time": "23:59",
-      "image": "https://turskeserije.tv/wp-content/uploads/2024/02/gelin-sa-prevodom.jpg"
-    },
     {
       "id": "moguca-ljubav-muhtemel-ask",
       "title": "moguca-ljubav-muhtemel-ask",
@@ -50,6 +30,16 @@
       "dateISO": "2026-11-26",
       "time": "23:59",
       "image": "https://turskeserije.tv/wp-content/uploads/2026/09/gunesin-dogdugu-yer-sa-prevodom.jpg"
+    },
+    {
+      "id": "nevesta-klopka-ljubavi-gelin",
+      "title": "nevesta-klopka-ljubavi-gelin",
+      "sourceUrl": "https://turskeserije.tv/gelin/",
+      "nextEpisode": "2026-11-26T23:59:00+01:00",
+      "date": "26.11.2026",
+      "dateISO": "2026-11-26",
+      "time": "23:59",
+      "image": "https://turskeserije.tv/wp-content/uploads/2024/02/gelin-sa-prevodom.jpg"
     },
     {
       "id": "sudbinom-povezani-arafta",
@@ -200,31 +190,19 @@
       "dateISO": "2026-12-01",
       "time": "23:59",
       "image": "https://turskeserije.tv/wp-content/uploads/2026/09/anne-yarisi-sa-prevodom.jpg"
+    },
+    {
+      "id": "vrata-ljubavi-sevdan-bir-ates",
+      "title": "vrata-ljubavi-sevdan-bir-ates",
+      "sourceUrl": "https://turskeserije.tv/sevdan-bir-ates/",
+      "nextEpisode": "2026-12-02T23:59:00+01:00",
+      "date": "02.12.2026",
+      "dateISO": "2026-12-02",
+      "time": "23:59",
+      "image": "https://turskeserije.tv/wp-content/uploads/2026/09/sevdan-bir-ates-sa-prevodom.jpg"
     }
   ],
   "days": {
-    "2026-11-25": [
-      {
-        "id": "vrata-ljubavi-sevdan-bir-ates",
-        "title": "vrata-ljubavi-sevdan-bir-ates",
-        "sourceUrl": "https://turskeserije.tv/sevdan-bir-ates/",
-        "nextEpisode": "2026-11-25T23:59:00+01:00",
-        "date": "25.11.2026",
-        "dateISO": "2026-11-25",
-        "time": "23:59",
-        "image": "https://turskeserije.tv/wp-content/uploads/2026/09/sevdan-bir-ates-sa-prevodom.jpg"
-      },
-      {
-        "id": "nevesta-klopka-ljubavi-gelin",
-        "title": "nevesta-klopka-ljubavi-gelin",
-        "sourceUrl": "https://turskeserije.tv/gelin/",
-        "nextEpisode": "2026-11-25T23:59:00+01:00",
-        "date": "25.11.2026",
-        "dateISO": "2026-11-25",
-        "time": "23:59",
-        "image": "https://turskeserije.tv/wp-content/uploads/2024/02/gelin-sa-prevodom.jpg"
-      }
-    ],
     "2026-11-26": [
       {
         "id": "moguca-ljubav-muhtemel-ask",
@@ -255,6 +233,16 @@
         "dateISO": "2026-11-26",
         "time": "23:59",
         "image": "https://turskeserije.tv/wp-content/uploads/2026/09/gunesin-dogdugu-yer-sa-prevodom.jpg"
+      },
+      {
+        "id": "nevesta-klopka-ljubavi-gelin",
+        "title": "nevesta-klopka-ljubavi-gelin",
+        "sourceUrl": "https://turskeserije.tv/gelin/",
+        "nextEpisode": "2026-11-26T23:59:00+01:00",
+        "date": "26.11.2026",
+        "dateISO": "2026-11-26",
+        "time": "23:59",
+        "image": "https://turskeserije.tv/wp-content/uploads/2024/02/gelin-sa-prevodom.jpg"
       }
     ],
     "2026-11-27": [
@@ -415,6 +403,18 @@
         "dateISO": "2026-12-01",
         "time": "23:59",
         "image": "https://turskeserije.tv/wp-content/uploads/2026/09/anne-yarisi-sa-prevodom.jpg"
+      }
+    ],
+    "2026-12-02": [
+      {
+        "id": "vrata-ljubavi-sevdan-bir-ates",
+        "title": "vrata-ljubavi-sevdan-bir-ates",
+        "sourceUrl": "https://turskeserije.tv/sevdan-bir-ates/",
+        "nextEpisode": "2026-12-02T23:59:00+01:00",
+        "date": "02.12.2026",
+        "dateISO": "2026-12-02",
+        "time": "23:59",
+        "image": "https://turskeserije.tv/wp-content/uploads/2026/09/sevdan-bir-ates-sa-prevodom.jpg"
       }
     ]
   }
